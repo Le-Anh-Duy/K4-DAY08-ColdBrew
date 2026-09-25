@@ -186,7 +186,15 @@ def generate_with_citation(query: str, top_k: int = TOP_K) -> dict:
             "retrieval_source": "none",
         }
 
-    user_message = f"Context:\n{context}\n\nQuestion: {query}"
+    valid_source_ids = {chunk["id"] for chunk in chunks}
+    user_message = (
+        f"Context:\n{context}\n\nQuestion: {query}\n\n"
+        "Citation rules:\n"
+        "- Cite every factual claim with one or more chunk IDs from the context.\n"
+        "- Use exactly this format for each citation: [chunk-id].\n"
+        "- Put only one chunk ID inside each pair of brackets.\n"
+        "- Do not cite Document numbers or invent IDs."
+    )
     try:
         answer = call_llm(SYSTEM_PROMPT, user_message).strip()
     except Exception:
@@ -196,6 +204,16 @@ def generate_with_citation(query: str, top_k: int = TOP_K) -> dict:
             "retrieval_source": "none",
         }
     if not answer:
+        return {
+            "answer": refusal,
+            "sources": [],
+            "retrieval_source": "none",
+        }
+
+    import re
+
+    citations = re.findall(r"\[([^\[\]\n]+)\]", answer)
+    if not citations or any(citation not in valid_source_ids for citation in citations):
         return {
             "answer": refusal,
             "sources": [],
