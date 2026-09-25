@@ -32,3 +32,13 @@ def test_golden_dataset_builds_from_standardized_files():
         assert item["question"] and item["expected_answer"] and item["expected_context"]
         if item["type"] != "out_of_domain":
             assert item["evidence"]
+
+
+def test_overlap_precision_rewards_relevant_chunks_ranked_first():
+    from src.golden_dataset import context_overlap_precision
+
+    relevant = "Điều 14. " + EVIDENCE
+    noise = "Lễ hội văn hóa được tổ chức tại tỉnh. Ủy ban nhân dân ban hành quy chế."
+    assert context_overlap_precision([EVIDENCE], [relevant, noise, noise]) == 1.0
+    assert context_overlap_precision([EVIDENCE], [noise, noise, relevant]) == pytest.approx(1 / 3)
+    assert context_overlap_precision([EVIDENCE], [noise, noise]) == 0.0

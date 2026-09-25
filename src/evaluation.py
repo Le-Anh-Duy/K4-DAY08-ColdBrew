@@ -4,9 +4,13 @@ Evaluation A/B: Config A dense-only vs Config B hybrid + RRF.
 Hai config dùng chung golden dataset, generator (generate_with_citation), prompt,
 evaluator và top_k; chỉ đổi use_reranking của retrieve().
 
-Metric (ragas 0.4 collections, evaluator = LLM trong .env):
-    faithfulness, answer_relevancy, context_recall, context_precision
-    + overlap_recall: độ phủ evidence trong chunk retrieve (không gọi LLM).
+Metric:
+    faithfulness, answer_relevancy — ragas 0.4 collections, evaluator EVALUATOR_MODEL
+        (model khác generator: quota free tier riêng + tránh tự chấm).
+    context_recall, context_precision — context_overlap_recall / _precision so chunk
+        retrieve với evidence nguyên văn trong golden set (không gọi LLM). Bản NonLLM
+        của ragas so Levenshtein cả chunk với đoạn evidence nên ra 0 cả khi chunk chứa
+        đủ evidence -> không dùng.
 
 Câu out_of_domain không chấm 4 metric; chỉ ghi có safe refusal hay không.
 
@@ -18,14 +22,16 @@ import asyncio
 import json
 import math
 import os
+import threading
 import time
+from collections import deque
 from functools import partial
 
 from dotenv import load_dotenv
 
 from . import task10_generation as generation
 from .golden_dataset import OUTPUT_FILE as GOLDEN_FILE
-from .golden_dataset import context_overlap_recall
+from .golden_dataset import context_overlap_precision, context_overlap_recall
 from .task4_chunking_indexing import QUERY_PREFIX, embed_texts
 from .task5_semantic_search import semantic_search
 from .task9_retrieval_pipeline import retrieve
@@ -39,30 +45,37 @@ CONFIGS = {"A": False, "B": True}  # config -> use_reranking
 REFUSAL = "Tôi không thể xác minh thông tin này từ nguồn hiện có."
 # ragas mặc định 3 câu hỏi sinh ngược; 1 để vừa quota free tier (~15 RPM).
 ANSWER_RELEVANCY_STRICTNESS = 1
+EVALUATOR_MODEL = os.getenv("EVALUATOR_MODEL") or "gemini-3.1-flash-lite"
+
+# Quota free tier tính theo model -> evaluator có cửa sổ rate limit riêng với generator.
+_evaluator_calls: deque[float] = deque()
+_evaluator_lock = threading.Lock()
 
 
 def _rate_limited_llm():
-    """LLM ragas dùng chung limiter/retry 429 với call_llm của Task 10."""
+    """LLM ragas với limiter riêng (cùng LLM_RPM) và retry 429 như call_llm của Task 10."""
     from google import genai
     from ragas.llms import llm_factory
 
     client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
-    llm = llm_factory(generation.LLM_MODEL, provider="google", client=client)
+    llm = llm_factory(EVALUATOR_MODEL, provider="google", client=client)
     # Client genai sync -> ragas không cho agenerate; chạy generate() trong thread.
     sync_generate = llm.generate
 
     async def agenerate(*args, **kwargs):
         for attempt in range(generation.LLM_MAX_RETRIES + 1):
-            await asyncio.to_thread(generation._wait_for_rate_limit)
+            await asyncio.to_thread(generation._wait_for_rate_limit, _evaluator_calls, _evaluator_lock)
             try:
                 return await asyncio.to_thread(sync_generate, *args, **kwargs)
             except Exception as error:
-                # instructor bọc lỗi gốc -> nhận diện 429 qua cả message.
-                limited = generation._is_rate_limited(error) or "429" in str(error) \
-                    or "RESOURCE_EXHAUSTED" in str(error)
-                if not limited or attempt == generation.LLM_MAX_RETRIES:
+                # instructor bọc lỗi gốc -> nhận diện qua message. 503 = model quá tải tạm thời.
+                message = str(error)
+                retryable = generation._is_rate_limited(error) or any(
+                    code in message for code in ("429", "RESOURCE_EXHAUSTED", "503", "UNAVAILABLE")
+                )
+                if not retryable or attempt == generation.LLM_MAX_RETRIES:
                     raise
-                print(f"[rate limit] evaluator 429, chờ {generation.RATE_LIMIT_COOLDOWN}s")
+                print(f"[retry] evaluator {message[:40]}..., chờ {generation.RATE_LIMIT_COOLDOWN}s")
                 await asyncio.sleep(generation.RATE_LIMIT_COOLDOWN)
 
     llm.agenerate = agenerate
@@ -90,12 +103,7 @@ def _embeddings():
 
 
 def _metrics():
-    from ragas.metrics.collections import (
-        AnswerRelevancy,
-        ContextPrecisionWithReference,
-        ContextRecall,
-        Faithfulness,
-    )
+    from ragas.metrics.collections import AnswerRelevancy, Faithfulness
 
     llm = _rate_limited_llm()
     return {
@@ -103,11 +111,6 @@ def _metrics():
         "answer_relevancy": (
             AnswerRelevancy(llm=llm, embeddings=_embeddings(), strictness=ANSWER_RELEVANCY_STRICTNESS),
             ("user_input", "response"),
-        ),
-        "context_recall": (ContextRecall(llm=llm), ("user_input", "retrieved_contexts", "reference")),
-        "context_precision": (
-            ContextPrecisionWithReference(llm=llm),
-            ("user_input", "reference", "retrieved_contexts"),
         ),
     }
 
@@ -135,7 +138,8 @@ def _run_case(item: dict, use_reranking: bool, metrics: dict) -> dict:
     if item["type"] == "out_of_domain":
         return row
 
-    row["overlap_recall"] = context_overlap_recall(item["expected_context"], contexts)
+    row["context_recall"] = context_overlap_recall(item["expected_context"], contexts)
+    row["context_precision"] = context_overlap_precision(item["expected_context"], contexts)
     inputs = {
         "user_input": question,
         "response": result["answer"],

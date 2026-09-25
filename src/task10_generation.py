@@ -67,18 +67,23 @@ def format_context(chunks: list[dict]) -> str:
     return "\n\n---\n\n".join(parts)
 
 
-def _wait_for_rate_limit() -> None:
-    """Sliding window: tối đa LLM_RPM request trong 60 giây gần nhất."""
-    with _rate_lock:
+def _wait_for_rate_limit(call_times: deque | None = None, lock=None) -> None:
+    """Sliding window: tối đa LLM_RPM request trong 60 giây gần nhất.
+
+    Mặc định dùng cửa sổ của generator; model khác (vd evaluator) có quota riêng
+    thì truyền deque/lock riêng.
+    """
+    call_times = _call_times if call_times is None else call_times
+    with _rate_lock if lock is None else lock:
         now = time.monotonic()
-        while _call_times and now - _call_times[0] >= 60:
-            _call_times.popleft()
-        if len(_call_times) >= LLM_RPM:
-            wait = 60 - (now - _call_times[0])
+        while call_times and now - call_times[0] >= 60:
+            call_times.popleft()
+        if len(call_times) >= LLM_RPM:
+            wait = 60 - (now - call_times[0])
             print(f"[rate limit] {LLM_RPM} request/phút, chờ {wait:.0f}s")
             time.sleep(wait)
-            _call_times.popleft()
-        _call_times.append(time.monotonic())
+            call_times.popleft()
+        call_times.append(time.monotonic())
 
 
 def _is_rate_limited(error: Exception) -> bool:

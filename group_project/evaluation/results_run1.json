@@ -3,11 +3,11 @@
     "0": {
       "question": "Lễ hội truyền thống cấp tỉnh được tổ chức hằng năm phải thông báo với cơ quan nào?",
       "type": "legal",
-      "answer": "Lễ hội truyền thống cấp tỉnh được tổ chức hằng năm phải thông báo với Ủy ban nhân dân cùng cấp trước khi tổ chức lễ hội [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-45].",
+      "answer": "Lễ hội truyền thống cấp tỉnh được tổ chức hàng năm phải thông báo với Ủy ban nhân dân cùng cấp trước khi tổ chức lễ hội [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-45].",
       "refused": false,
       "retrieval_source": "dense",
       "best_dense_score": 0.9067881107330322,
-      "latency_s": 40.48,
+      "latency_s": 19.68,
       "contexts": [
         "Điều 14. Thông báo tổ chức lễ hội\n\n1. Lễ hội văn hóa, lễ hội ngành nghề cấp quốc gia hoặc cấp khu vực, lễ hội có\nnguồn gốc từ nước ngoài được tổ chức hàng năm phải thông báo với Bộ Văn hóa,\nThể thao và Du lịch trước khi tổ chức lễ hội.\n\n2. Lễ hội truyền thống, lễ hội văn hóa, lễ hội ngành nghề cấp tỉnh, cấp huyện,\ncấp xã được tổ chức hàng năm phải thông báo với Ủy ban nhân dân cùng cấp trước\nkhi tổ chức lễ hội.",
         "Điều 16. Trình tự tiếp nhận thông báo tổ chức lễ hội cấp quốc gia, cấp khu\nb)  Trong thời hạn 15  ngày,  kể  từ ngày  Ủy  ban  nhân dân  cấp tỉnh nhận  được\nvăn bản thông báo, nếu không có ý kiến trả lời thì đơn vị gửi thông báo được tổ\nchức lễ hội theo nội dung đã thông báo. Trường hợp không đồng ý với nội dung\nthông báo, cơ quan tiếp nhận phải trả lời bằng văn bản và nêu rõ lý do;",
@@ -16,10 +16,11 @@
         "Điều 9. Đăng ký tổ chức lễ hội\nb) Lễ hội truyền thống, lễ hội văn hóa, lễ hội ngành nghề có nhiều huyện thuộc\nmột tỉnh, thành phố trực thuộc Trung ương tham gia tổ chức (sau đây gọi là lễ hội cấp\ntỉnh) được tổ chức lần đầu hoặc khôi phục sau thời gian gián đoạn từ 02 năm trở lên.\n\n3. Lễ hội phải đăng ký với Ủy ban nhân dân cấp huyện trước khi tổ chức gồm:\n\na) Lễ hội truyền thống, lễ hội văn hóa, lễ hội ngành nghề cấp huyện được tổ"
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.9819478246425686
+      "answer_relevancy": 0.9795028896345394,
+      "context_recall": 1.0,
+      "context_precision": 0.99999999995
     },
     "1": {
       "question": "Những lễ hội nào phải đăng ký với Bộ Văn hóa, Thể thao và Du lịch trước khi tổ chức?",
@@ -28,7 +29,7 @@
       "refused": false,
       "retrieval_source": "dense",
       "best_dense_score": 0.9209659099578857,
-      "latency_s": 1.75,
+      "latency_s": 8.9,
       "contexts": [
         "Điều 9. Đăng ký tổ chức lễ hội\n\n1. Lễ hội phải đăng ký với Bộ Văn hóa, Thể thao và Du lịch trước khi tổ chức gồm:\n\na) Lễ hội văn hóa, lễ hội ngành nghề do cơ quan trung ương tổ chức (sau đây\n\ngọi là lễ hội cấp quốc gia) được tổ chức lần đầu;\n\nb) Lễ hội văn hóa, lễ hội ngành nghề có từ 02 tỉnh trở lên tham gia tổ chức (sau\n\nđây gọi là lễ hội cấp khu vực) được tổ chức lần đầu;\n\nc) Lễ hội có nguồn gốc từ nước ngoài được tổ chức lần đầu hoặc khôi phục sau",
         "Điều 11. Trình tự tiếp nhận hồ sơ đăng ký tổ chức lễ hội quy mô cấp quốc\nbảo vệ môi trường;\n\n3. Trường hợp hoạt động lễ hội có nội dung liên quan đến các bộ, ngành, Bộ\nVăn hóa, Thể thao và Du lịch phải có văn bản xin ý kiến, tổng hợp, hoàn chỉnh hồ\nsơ và quyết định việc chấp thuận tổ chức hoạt động lễ hội.\n\n4. Trường hợp không đồng ý phải có văn bản trả lời và nêu rõ lý do. Chỉ được\ntổ chức lễ hội sau khi có văn bản chấp thuận của Bộ Văn hóa, Thể thao và Du lịch.",
@@ -37,19 +38,20 @@
         "Điều 9. Đăng ký tổ chức lễ hội\nb) Lễ hội truyền thống, lễ hội văn hóa, lễ hội ngành nghề có nhiều huyện thuộc\nmột tỉnh, thành phố trực thuộc Trung ương tham gia tổ chức (sau đây gọi là lễ hội cấp\ntỉnh) được tổ chức lần đầu hoặc khôi phục sau thời gian gián đoạn từ 02 năm trở lên.\n\n3. Lễ hội phải đăng ký với Ủy ban nhân dân cấp huyện trước khi tổ chức gồm:\n\na) Lễ hội truyền thống, lễ hội văn hóa, lễ hội ngành nghề cấp huyện được tổ"
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 0.7555555555555555,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.9963542448059852
+      "answer_relevancy": 0.9977743597637504,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "2": {
       "question": "Khi đi lễ hội, người tham gia phải thắp hương, đốt vàng mã như thế nào?",
       "type": "legal",
-      "answer": "Khi tham gia lễ hội, người tham gia có trách nhiệm thắp hương và đốt vàng mã đúng nơi quy định [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-13].",
+      "answer": "Khi đi lễ hội, người tham gia có trách nhiệm thắp hương và đốt vàng mã đúng nơi quy định [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-13].",
       "refused": false,
       "retrieval_source": "dense",
       "best_dense_score": 0.8961441516876221,
-      "latency_s": 1.83,
+      "latency_s": 1.55,
       "contexts": [
         "Điều 6. Quyền và trách nhiệm của người tham gia lễ hội\n2. Người tham gia lễ hội có các trách nhiệm sau\n\na) Chấp hành nghiêm các quy định của pháp luật; nội quy thực hiện nếp sống\n\nvăn minh trong lễ hội;\n\nb) Ứng xử có văn hóa trong hoạt động lễ hội; trang phục lịch sự, phù hợp với\nthuần phong mỹ tục của dân tộc Việt Nam; không nói tục, chửi thề xúc phạm tâm\nlinh, gây ảnh hưởng xấu tới không khí trang nghiêm của lễ hội;\n\nc) Thắp hương, đốt vàng mã đúng nơi quy định; không chen lấn, xô đẩy gây",
         "Điều 12. Tổ chức lễ hội\nm) Không đốt đồ mã trong khu vực lễ hội.\n\n\f96\n\n\n2. Khuyến khích các hoạt động sau trong tổ chức lễ hội:\n\na) Tổ chức giới thiệu ý nghĩa lịch sử của lễ hội, giáo dục truyền thống tốt đẹp của\n\ndân tộc, bồi dưỡng lòng yêu quê hương, đất nước, con người Việt Nam;\n\nb) Tưởng nhớ công đức của ông cha, ghi nhận công lao của các bậc tiền bối\n\ntrong lịch sử dựng nước và giữ nước của dân tộc;",
@@ -58,10 +60,11 @@
         "Điều 12. Tổ chức lễ hội\ni) Không bán vé vào dự lễ hội;\n\nk) Nếu tổ chức các trò chơi, trò diễn, biểu diễn nghệ thuật, hội chợ, trưng bày\ntriển lãm trong khu vực lễ hội thì được bán vé cho các hoạt động đó; giá vé thực hiện\ntheo quy định của pháp luật về tài chính;\n\nl) Nghiêm cấm lợi dụng lễ hội để hành nghề mê tín dị đoan như xem số, xem bói,\n\ngọi hồn, cầu cơ, sấm truyền, yểm bùa, trừ tà, phù phép chữa bệnh;\n\nm) Không đốt đồ mã trong khu vực lễ hội.\n\n\f96"
       ],
       "complete": true,
-      "context_recall": 0.9629629629629629,
-      "context_precision": 1.0,
+      "overlap_recall": 0.9629629629629629,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.9693371752805822
+      "answer_relevancy": 0.9704814527697979,
+      "context_recall": 1.0,
+      "context_precision": 0.8333333332916666
     },
     "3": {
       "question": "Trong khu vực lễ hội có được đốt pháo, thả đèn trời hay đốt đồ mã không?",
@@ -70,28 +73,29 @@
       "refused": false,
       "retrieval_source": "dense",
       "best_dense_score": 0.88288414478302,
-      "latency_s": 1.74,
+      "latency_s": 1.82,
       "contexts": [
         "Điều 12. Tổ chức lễ hội\nm) Không đốt đồ mã trong khu vực lễ hội.\n\n\f96\n\n\n2. Khuyến khích các hoạt động sau trong tổ chức lễ hội:\n\na) Tổ chức giới thiệu ý nghĩa lịch sử của lễ hội, giáo dục truyền thống tốt đẹp của\n\ndân tộc, bồi dưỡng lòng yêu quê hương, đất nước, con người Việt Nam;\n\nb) Tưởng nhớ công đức của ông cha, ghi nhận công lao của các bậc tiền bối\n\ntrong lịch sử dựng nước và giữ nước của dân tộc;",
         "Điều 12. Tổ chức lễ hội\ni) Không bán vé vào dự lễ hội;\n\nk) Nếu tổ chức các trò chơi, trò diễn, biểu diễn nghệ thuật, hội chợ, trưng bày\ntriển lãm trong khu vực lễ hội thì được bán vé cho các hoạt động đó; giá vé thực hiện\ntheo quy định của pháp luật về tài chính;\n\nl) Nghiêm cấm lợi dụng lễ hội để hành nghề mê tín dị đoan như xem số, xem bói,\n\ngọi hồn, cầu cơ, sấm truyền, yểm bùa, trừ tà, phù phép chữa bệnh;\n\nm) Không đốt đồ mã trong khu vực lễ hội.\n\n\f96",
         "Điều 12. Tổ chức lễ hội\nd) Trang phục đẹp, lịch sự, phù hợp với thuần phong mỹ tục;\n\nđ)  Không  nói  tục,  xúc  phạm  tâm  linh  và  ảnh  hưởng  xấu  tới  không  khí  trang\n\nnghiêm của lễ hội;\n\ne) Bảo đảm trật tự, an ninh khi dự lễ hội; không đốt pháo, đốt và thả đèn trời;\n\ng) Ứng xử có văn hóa trong hoạt động lễ hội;\n\nh) Bỏ rác vào nơi quy định, giữ gìn vệ sinh môi trường;\n\ni) Không bán vé vào dự lễ hội;",
         "Điều 6. Quyền và trách nhiệm của người tham gia lễ hội\n2. Người tham gia lễ hội có các trách nhiệm sau\n\na) Chấp hành nghiêm các quy định của pháp luật; nội quy thực hiện nếp sống\n\nvăn minh trong lễ hội;\n\nb) Ứng xử có văn hóa trong hoạt động lễ hội; trang phục lịch sự, phù hợp với\nthuần phong mỹ tục của dân tộc Việt Nam; không nói tục, chửi thề xúc phạm tâm\nlinh, gây ảnh hưởng xấu tới không khí trang nghiêm của lễ hội;\n\nc) Thắp hương, đốt vàng mã đúng nơi quy định; không chen lấn, xô đẩy gây",
-        "| 202 | Lễ hội Xa Mã - Rước kiệu Đình Hoàng Châu | 1852/QĐ-BVHTTDL ngày 08/5/2017 | Lễ hội truyền thống | Thành phố Hải Phòng |\n| 203 | Hội Minh thệ thôn Hòa Liễu | 1852/QĐ-BVHTTDL ngày 08/5/2017 | Lễ hội truyền thống | Thành phố Hải Phòng |\n| 204 | Nghề sơn mài Cát Đằng | 1852/QĐ-BVHTTDL ngày 08/5/2017 | Nghề thủ công truyền thống | Tỉnh Nam Định |\n| 205 | Lễ hội Điện Trường Bà | 1852/QĐ-BVHTTDL ngày 08/5/2017 | Lễ hội truyền thống | Tỉnh Quảng Ngãi |"
+        "Đường phố tràn đầy sức sống, không chỉ bởi dòng người ăn mừng náo nhiệt, mà còn bởi những sắc hoa rực rỡ, những chiếc đèn lồng cầu kỳ, những đội múa lân sư rồng, tiếng cồng chiêng, trống và chuông. Những đoàn diễu hành không hiếm gặp, và những màn pháo hoa rực rỡ vào ban đêm cũng vậy."
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 0.5833333333333333,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.8990585444878816
+      "answer_relevancy": 0.8904913673797493,
+      "context_recall": 1.0,
+      "context_precision": 0.49999999995
     },
     "4": {
       "question": "Ban tổ chức có được bán vé vào dự lễ hội không?",
       "type": "legal",
-      "answer": "Ban tổ chức không được bán vé vào dự lễ hội [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-33], [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-22]. Tuy nhiên, nếu tổ chức các trò chơi, trò diễn, biểu diễn nghệ thuật, hội chợ, trưng bày triển lãm trong khu vực lễ hội thì được phép bán vé cho các hoạt động đó [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-33].",
+      "answer": "Ban tổ chức không được bán vé vào dự lễ hội [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-33], [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-22]. Tuy nhiên, nếu tổ chức các trò chơi, trò diễn, biểu diễn nghệ thuật, hội chợ, trưng bày triển lãm trong khu vực lễ hội thì được bán vé cho các hoạt động đó [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-33].",
       "refused": false,
       "retrieval_source": "dense",
       "best_dense_score": 0.8929760456085205,
-      "latency_s": 2.12,
+      "latency_s": 1.93,
       "contexts": [
         "Điều 12. Tổ chức lễ hội\ni) Không bán vé vào dự lễ hội;\n\nk) Nếu tổ chức các trò chơi, trò diễn, biểu diễn nghệ thuật, hội chợ, trưng bày\ntriển lãm trong khu vực lễ hội thì được bán vé cho các hoạt động đó; giá vé thực hiện\ntheo quy định của pháp luật về tài chính;\n\nl) Nghiêm cấm lợi dụng lễ hội để hành nghề mê tín dị đoan như xem số, xem bói,\n\ngọi hồn, cầu cơ, sấm truyền, yểm bùa, trừ tà, phù phép chữa bệnh;\n\nm) Không đốt đồ mã trong khu vực lễ hội.\n\n\f96",
         "Điều 5. Tiếp nhận, quản lý, sử dụng kinh phí đối với lễ hội do cơ quan nhà\n\nnước tổ chức\n\n1. Ban tổ chức lễ hội khi ban hành quy chế làm việc và phân công trách nhiệm\n\ncủa các thành viên Ban tổ chức lễ hội theo quy định tại khoản 2 Điều 7 Nghị định\n\nsố 110/2018/NĐ-CP ngày 29 tháng 8 năm 2018 của Chính phủ, phân công cho một\n\nđơn  vị  có  đại  diện  là  thành  viên  Ban  tổ  chức  lễ  hội  để  thực  hiện  việc  tiếp  nhận,",
@@ -100,40 +104,42 @@
         "Điều 7. Trách nhiệm của cơ quan, đơn vị tổ chức lễ hội; trách nhiệm của\nđ) Yêu cầu người cung ứng dịch vụ, hàng hóa tại khu vực lễ hội phải niêm yết\ncông  khai  và  bán  đúng  giá  niêm  yết;  không  chèo  kéo  và  ép  giá;  không  bày  bán\nhàng giả, hàng nhái, hàng kém chất lượng, hàng không rõ nguồn gốc; không bày\nbán động vật quý hiếm, các thực phẩm không đảm bảo an toàn vệ sinh theo quy\nđịnh của pháp luật;"
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.97368575147584
+      "answer_relevancy": 0.9955072695234686,
+      "context_recall": 1.0,
+      "context_precision": 0.8333333332916666
     },
     "5": {
       "question": "Nhạc trong đám cưới được phép mở trong khung giờ nào?",
       "type": "legal",
-      "answer": "Âm nhạc trong đám cưới không được mở trước 06 giờ sáng và sau 22 giờ đêm [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-13]. Do đó, nhạc trong đám cưới được phép mở từ 06 giờ sáng đến trước 22 giờ đêm [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-13].",
+      "answer": "Nhạc trong đám cưới không được mở trước 06 giờ sáng và sau 22 giờ đêm [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-13]. Do đó, nhạc trong đám cưới chỉ được phép mở trong khung giờ từ 06 giờ sáng đến trước 22 giờ đêm [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-13].",
       "refused": false,
       "retrieval_source": "dense",
       "best_dense_score": 0.898308515548706,
-      "latency_s": 79.26,
+      "latency_s": 22.64,
       "contexts": [
         "Điều 6. Tổ chức lễ cưới tại gia đình hoặc tại địa điểm cưới\ne) Âm nhạc trong đám cưới phải lành mạnh, vui tươi; âm thanh đảm bảo không\nvượt quá độ ồn cho phép theo tiêu chuẩn Việt Nam thực hiện tại bản tiêu chuẩn Việt\nNam ban hành kèm theo Quyết định số 2351/1998/QĐ-BKHCNMT ngày 05 tháng\n12 năm 1998 của Bộ Khoa học Công nghệ và Môi trường (nay là Bộ Khoa học và\nCông nghệ); không mở nhạc trước 06 giờ sáng và sau 22 giờ đêm.\n\n2. Khuyến khích thực hiện các hoạt động sau trong tổ chức việc cưới:",
         "Điều 10. Tổ chức lễ tang\ncủa địa phương, dân tộc và tôn giáo; chỉ treo cờ tang tại địa điểm tổ chức lễ tang;\n\nđ) Không cử nhạc tang trước 06 giờ sáng và sau 22 giờ đêm; âm thanh đảm\nbảo  không  vượt  quá  độ  ồn  cho  phép  theo  tiêu  chuẩn Việt  Nam  thực  hiện  tại  bản\ntiêu chuẩn Việt Nam ban hành kèm theo Quyết định số 2351/1998/QĐ-BKHCNMT\nngày 5 tháng 12 năm 1998 của Bộ Khoa học Công nghệ và Môi trường (nay là Bộ\nKhoa học và Công nghệ).\n\n\f94",
-        "|  |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| **STT** | **Tên di sản** | **Quyết định** | **Loại hình** | **Tỉnh/**  **Thành phố** |\n| 1 | Nhã nhạc - Âm nhạc Cung đình Việt Nam | 5079/QĐ - BVHTTDL Ngày 27/12/2012 | Nghệ thuật trình diễn dân gian | Tỉnh Thừa Thiên Huế |\n| 2 | Không gian văn hóa Cồng chiêng Tây Nguyên | 5079/QĐ - BVHTTDL Ngày 27/12/2012 | Nghệ thuật trình diễn dân gian | Tỉnh Đắk Lắk  Tỉnh Đắk Nông  Tỉnh Gia Lai  Tỉnh Kon Tum  Tỉnh Lâm Đồng |",
         "Điều 6. Tổ chức lễ cưới tại gia đình hoặc tại địa điểm cưới\nquán; không phô trương hình thức, rườm rà; không nặng về đòi hỏi lễ vật;\n\nc) Địa điểm cưới do hai gia đình lựa chọn; thời gian tổ chức tiệc cưới không làm\nảnh hưởng đến thời gian lao động của Nhà nước; chỉ mời khách dự tiệc cưới trong\nphạm vi gia đình, họ tộc thân thích, bạn bè và đồng nghiệp thân thiết;\n\nd) Tổ chức tiệc cưới phù hợp với hoàn cảnh gia đình, tránh phô trương, lãng phí;",
-        "Điều 2. Những nguyên tắc trong tổ chức việc cưới, việc tang và lễ hội\n3. Không làm ảnh hưởng đến an toàn giao thông và trật tự, an toàn công cộng.\n\n4. Không tổ chức hoặc tham gia đánh bạc dưới mọi hình thức.\n\n5. Không được sử dụng thời gian làm việc và phương tiện của cơ quan đi đám\ncưới, lễ hội (trừ cơ quan làm nhiệm vụ); không sử dụng công quỹ của cơ quan làm\nquà mừng, quà tặng trong đám cưới và viếng đám tang.\n\nChương II\nNHỮNG QUY ĐỊNH CỤ THỂ\n\nMục 1\nNẾP SỐNG VĂN MINH TRONG VIỆC CƯỚI"
+        "Điều 2. Những nguyên tắc trong tổ chức việc cưới, việc tang và lễ hội\n3. Không làm ảnh hưởng đến an toàn giao thông và trật tự, an toàn công cộng.\n\n4. Không tổ chức hoặc tham gia đánh bạc dưới mọi hình thức.\n\n5. Không được sử dụng thời gian làm việc và phương tiện của cơ quan đi đám\ncưới, lễ hội (trừ cơ quan làm nhiệm vụ); không sử dụng công quỹ của cơ quan làm\nquà mừng, quà tặng trong đám cưới và viếng đám tang.\n\nChương II\nNHỮNG QUY ĐỊNH CỤ THỂ\n\nMục 1\nNẾP SỐNG VĂN MINH TRONG VIỆC CƯỚI",
+        "Điều 6. Tổ chức lễ cưới tại gia đình hoặc tại địa điểm cưới\nđ) Trang trí lễ cưới cần giản dị, không rườm rà, phô trương; trang phục cô dâu,\n\nchú rể đẹp và lịch sự, phù hợp với văn hóa dân tộc;"
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.9861305656006455
+      "answer_relevancy": 0.9861305656006455,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "6": {
       "question": "Có được rải tiền trên đường đưa tang không?",
       "type": "legal",
-      "answer": "Không được rải tiền Việt Nam và các loại tiền của nước ngoài trên đường đưa tang, vì hành vi này bị cấm [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-23].",
+      "answer": "Không được rải tiền Việt Nam và các loại tiền của nước ngoài trên đường đưa tang [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-23].",
       "refused": false,
       "retrieval_source": "dense",
       "best_dense_score": 0.8645658493041992,
-      "latency_s": 1.51,
+      "latency_s": 6.03,
       "contexts": [
         "Điều 10. Tổ chức lễ tang\n94\n\n\nTrường hợp người qua đời theo một tôn giáo hoặc là đồng bào dân tộc thiểu\nsố, trong lễ tang được sử dụng nhạc tang của tôn giáo hoặc của dân tộc thiểu số đó;\nkhông sử dụng các nhạc khúc không phù hợp trong lễ tang;\n\ne) Cấm rải tiền Việt Nam và các loại tiền của nước ngoài trên đường đưa tang;",
         "Điều 10. Tổ chức lễ tang\ntrang đã được quy hoạch;\n\nc)  Việc  chôn  cất  người  qua  đời  thực  hiện  theo  hướng  dẫn  tại  Nghị  định  số\n35/2008/NĐ-CP ngày 25 tháng 3 năm 2008 của Chính phủ quy định về xây dựng,\nquản lý và sử dụng nghĩa trang;\n\nd) Xóa bỏ các hủ tục mê tín lạc hậu như yểm bùa, trừ tà, lăn đường, khóc mướn\n\nvà những nghi thức rườm rà khác;\n\nđ) Không rắc vàng mã trên đường đưa tang.",
@@ -142,19 +148,20 @@
         "Điều 4. Nguồn tài chính để tổ chức lễ hội\n3.  Tiền  lãi  phát  sinh  trên  tài  khoản  tiền  gửi  mở  tại  Kho  bạc  Nhà  nước,  ngân\n\nhàng thương mại theo quy định.\n\n4. Ngân sách nhà nước hỗ trợ đối với lễ hội truyền thống (nếu có).\n\n\n7"
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.9727965577832388
+      "answer_relevancy": 0.9647929313401962,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "7": {
       "question": "Tiền công đức, tài trợ cho di tích và hoạt động lễ hội gồm những hình thức nào?",
       "type": "legal",
-      "answer": "Tiền công đức, tài trợ cho di tích và hoạt động lễ hội bao gồm các khoản hiến, tặng cho, tài trợ dưới các hình thức sau:\n\n- Bằng tiền (tiền Việt Nam, ngoại tệ) gồm tiền mặt và tiền chuyển khoản [legal/thong-tu-04-2023-thu-chi-le-hoi-tien-cong-duc.md::chunk-9].\n- Bằng các loại giấy tờ có giá, kim khí quý, đá quý theo quy định của Ngân hàng Nhà nước Việt Nam [legal/thong-tu-04-2023-thu-chi-le-hoi-tien-cong-duc.md::chunk-9].",
+      "answer": "Tiền công đức, tài trợ cho di tích và hoạt động lễ hội bao gồm các hình thức sau:\n\n1. Bằng tiền (tiền Việt Nam, ngoại tệ) bao gồm tiền mặt và tiền chuyển khoản [legal/thong-tu-04-2023-thu-chi-le-hoi-tien-cong-duc.md::chunk-9].\n2. Bằng các loại giấy tờ có giá, kim khí quý, đá quý theo quy định của Ngân hàng Nhà nước Việt Nam [legal/thong-tu-04-2023-thu-chi-le-hoi-tien-cong-duc.md::chunk-9].",
       "refused": false,
       "retrieval_source": "dense",
       "best_dense_score": 0.9161827564239502,
-      "latency_s": 1.55,
+      "latency_s": 2.4,
       "contexts": [
         "Điều 3. Giải thích từ ngữ\n\nTrong Thông tư này, các từ ngữ dưới đây được hiểu như sau:\n\n1. Tiền công đức, tài trợ cho di tích và hoạt động lễ hội bao gồm các khoản\n\nhiến, tặng cho, tài trợ của tổ chức, cá nhân cho việc bảo vệ, phát huy giá trị di tích\n\nvà hoạt động lễ hội dưới hình thức:\n\na) Bằng tiền (tiền Việt Nam, ngoại tệ) gồm tiền mặt, tiền chuyển khoản;\n\nb) Bằng các loại giấy tờ có giá, kim khí quý, đá quý theo quy định của Ngân\n\nhàng Nhà nước Việt Nam.",
         "Điều 2. Đối tượng áp dụng\nchức lễ hội và tiền công đức, tài trợ cho di tích và hoạt động lễ hội.\n\n\n5",
@@ -163,19 +170,20 @@
         "Điều 13. Quản lý, sử dụng tiền công đức, tài trợ cho di tích giao cho đơn vị\n\nsự nghiệp công lập quản lý, sử dụng\n\n1. Đơn vị sự nghiệp công lập thực hiện tiếp nhận tiền công đức, tài trợ cho di\n\ntích và hoạt động lễ hội theo quy định tại Điều 9 Thông tư này.\n\n2.  Số  tiền  công  đức,  tài  trợ  đã  tiếp  nhận  (trừ  các  khoản  công  đức,  tài  trợ  có\n\nmục đích, địa chỉ cụ thể) được phân bổ và sử dụng như sau:"
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.9953722003168859
+      "answer_relevancy": 0.9964919638331965,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "8": {
       "question": "Tiền trong hòm công đức phải được kiểm đếm bao lâu một lần?",
       "type": "legal",
-      "answer": "Tiền trong hòm công đức phải được định kỳ hằng ngày hoặc hằng tuần thực hiện kiểm đếm [legal/thong-tu-04-2023-thu-chi-le-hoi-tien-cong-duc.md::chunk-35].",
+      "answer": "Tiền trong hòm công đức phải được định kỳ hằng ngày hoặc hằng tuần thực hiện kiểm đếm, ghi tổng số tiền tiếp nhận [legal/thong-tu-04-2023-thu-chi-le-hoi-tien-cong-duc.md::chunk-35].",
       "refused": false,
       "retrieval_source": "dense",
       "best_dense_score": 0.8971927165985107,
-      "latency_s": 1.28,
+      "latency_s": 1.15,
       "contexts": [
         "Điều 9. Tiếp nhận tiền công đức, tài trợ\ntrong hòm công đức (nếu có), định kỳ hằng ngày hoặc hằng tuần thực hiện kiểm\n\nđếm,  ghi  tổng  số  tiền  tiếp  nhận.  Đối  với  các  khoản  tiền  đặt  không  đúng  nơi  quy\n\nđịnh,  không  phù  hợp  với  việc  thực  hiện  nếp  sống  văn  minh  tại  di  tích  được  thu\n\ngom để kiểm đếm hoặc bỏ vào hòm công đức để kiểm đếm chung.\n\nĐối với số tiền mặt tạm thời chưa sử dụng thì gửi vào tài khoản mở tại Kho",
         "Điều 9. Tiếp nhận tiền công đức, tài trợ\n\n1. Mở tài khoản tiền gửi tại Kho bạc Nhà nước hoặc ngân hàng thương mại để\n\nphản ánh việc tiếp nhận, quản lý và sử dụng tiền công đức, tài trợ cho di tích và\n\nhoạt động lễ hội theo hình thức chuyển khoản, phương thức thanh toán điện tử.\n\n\f10\n\n\n2. Tiếp nhận tiền mặt:\n\nCử người tiếp nhận, mở sổ ghi chép đầy đủ số tiền đã tiếp nhận. Đối với tiền",
@@ -184,52 +192,55 @@
         "Điều 9. Tiếp nhận tiền công đức, tài trợ\nthanh  toán  trước  hạn  hoặc  thanh  toán  khi  đến  hạn,  tùy  theo  yêu  cầu  quản  lý  và\n\nnguyện vọng của tổ chức, cá nhân hiến, tặng cho (nếu có).\n\n4. Tiếp nhận kim khí quý, đá quý: Mở sổ ghi tên kim khí quý, đá quý và giá trị\n\ntương ứng theo tài liệu do tổ chức, cá nhân hiến, tặng cho cung cấp. Tổ chức, cá\n\nnhân là chủ sở hữu hoặc được giao quản lý, sử dụng di tích chịu trách nhiệm về"
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.9707448495327501
+      "answer_relevancy": 0.9757717957665042,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "9": {
       "question": "Ngày Di sản văn hóa Việt Nam là ngày nào?",
       "type": "legal",
-      "answer": "Ngày 23 tháng 11 hằng năm là Ngày Di sản văn hóa Việt Nam [legal/luat-di-san-van-hoa-45-2024-phan-1.md::chunk-64].",
+      "answer": "Ngày Di sản văn hóa Việt Nam là ngày 23 tháng 11 hằng năm [legal/luat-di-san-van-hoa-45-2024-phan-1.md::chunk-64].",
       "refused": false,
       "retrieval_source": "dense",
       "best_dense_score": 0.9211704730987549,
-      "latency_s": 1.56,
+      "latency_s": 22.23,
       "contexts": [
         "Điều 8. Ngày Di sản văn hóa Việt Nam\n\nNgày 23 tháng 11 hằng năm là Ngày Di sản văn hóa Việt Nam.",
-        "Vào hồi 9h47’ ngày 04/12/2024 giờ địa phương (19h47’ giờ Hà Nội), tại Kỳ họp thứ 19 của Ủy ban Liên Chính phủ Công ước 2003 về bảo vệ di sản văn hóa phi vật thể của UNESCO diễn ra tại Trung tâm hội nghị Conmebol, thủ đô Asunción, Cộng hòa Paraguay, di sản Lễ hội Vía Bà Chúa Xứ núi Sam của Việt Nam đã chính thức được **UNESCO ghi danh** **vào** **Danh sách Di sản văn hoá phi vật thể đại diện của nhân loại**",
+        "Di sản Lễ hội Vía Bà Chúa Xứ núi Sam được UNESCO ghi danh vào Danh sách Di sản v\nVào hồi 9h47’ ngày 04/12/2024 giờ địa phương (19h47’ giờ Hà Nội), tại Kỳ họp thứ 19 của Ủy ban Liên Chính phủ Công ước 2003 về bảo vệ di sản văn hóa phi vật thể của UNESCO diễn ra tại Trung tâm hội nghị Conmebol, thủ đô Asunción, Cộng hòa Paraguay, di sản Lễ hội Vía Bà Chúa Xứ núi Sam của Việt Nam đã chính thức được **UNESCO ghi danh** **vào** **Danh sách Di sản văn hoá phi vật thể đại diện của nhân loại**",
         "Điều 4. Sở hữu di sản văn hóa\n1. Di sản văn hoá Việt Nam là tài sản quý giá của cộng đồng các dân tộc Việt\nNam, là một bộ phận của di sản văn hóa nhân loại, có vai trò to lớn trong sự nghiệp\ndựng nước và giữ nước của Nhân dân. Nhà nước đại diện chủ sở hữu và thống nhất\nquản lý di sản văn hóa thuộc sở hữu toàn dân; công nhận và bảo vệ di sản văn hóa\nthuộc hình thức sở hữu riêng, sở hữu chung theo quy định của Hiến pháp, quy định\ncủa Luật này và quy định khác của pháp luật có liên quan.",
-        "Nghi lễ Chầu văn của người Việt được Thủ tướng Chính phủ đồng ý cho lập hồ sơ trình UNESCO đưa vào Danh sách di sản văn hóa phi vật thể đại diện của nhân loại trong giai đoạn tới và đã được Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch đưa vào Danh mục di sản văn hóa phi vật thể quốc gia (đợt 1), loại hình Tập quán xã hội và tín ngưỡng, tháng 12 năm 2012.\n\n**Kim Dung (Theo Hồ sơ di sản, tư liệu Cục Di sản văn hóa)**",
-        ". Khi di sản này này được chia sẻ bởi các nhóm dân tộc khác nhau ở Việt Nam, việc thực hành sẽ tăng cường đối thoại và thúc đẩy tôn trọng đa dạng văn hóa; giúp cho việc sáng tạo, làm giàu vốn văn hóa và trở thành một thành phần quan trọng của lễ hội, nơi mà yếu tố nghệ thuật như trang phục, vũ đạo và âm nhạc đóng vai trò quan trọng;"
+        "Nghi lễ Chầu văn của người Việt\nNghi lễ Chầu văn của người Việt được Thủ tướng Chính phủ đồng ý cho lập hồ sơ trình UNESCO đưa vào Danh sách di sản văn hóa phi vật thể đại diện của nhân loại trong giai đoạn tới và đã được Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch đưa vào Danh mục di sản văn hóa phi vật thể quốc gia (đợt 1), loại hình Tập quán xã hội và tín ngưỡng, tháng 12 năm 2012.\n\n**Kim Dung (Theo Hồ sơ di sản, tư liệu Cục Di sản văn hóa)**",
+        "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi\nVào hồi 17h15’ giờ địa phương (12h15’giờ Việt Nam) ngày 01 tháng 12 năm 2016, tại Phiên họp Uỷ ban Liên Chính phủ về bảo vệ di sản văn hóa phi vật thể lần thứ 11 của UNESCO diễn ra tại thành phố Addis Ababa, nước Cộng hòa dân chủ Liên bang Ethiopia, di sản Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt đã chính thức được UNESCO ghi danh tại Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại."
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 1.0
+      "answer_relevancy": 0.9893810053258495,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "10": {
       "question": "Theo Luật Di sản văn hóa 2024, lễ hội truyền thống được hiểu như thế nào?",
       "type": "legal",
-      "answer": "Dựa trên các tài liệu được cung cấp, ngữ cảnh không chứa định nghĩa cụ thể về \"lễ hội truyền thống\" theo Luật Di sản văn hóa 2024 (Luật Di sản văn hóa số 45/2024/QH15). \n\nTuy nhiên, định nghĩa về lễ hội truyền thống có được đề cập tại Nghị định số 110/2018/NĐ-CP: Lễ hội truyền thống (bao gồm cả lễ hội tại các di tích lịch sử - văn hóa, lễ hội dân gian) là hình thức sinh hoạt văn hóa cộng đồng được tổ chức theo nghi lễ truyền thống, nhằm đáp ứng nhu cầu tinh thần của nhân dân [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-4].",
+      "answer": "Dựa trên các tài liệu được cung cấp, không có nội dung nào trong Luật Di sản văn hóa số 45/2024/QH15 định nghĩa lễ hội truyền thống là gì. \n\nTuy nhiên, định nghĩa về \"lễ hội truyền thống\" được quy định tại Nghị định 110/2018/NĐ-CP: Lễ hội truyền thống (bao gồm cả lễ hội tại các di tích lịch sử - văn hóa, lễ hội dân gian) là hình thức sinh hoạt văn hóa cộng đồng được tổ chức theo nghi lễ truyền thống, nhằm đáp ứng nhu cầu tinh thần của nhân dân [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-4].",
       "refused": false,
       "retrieval_source": "dense",
-      "best_dense_score": 0.8819906711578369,
-      "latency_s": 1.96,
+      "best_dense_score": 0.8754085898399353,
+      "latency_s": 2.65,
       "contexts": [
-        ". Khi di sản này này được chia sẻ bởi các nhóm dân tộc khác nhau ở Việt Nam, việc thực hành sẽ tăng cường đối thoại và thúc đẩy tôn trọng đa dạng văn hóa; giúp cho việc sáng tạo, làm giàu vốn văn hóa và trở thành một thành phần quan trọng của lễ hội, nơi mà yếu tố nghệ thuật như trang phục, vũ đạo và âm nhạc đóng vai trò quan trọng;",
         "Điều 3. Giải thích từ ngữ\n\nTrong Nghị định này, các từ ngữ sau đây được hiểu như sau:\n\n1. Lễ hội truyền thống (bao gồm cả lễ hội tại các di tích lịch sử - văn hóa, lễ\nhội dân gian) là hình thức sinh hoạt văn hóa cộng đồng được tổ chức theo nghi lễ\ntruyền thống, nhằm đáp ứng nhu cầu tinh thần của nhân dân.\n\n2.  Lễ hội văn hóa là  hoạt  động  giới thiệu,  quảng bá  giá trị văn hóa,  thể thao\n\ntiêu biểu, đặc sắc; tiềm năng du lịch về đất nước, con người Việt Nam.\n\n\n21",
         "Điều 5. Nguyên tắc tổ chức lễ hội\n2. Lễ hội phải được tổ chức trang trọng, thiết thực, hiệu quả; phù hợp với quy\nmô, nội dung của lễ hội; tổ chức lễ hội truyền thống theo đúng bản chất, ý nghĩa\nlịch sử văn hóa; giảm tần suất, thời gian tổ chức lễ hội văn hóa.\n\n3.  Nghi  lễ  của  lễ  hội  phải  trang  nghiêm,  bảo  đảm  truyền  thống;  không  thực\nhiện nghi lễ có tính bạo lực, phản cảm, trái với truyền thống yêu hòa bình, nhân\nđạo của dân tộc Việt Nam.",
         "# Luật Di sản văn hóa số 45/2024/QH15 (Chương I–IV)\n\n**Source:** https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/01/luat45.pdf\n\n---\n\n35\n\nQUỐC HỘI\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nLuật số: 45/2024/QH15\n\nLUẬT\n\nDI SẢN VĂN HÓA\n\nCăn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nQuốc hội ban hành Luật Di sản văn hóa.\n\nChương I\nNHỮNG QUY ĐỊNH CHUNG",
-        "Điều 20. Biện pháp bảo vệ và phát huy giá trị lễ hội truyền thống\n4. Có biện pháp hỗ trợ cộng đồng ngăn chặn các yếu tố, những hoạt động ảnh\nhưởng  đến  thành  tố, cấu  trúc  lễ  hội  và  không đúng quy  định nếp  sống văn  minh\ntrong các hoạt động tại lễ hội;\n\n5. Khuyến khích việc phổ biến rộng rãi ở trong nước và nước ngoài về nguồn\n\ngốc, nội dung, giá trị tiêu biểu, độc đáo của lễ hội.\n\nChương III\nBẢO VỆ VÀ PHÁT HUY GIÁ TRỊ DI SẢN VĂN HÓA VẬT THỂ"
+        "Điều 20. Biện pháp bảo vệ và phát huy giá trị lễ hội truyền thống\n4. Có biện pháp hỗ trợ cộng đồng ngăn chặn các yếu tố, những hoạt động ảnh\nhưởng  đến  thành  tố, cấu  trúc  lễ  hội  và  không đúng quy  định nếp  sống văn  minh\ntrong các hoạt động tại lễ hội;\n\n5. Khuyến khích việc phổ biến rộng rãi ở trong nước và nước ngoài về nguồn\n\ngốc, nội dung, giá trị tiêu biểu, độc đáo của lễ hội.\n\nChương III\nBẢO VỆ VÀ PHÁT HUY GIÁ TRỊ DI SẢN VĂN HÓA VẬT THỂ",
+        "Điều 20. Biện pháp bảo vệ và phát huy giá trị lễ hội truyền thống\n\nNhà  nước  tạo  điều  kiện  duy  trì  và  phát  huy  giá  trị lễ  hội  truyền  thống  thông\n\nqua các biện pháp sau đây:\n\n1. Bảo đảm cộng đồng chủ thể được chủ động tham gia thực hành nghi thức\n\ntruyền thống trong không gian văn hóa và thời điểm theo đúng chu kỳ của lễ hội;"
       ],
       "complete": true,
-      "context_recall": 0.23529411764705882,
-      "context_precision": 0.0,
-      "faithfulness": null,
-      "answer_relevancy": 0.9142248794866353
+      "overlap_recall": 0.35294117647058826,
+      "faithfulness": 0.6,
+      "answer_relevancy": 0.9168394144230261,
+      "context_recall": 1.0,
+      "context_precision": 0.0
     },
     "11": {
       "question": "Tri thức về trang phục thuộc loại hình di sản văn hóa phi vật thể nào?",
@@ -238,7 +249,7 @@
       "refused": false,
       "retrieval_source": "dense",
       "best_dense_score": 0.9044141173362732,
-      "latency_s": 1.6,
+      "latency_s": 21.61,
       "contexts": [
         "Điều 3. Giải thích từ ngữ\n\nTrong Luật này, các từ ngữ dưới đây được hiểu như sau:\n\n1. Di sản văn hóa phi vật thể là tri thức, kỹ năng, tập quán, biểu đạt văn hóa\ncùng  đồ  vật,  đồ  tạo  tác,  không  gian  liên  quan  được  cộng  đồng,  nhóm  người,  cá\nnhân thực hành, trao truyền qua nhiều thế hệ và hình thành nên bản sắc văn hóa\ncủa họ, không ngừng được trao truyền, bảo vệ, tái tạo, sáng tạo, có giá trị lịch sử,\nvăn hóa, khoa học.\n\n\f36",
         "Điều 10. Các loại hình di sản văn hóa phi vật thể\n\nDi sản văn hóa phi vật thể bao gồm các loại hình sau đây:\n\n1. Biểu đạt và truyền thống truyền khẩu gồm các hình thức thể hiện thông tin\n\nbằng ngôn ngữ, tiếng nói, chữ viết, ký tự và ngữ văn dân gian;\n\n2.  Nghệ  thuật  trình  diễn  dân  gian  gồm  âm  nhạc,  múa,  hát,  sân  khấu  truyền\n\nthống và các hình thức trình diễn dân gian khác;",
@@ -247,94 +258,99 @@
         "Điều 74. Hoạt động trưng bày hiện vật và giới thiệu di sản văn hóa phi vật\n\nthể của bảo tàng\n\n1. Hoạt động trưng bày hiện vật và giới thiệu di sản văn hóa phi vật thể của\n\nbảo tàng bao gồm:\n\na) Trưng bày thường xuyên, trưng bày chuyên đề tại bảo tàng;\n\nb) Trưng bày có thời hạn ở trong nước và nước ngoài;\n\nc) Trưng bày trên môi trường điện tử;\n\nd) Giới thiệu di sản văn hóa phi vật thể."
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 0.3333333333333333,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.9414146093554356
+      "answer_relevancy": 0.9414146093554356,
+      "context_recall": 1.0,
+      "context_precision": 0.3333333333
     },
     "12": {
       "question": "Hội Gióng ở đền Phù Đổng và đền Sóc được UNESCO công nhận khi nào?",
       "type": "news",
-      "answer": "Hội Gióng ở đền Phù Đổng và đền Sóc được UNESCO công nhận là Di sản văn hóa phi vật thể đại diện của nhân loại vào tháng 11 năm 2010 [news/article_01.md::chunk-19].",
+      "answer": "Hội Gióng ở đền Phù Đổng và đền Sóc đã được UNESCO công nhận là Di sản văn hóa phi vật thể đại diện của nhân loại vào tháng 11 năm 2010 [news/article_01.md::chunk-21].",
       "refused": false,
       "retrieval_source": "dense",
-      "best_dense_score": 0.917474627494812,
-      "latency_s": 1.38,
+      "best_dense_score": 0.9192211627960205,
+      "latency_s": 1.21,
       "contexts": [
-        "Là một hội trận được trình diễn bằng một hệ thống biểu tượng độc đáo, mang đậm bản sắc văn hóa Việt, được cộng đồng bảo tồn nguyên giá trị cho tới ngày nay, Hội Gióng ở đền Phù Đổng và đền Sóc đã được UNESCO công nhận là Di sản văn hóa phi vật thể đại diện của nhân loại vào tháng 11 năm 2010.",
+        "Hội Gióng ở đền Phù Đổng và đền Sóc\nLà một hội trận được trình diễn bằng một hệ thống biểu tượng độc đáo, mang đậm bản sắc văn hóa Việt, được cộng đồng bảo tồn nguyên giá trị cho tới ngày nay, Hội Gióng ở đền Phù Đổng và đền Sóc đã được UNESCO công nhận là Di sản văn hóa phi vật thể đại diện của nhân loại vào tháng 11 năm 2010.",
         "# Hội Gióng ở đền Phù Đổng và đền Sóc\n\n**Source:** https://dsvh.gov.vn/hoi-giong-o-den-phu-dong-va-den-soc-486\n\n**Crawled:** 2026-09-25T11:25:03.641555\n\n---\n\nNgày 25 tháng 9 năm 2026",
-        "Từ đó, ngài Gióng được thiêng hóa thành một vị Thánh bất tử bảo hộ mùa màng, hòa bình cho đất nước, thịnh vượng cho muôn dân. Để tưởng nhớ công ơn của ngài, người dân lập đền, thờ phụng và mở hội hằng năm với tên gọi là Hội Gióng ở đền Phù Đổng và đền Sóc. Đó là một trong những lễ hội lớn nhất vùng châu thổ Bắc Bộ, tổ chức theo một nghi thức được quy định chặt chẽ, chuẩn bị hết sức công phu, với sự tham gia đông đảo của dân làng quanh khu vực hai đền",
-        ". Hội Gióng ở đền Phù Đổng, xã Phù Đổng, huyện Gia Lâm - nơi sinh Thánh Gióng diễn ra từ ngày 7 đến ngày 9 tháng 4 Âm lịch, và Hội Gióng ở đền Sóc ở xã Phù Linh, huyện Sóc Sơn (nay thuộc Hà Nội) - nơi Thánh hóa diễn ra từ ngày 6 đến ngày 8 tháng giêng.",
-        "# Hội Gióng ở đền Phù Đổng và đền Sóc"
+        "Hội Gióng ở đền Phù Đổng và đền Sóc\n* Trang chủ\n* Giới thiệu\n  + Thông tin chung\n  + Cơ cấu tổ chức\n  + Các tổ chức tư vấn liên quan\n* Tin tức - sự kiện\n* THÔNG TIN DI SẢN VĂN HÓA \n  + Di tích \n    - Di sản văn hóa và thiên nhiên thế giới\n    - Di tích quốc gia đặc biệt\n    - Danh mục Di tích quốc gia\n  + Di sản văn hóa phi vật thể\n    - Di sản văn hóa phi vật thể đại diện của nhân loại\n    - Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp\n    - Danh mục Di sản văn hóa phi vật thể quốc gia",
+        "Hội Gióng ở đền Phù Đổng và đền Sóc\n. Hội Gióng ở đền Phù Đổng, xã Phù Đổng, huyện Gia Lâm - nơi sinh Thánh Gióng diễn ra từ ngày 7 đến ngày 9 tháng 4 Âm lịch, và Hội Gióng ở đền Sóc ở xã Phù Linh, huyện Sóc Sơn (nay thuộc Hà Nội) - nơi Thánh hóa diễn ra từ ngày 6 đến ngày 8 tháng giêng.",
+        "Hội Gióng ở đền Phù Đổng và đền Sóc\n. Tướng, quân bên giặc cũng được tha bổng và cho tham dự lễ mừng chiến thắng. Cách hành xử này thể hiện truyền thống hiếu nghĩa đối với tổ tiên, những vị anh hùng dân tộc và tinh thần khoan dung, nhân đạo của dân tộc Việt Nam."
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.9589325836580793
+      "answer_relevancy": 0.9589325836580793,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "13": {
       "question": "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ được UNESCO ghi danh khi nào và ở đâu?",
       "type": "news",
-      "answer": "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt chính thức được UNESCO ghi danh vào hồi 17h15’ giờ địa phương (12h15’ giờ Việt Nam) ngày 01 tháng 12 năm 2016 tại Phiên họp Ủy ban Liên Chính phủ về bảo vệ di sản văn hóa phi vật thể lần thứ 11 của UNESCO diễn ra tại thành phố Addis Ababa, nước Cộng hòa dân chủ Liên bang Ethiopia [news/article_06.md::chunk-2].",
+      "answer": "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt được UNESCO ghi danh vào lúc 17h15’ giờ địa phương (12h15’ giờ Việt Nam) ngày 01 tháng 12 năm 2016 [news/article_06.md::chunk-2]. \n\nSự kiện này diễn ra tại Phiên họp Ủy ban Liên Chính phủ về bảo vệ di sản văn hóa phi vật thể lần thứ 11 của UNESCO tại thành phố Addis Ababa, nước Cộng hòa dân chủ Liên bang Ethiopia [news/article_06.md::chunk-2].",
       "refused": false,
       "retrieval_source": "dense",
-      "best_dense_score": 0.896675705909729,
-      "latency_s": 1.61,
+      "best_dense_score": 0.9076549410820007,
+      "latency_s": 1.49,
       "contexts": [
-        "Vào hồi 17h15’ giờ địa phương (12h15’giờ Việt Nam) ngày 01 tháng 12 năm 2016, tại Phiên họp Uỷ ban Liên Chính phủ về bảo vệ di sản văn hóa phi vật thể lần thứ 11 của UNESCO diễn ra tại thành phố Addis Ababa, nước Cộng hòa dân chủ Liên bang Ethiopia, di sản Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt đã chính thức được UNESCO ghi danh tại Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại.",
-        "Thực hành Tín ngưỡng Thờ Mẫu tam phủ của người Việt phân bố ở nhiều địa phương: Tây Bắc, Đông Bắc, Bắc Bộ, Bắc Trung Bộ, thành phố Hồ Chí Minh, lan tỏa và được thực hành ở nhiều địa phương trong cả nước. Tỉnh Nam Định được coi là một trong những địa phương có các trung tâm thờ thánh Mẫu Liễu Hạnh tiêu biểu với những nơi lưu giữ sự tích về sự giáng thế của Mẫu như Phủ Dầy, Phủ Nấp và gần 400 nơi thờ cúng thánh Mẫu",
-        "Việc UNESCO ghi danh Thực hành Tín ngưỡng thờ Mẫu Tam phủ của người Việt tại Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại khẳng định những nỗ lực của các cấp, các ngành và cộng đồng trong việc bảo tồn kho tàng di sản văn hóa phi vật thể của dân tộc./.",
-        "Tín ngưỡng Thờ Mẫu Tam phủ là một hình thức thờ cúng người Mẹ hóa thân ở các miền trời, sông nước, rừng núi được hình thành trên nền tảng của tín ngưỡng thờ Nữ thần. Người dân thờ cúng Thánh Mẫu Liễu Hạnh cùng với các vị Thánh Mẫu cai quản miền trời, rừng, nước, những nhân vật lịch sử hoặc huyền thoại có công với nước, với dân",
-        "Tại các điện thờ Thánh Mẫu, nghi thức thờ cúng hàng ngày do các thủ nhang thực hiện. Thực hành cơ bản của Tín ngưỡng Thờ Mẫu Tam phủ là nghi lễ lên đồng và lễ hội, tiêu biểu là Lễ hội Phủ Dầy ở xã Kim Thái, huyện Vụ Bản, tỉnh Nam Định diễn ra từ ngày mồng 3 đến ngày 10 tháng Ba âm lịch (ngày giỗ của Thánh Mẫu Liễu Hạnh) với những nghi lễ, diễn xướng dân gian, xếp chữ, lễ rước thỉnh kinh"
+        "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi\nVào hồi 17h15’ giờ địa phương (12h15’giờ Việt Nam) ngày 01 tháng 12 năm 2016, tại Phiên họp Uỷ ban Liên Chính phủ về bảo vệ di sản văn hóa phi vật thể lần thứ 11 của UNESCO diễn ra tại thành phố Addis Ababa, nước Cộng hòa dân chủ Liên bang Ethiopia, di sản Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt đã chính thức được UNESCO ghi danh tại Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại.",
+        "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi\nViệc UNESCO ghi danh Thực hành Tín ngưỡng thờ Mẫu Tam phủ của người Việt tại Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại khẳng định những nỗ lực của các cấp, các ngành và cộng đồng trong việc bảo tồn kho tàng di sản văn hóa phi vật thể của dân tộc./.",
+        "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi\nThực hành Tín ngưỡng Thờ Mẫu tam phủ của người Việt phân bố ở nhiều địa phương: Tây Bắc, Đông Bắc, Bắc Bộ, Bắc Trung Bộ, thành phố Hồ Chí Minh, lan tỏa và được thực hành ở nhiều địa phương trong cả nước. Tỉnh Nam Định được coi là một trong những địa phương có các trung tâm thờ thánh Mẫu Liễu Hạnh tiêu biểu với những nơi lưu giữ sự tích về sự giáng thế của Mẫu như Phủ Dầy, Phủ Nấp và gần 400 nơi thờ cúng thánh Mẫu",
+        "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi\nTín ngưỡng Thờ Mẫu Tam phủ là một hình thức thờ cúng người Mẹ hóa thân ở các miền trời, sông nước, rừng núi được hình thành trên nền tảng của tín ngưỡng thờ Nữ thần. Người dân thờ cúng Thánh Mẫu Liễu Hạnh cùng với các vị Thánh Mẫu cai quản miền trời, rừng, nước, những nhân vật lịch sử hoặc huyền thoại có công với nước, với dân",
+        "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi\nTại các điện thờ Thánh Mẫu, nghi thức thờ cúng hàng ngày do các thủ nhang thực hiện. Thực hành cơ bản của Tín ngưỡng Thờ Mẫu Tam phủ là nghi lễ lên đồng và lễ hội, tiêu biểu là Lễ hội Phủ Dầy ở xã Kim Thái, huyện Vụ Bản, tỉnh Nam Định diễn ra từ ngày mồng 3 đến ngày 10 tháng Ba âm lịch (ngày giỗ của Thánh Mẫu Liễu Hạnh) với những nghi lễ, diễn xướng dân gian, xếp chữ, lễ rước thỉnh kinh"
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 0.8333333333333333,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.976331309469427
+      "answer_relevancy": 0.976331309469427,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "14": {
       "question": "Lễ hội Vía Bà Chúa Xứ núi Sam diễn ra vào thời gian nào và ở đâu?",
       "type": "news",
-      "answer": "Lễ hội Vía Bà Chúa Xứ núi Sam diễn ra từ ngày 22 đến ngày 27 tháng 4 Âm lịch [news/article_07.md::chunk-4]. \n\nLễ hội diễn ra trong miếu Bà Chúa Xứ núi Sam và khu vực bệ đá thờ Bà trên núi Sam [news/article_07.md::chunk-4] tại thành phố Châu Đốc [news/article_07.md::chunk-9].",
-      "refused": false,
-      "retrieval_source": "dense",
-      "best_dense_score": 0.9291303753852844,
-      "latency_s": 1.52,
+      "answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+      "refused": true,
+      "retrieval_source": "none",
+      "best_dense_score": 0.9251859188079834,
+      "latency_s": 1.22,
       "contexts": [
-        "Lễ hội Vía Bà Chúa Xứ núi Sam diễn ra từ ngày 22 đến ngày 27 tháng 4 Âm lịch, trong miếu Bà Chúa Xứ núi Sam và khu vực bệ đá thờ Bà trên núi Sam, là các nghi thức tâm linh và diễn xướng nghệ thuật, biểu hiện niềm tin, sự biết ơn Mẹ Đất - Mẹ Xứ sở của cộng đồng các dân tộc Việt, Chăm, Khmer và Hoa ở Châu Đốc, An Giang. Bà Chúa Xứ là vị thánh Mẫu trong tín ngưỡng thờ nữ thần, luôn che chở, phù trợ cho dân chúng",
-        "1. Lễ hội Vía Bà Chúa Xứ Núi Sam được cộng đồng người Kinh, Khmer, Chăm và Hoa tại thành phố Châu Đốc tổ chức. Di sản này bao gồm việc thực hiện các nghi lễ tôn giáo và nghệ thuật diễn xướng dân gian để bày tỏ lòng biết ơn đối với Nữ thần Xứ sở. Các nghi lễ, phong tục và kỹ năng thực hành nghi lễ liên quan đến di sản này được trao truyền trong gia đình và cộng đồng thông qua truyền miệng, thực hành trực tiếp và tham gia vào lễ hội",
-        "Lễ hội Vía Bà Chúa Xứ núi Sam là sự kế thừa, tiếp thu, tích hợp và sáng tạo của cư dân Việt trong quá trình khẩn hoang và là sự tổng hòa của tín ngưỡng thờ Mẫu của các dân tộc Việt, Chăm, Khmer và Hoa",
-        "# Di sản Lễ hội Vía Bà Chúa Xứ núi Sam được UNESCO ghi danh vào Danh sách Di sản văn hoá phi vật thể đại diện của nhân loại\n\n**Source:** https://dsvh.gov.vn/di-san-le-hoi-via-ba-chua-xu-nui-sam-duoc-unesco-ghi-danh-vao-danh-sach-di-san-van-hoa-phi-vat-the-dai-dien-cua-nhan-loai-22193\n\n**Crawled:** 2026-09-25T11:25:28.894113\n\n---",
-        "Vào hồi 9h47’ ngày 04/12/2024 giờ địa phương (19h47’ giờ Hà Nội), tại Kỳ họp thứ 19 của Ủy ban Liên Chính phủ Công ước 2003 về bảo vệ di sản văn hóa phi vật thể của UNESCO diễn ra tại Trung tâm hội nghị Conmebol, thủ đô Asunción, Cộng hòa Paraguay, di sản Lễ hội Vía Bà Chúa Xứ núi Sam của Việt Nam đã chính thức được **UNESCO ghi danh** **vào** **Danh sách Di sản văn hoá phi vật thể đại diện của nhân loại**"
+        "Di sản Lễ hội Vía Bà Chúa Xứ núi Sam được UNESCO ghi danh vào Danh sách Di sản v\nLễ hội Vía Bà Chúa Xứ núi Sam diễn ra từ ngày 22 đến ngày 27 tháng 4 Âm lịch, trong miếu Bà Chúa Xứ núi Sam và khu vực bệ đá thờ Bà trên núi Sam, là các nghi thức tâm linh và diễn xướng nghệ thuật, biểu hiện niềm tin, sự biết ơn Mẹ Đất - Mẹ Xứ sở của cộng đồng các dân tộc Việt, Chăm, Khmer và Hoa ở Châu Đốc, An Giang. Bà Chúa Xứ là vị thánh Mẫu trong tín ngưỡng thờ nữ thần, luôn che chở, phù trợ cho dân chúng",
+        "Di sản Lễ hội Vía Bà Chúa Xứ núi Sam được UNESCO ghi danh vào Danh sách Di sản v\n1. Lễ hội Vía Bà Chúa Xứ Núi Sam được cộng đồng người Kinh, Khmer, Chăm và Hoa tại thành phố Châu Đốc tổ chức. Di sản này bao gồm việc thực hiện các nghi lễ tôn giáo và nghệ thuật diễn xướng dân gian để bày tỏ lòng biết ơn đối với Nữ thần Xứ sở",
+        "Di sản Lễ hội Vía Bà Chúa Xứ núi Sam được UNESCO ghi danh vào Danh sách Di sản v\nVào hồi 9h47’ ngày 04/12/2024 giờ địa phương (19h47’ giờ Hà Nội), tại Kỳ họp thứ 19 của Ủy ban Liên Chính phủ Công ước 2003 về bảo vệ di sản văn hóa phi vật thể của UNESCO diễn ra tại Trung tâm hội nghị Conmebol, thủ đô Asunción, Cộng hòa Paraguay, di sản Lễ hội Vía Bà Chúa Xứ núi Sam của Việt Nam đã chính thức được **UNESCO ghi danh** **vào** **Danh sách Di sản văn hoá phi vật thể đại diện của nhân loại**",
+        "Di sản Lễ hội Vía Bà Chúa Xứ núi Sam được UNESCO ghi danh vào Danh sách Di sản v\nLễ hội Vía Bà Chúa Xứ núi Sam là sự kế thừa, tiếp thu, tích hợp và sáng tạo của cư dân Việt trong quá trình khẩn hoang và là sự tổng hòa của tín ngưỡng thờ Mẫu của các dân tộc Việt, Chăm, Khmer và Hoa",
+        "Di sản Lễ hội Vía Bà Chúa Xứ núi Sam được UNESCO ghi danh vào Danh sách Di sản v\n. Tục lễ Bà, tham gia lễ hội để thỏa mãn niềm tin và sự mong cầu về sức khỏe, bình an và tài lộc của cộng đồng Khmer, Chăm, Hoa, Việt ở Châu Đốc, An Giang cũng như cư dân vùng Tây Nam Bộ."
       ],
       "complete": true,
+      "overlap_recall": 1.0,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
       "context_recall": 1.0,
-      "context_precision": 1.0,
-      "faithfulness": 1.0,
-      "answer_relevancy": 0.9951105331732746
+      "context_precision": 0.9999999999
     },
     "15": {
       "question": "Mỗi vấn hầu trong nghi lễ hầu đồng gồm những bước nào?",
       "type": "news",
-      "answer": "Mỗi vấn hầu có thể được thực hành qua 4 bước hoặc 3 bước [news/article_09.md::chunk-10]:\n\n- **4 bước:** Mời thánh nhập hay Thánh giáng (ca ngợi công đức), phán truyền, ban lộc và đưa tiễn (Thánh thăng, cung văn hát điệu xa giá hồi cung, âm nhạc sôi động, náo nhiệt) [news/article_09.md::chunk-10].\n- **3 bước:** Phụ đồng (còn gọi là kiều bóng, bắt đầu hát câu vỉa ở thể lục bát rồi miêu tả diện mạo ông hoàng, bà chúa), Thánh nhập (hay dùng trà, thuốc, rượu) và Đồng thăng [news/article_09.md::chunk-10].",
+      "answer": "Mỗi vấn hầu có thể được thực hành qua 4 bước: \n1. Mời thánh nhập hay Thánh giáng (ca ngợi công đức) [news/article_09.md::chunk-11].\n2. Phán truyền [news/article_09.md::chunk-11].\n3. Ban lộc [news/article_09.md::chunk-11].\n4. Đưa tiễn (Thánh thăng, cung văn hát điệu xa giá hồi cung, âm nhạc sôi động, náo nhiệt) [news/article_09.md::chunk-11].\n\nNgoài ra, cũng có khi một vấn hầu chỉ gồm 3 bước:\n1. Phụ đồng (còn gọi là kiều bóng), bắt đầu hát câu vỉa ở thể lục bát, sau miêu tả diện mạo ông hoàng, bà chúa [news/article_09.md::chunk-11].\n2. Thánh nhập (hay dùng trà, thuốc, rượu) [news/article_09.md::chunk-11].\n3. Đồng thăng [news/article_09.md::chunk-11].",
       "refused": false,
       "retrieval_source": "dense",
-      "best_dense_score": 0.9257693886756897,
-      "latency_s": 1.98,
+      "best_dense_score": 0.9145058989524841,
+      "latency_s": 1.83,
       "contexts": [
-        "Mỗi vấn hầu được thực hành qua 4 bước: Mời thánh nhập hay Thánh giáng (ca ngợi công đức), phán truyền, ban lộc và đưa tiễn (Thánh thăng, cung văn hát điệu xa giá hồi cung, âm nhạc sôi động, náo nhiệt). Cũng có khi một vấn hầu chỉ gồm 3 bước: Phụ đồng (còn gọi là kiều bóng), bắt đầu hát câu vỉa ở thể lục bát, sau miêu tả diện mạo ông hoàng, bà chúa; bước 2 là Thánh nhập (hay dùng trà, thuốc, rượu) và bước cuối là Đồng thăng.",
-        "Trong nghi lễ hầu đồng, trước mỗi vấn hầu, những người tham gia phải chuẩn bị lễ vật, trang phục, đạo cụ trong múa hầu đồng phù hợp với từng giá hầu, phản ánh tính cách của từng vị thánh được hầu.\n\nLễ vật trong mỗi vấn hầu trước kia thường đơn giản. Vật phẩm cơ bản gồm xôi, thịt, hoa quả, trầu, cau, rượu, thuốc, vàng mã,… Ngày nay, lễ vật ngày càng phong phú, gồm cả những sản phẩm hàng hóa công nghiệp, thực phẩm đương thời, đắt tiền, dùng trong cả lễ mặn và lễ chay.",
-        "Mở đầu mỗi vấn hầu, thủ nhang/pháp sư thường đăng đàn cúng Phật, Thánh, sau đó người hầu đồng vào xin phép loan giá ngự đồng. Ông/bà đồng ngồi vào giữa bốn người hầu dâng và được người hầu dâng trùm lên đầu một vấn khăn màu đỏ, gọi là khăn phủ diện, và bắt đầu vấn hầu. Thường là mở đầu bằng giá Tam tòa thánh Mẫu. Tiếp theo đó, người có căn Đức Thánh Trần thì hầu giá Đức Thánh Trần",
-        ". Trong nghi lễ hầu đồng, có tất cả 36 giá đồng, mỗi giá thờ một vị Thánh, nhưng một buổi hầu không phải bao giờ cũng hầu đủ 36 giá, mà thường là từ 8 đến 15 giá, tùy thuộc vào tâm nguyện của ông/bà đồng.",
-        "Trang phục của người trình diễn trong nghi lễ hầu đồng rất phong phú, đa\n\ndạng, thể hiện tính cách và thị hiếu thẩm mỹ của từng cá nhân thực hành cũng như của tộc người và vùng miền mà các vị thánh đại diện, cai quản."
+        "Nghi lễ Chầu văn của người Việt\nMỗi vấn hầu được thực hành qua 4 bước: Mời thánh nhập hay Thánh giáng (ca ngợi công đức), phán truyền, ban lộc và đưa tiễn (Thánh thăng, cung văn hát điệu xa giá hồi cung, âm nhạc sôi động, náo nhiệt). Cũng có khi một vấn hầu chỉ gồm 3 bước: Phụ đồng (còn gọi là kiều bóng), bắt đầu hát câu vỉa ở thể lục bát, sau miêu tả diện mạo ông hoàng, bà chúa; bước 2 là Thánh nhập (hay dùng trà, thuốc, rượu) và bước cuối là Đồng thăng.",
+        "Nghi lễ Chầu văn của người Việt\nTrong nghi lễ hầu đồng, trước mỗi vấn hầu, những người tham gia phải chuẩn bị lễ vật, trang phục, đạo cụ trong múa hầu đồng phù hợp với từng giá hầu, phản ánh tính cách của từng vị thánh được hầu.",
+        "Nghi lễ Chầu văn của người Việt\nMở đầu mỗi vấn hầu, thủ nhang/pháp sư thường đăng đàn cúng Phật, Thánh, sau đó người hầu đồng vào xin phép loan giá ngự đồng. Ông/bà đồng ngồi vào giữa bốn người hầu dâng và được người hầu dâng trùm lên đầu một vấn khăn màu đỏ, gọi là khăn phủ diện, và bắt đầu vấn hầu. Thường là mở đầu bằng giá Tam tòa thánh Mẫu. Tiếp theo đó, người có căn Đức Thánh Trần thì hầu giá Đức Thánh Trần",
+        "Nghi lễ Chầu văn của người Việt\n. Trong nghi lễ hầu đồng, có tất cả 36 giá đồng, mỗi giá thờ một vị Thánh, nhưng một buổi hầu không phải bao giờ cũng hầu đủ 36 giá, mà thường là từ 8 đến 15 giá, tùy thuộc vào tâm nguyện của ông/bà đồng.",
+        "Nghi lễ Chầu văn của người Việt\nLễ vật trong mỗi vấn hầu trước kia thường đơn giản. Vật phẩm cơ bản gồm xôi, thịt, hoa quả, trầu, cau, rượu, thuốc, vàng mã,… Ngày nay, lễ vật ngày càng phong phú, gồm cả những sản phẩm hàng hóa công nghiệp, thực phẩm đương thời, đắt tiền, dùng trong cả lễ mặn và lễ chay.\n\nTrang phục của người trình diễn trong nghi lễ hầu đồng rất phong phú, đa"
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.8923273187223493
+      "answer_relevancy": 0.9359372319507255,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "16": {
       "question": "Đường đi lên đền Tổ mẫu Âu Cơ được xây bằng bao nhiêu bậc đá?",
@@ -342,20 +358,21 @@
       "answer": "Đường đi lên đền Tổ mẫu Âu Cơ được xây bằng 553 bậc đá [news/article_08.md::chunk-15].",
       "refused": false,
       "retrieval_source": "dense",
-      "best_dense_score": 0.904049277305603,
-      "latency_s": 1.42,
+      "best_dense_score": 0.9040490984916687,
+      "latency_s": 1.13,
       "contexts": [
         "*Đền Tổ mẫu Âu Cơ:*được khởi dựng trên đỉnh Ốc sơn (thường gọi là núi Vặn) vào năm 2001, khánh thành tháng 12 năm 2004. Các hạng mục kiến trúc gồm: đền chính, tả, hữu vu, nhà bia, trụ biểu, tam quan, nhà tiếp khách và hệ thống sân, vườn. Kiến trúc đền theo lối cổ, với cột, xà, hoành, rui bằng gỗ lim, mái được lợp bằng ngói mũi hài, tường bằng gạch. Đền chính kiểu chữ đinh, có diện tích 137m2.\n\nTrong đền có tượng thờ Mẹ Âu Cơ và Lạc hầu, Lạc tướng. Đường đi lên đền được xây bằng 553 bậc đá.",
         "*Đền Thượng:*các công trình của đền được xây dựng qua ba cấp khác nhau: phía trước là bức nghi môn lớn, nhà chuông trống, tiền tế, đại bái và hậu cung. Bên phía tay trái đền có một cột đá thề, hình vuông, cao 1,3m, rộng 0,3m. Năm 1968, Ty Văn hoá Vĩnh Phú tôn tạo di tích, làm bệ cho cột đá thề như hiện nay.",
         "Ngay chân đền Hạ là nhà bia, với kiến trúc hình lục giác, xây dựng năm 1917, trên đỉnh có đắp hình nậm rượu, 6 mái được lợp bằng gạch bìa bên trong, bên ngoài láng xi măng, có 6 cột bằng gạch xây tròn, dưới chân có lan can. Trong nhà bia hiện nay đặt một bia đá, nội dung ghi lời dặn của Chủ tịch Hồ Chí Minh khi Người về thăm đền Hùng ngày 19/9/1954:\n\n**“Các Vua Hùng đã có công dựng nước,**\n\n**Bác cháu ta phải cùng nhau giữ lấy nước”.**",
         "*Cổng đền:*được xây dựng trên núi Nghĩa Lĩnh vào năm Khải Định thứ 2 (1917), dạng vòm cuốn, cao 8,5m, gồm 2 tầng, 8 mái... Tầng dưới có một cửa vòm cuốn lớn, đầu cột trụ cổng tầng trên có cửa vòm nhỏ hơn, 4 góc mái trang trí rồng, đắp nổi hai con nghê",
-        "| 191 | Hạn Khuống của người Thái | 217/QĐ - BVHTTDL ngày 23/01/2017 | Nghệ thuật trình diễn dân gian | Tỉnh Yên Bái |\n| 192 | Tín ngưỡng thờ Mẫu Âu Cơ | 217/QĐ - BVHTTDL ngày 23/01/2017 | Tập quán xã hội và tín ngưỡng | Tỉnh Phú Thọ |\n| 193 | Lễ Tịch điền | 217/QĐ - BVHTTDL ngày 23/01/2017 | Tập quán xã hội và tín ngưỡng | Tỉnh Hà Nam |\n| 194 | Lễ hội Đền Trần Thương | 217/QĐ - BVHTTDL ngày 23/01/2017 | Lễ hội truyền thống | Tỉnh Hà Nam |"
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 192 | Tín ngưỡng thờ Mẫu Âu Cơ | 217/QĐ - BVHTTDL ngày 23/01/2017 | Tập quán xã hội và tín ngưỡng | Tỉnh Phú Thọ |\n| 193 | Lễ Tịch điền | 217/QĐ - BVHTTDL ngày 23/01/2017 | Tập quán xã hội và tín ngưỡng | Tỉnh Hà Nam |\n| 194 | Lễ hội Đền Trần Thương | 217/QĐ - BVHTTDL ngày 23/01/2017 | Lễ hội truyền thống | Tỉnh Hà Nam |\n| 195 | Hội vật Liễu Đôi | 217/QĐ - BVHTTDL ngày 23/01/2017 | Lễ hội truyền thống | Tỉnh Hà Nam |"
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 1.0
+      "answer_relevancy": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "17": {
       "question": "Hiệp hội Văn hóa Áo dài Việt Nam được thành lập theo quyết định nào?",
@@ -364,7 +381,7 @@
       "refused": false,
       "retrieval_source": "dense",
       "best_dense_score": 0.9066807627677917,
-      "latency_s": 1.31,
+      "latency_s": 16.04,
       "contexts": [
         "Hiệp hội được thành lập theo Quyết định số 579/QĐ-BNV ngày 9/6/2025 của Bộ trưởng Bộ Nội vụ, với tư cách là tổ chức xã hội, nghề nghiệp tập hợp những người yêu mến, sáng tạo, nghiên cứu và bảo tồn văn hóa áo dài trong nước và quốc tế./.",
         "Đại diện ban lãnh đạo hiệp hội mong muốn tạo dựng một không gian văn hóa chung cho những người yêu Áo dài, nơi mọi ý tưởng có thể gặp nhau để tiếp tục hành trình đưa Áo dài lan tỏa từ đời sống thường nhật đến không gian sáng tạo nghệ thuật, từ trong nước đến cộng đồng Việt Nam ở năm châu; góp phần xây dựng không gian văn hóa Áo dài, tiến tới hoàn thiện hồ sơ để trình lên UNESCO để tôn vinh bộ trang phục có ý nghĩa đặc biệt trong trái tim, tâm hồn người Việt.",
@@ -373,19 +390,20 @@
         "“Áo dài không chỉ là trang phục truyền thống mà còn là kết tinh của tâm hồn, phẩm hạnh và bản lĩnh văn hóa người Việt. Tà áo mềm mại nhưng đầy nội lực ấy đã đi cùng người phụ nữ Việt Nam qua mọi thời kỳ, từ lịch sử dựng nước, giữ nước đến hành trình hội nhập hôm nay,” nguyên Thứ trưởng Bộ Văn hóa, Thể thao và Du lịch, Chủ tịch danh dự Câu lạc bộ Di sản Áo dài Việt Nam, tiến sỹ Đặng Thị Bích Liên chia sẻ."
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.9034792259160563
+      "answer_relevancy": 0.8917014725613395,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "18": {
       "question": "Theo phong tục Tết của người Việt, ngày mùng ba Tết dành cho ai?",
       "type": "news",
-      "answer": "Theo phong tục Tết của người Việt, ngày mùng ba là ngày dành cho thầy cô [news/article_04.md::chunk-9].",
+      "answer": "Theo phong tục Tết của người Việt, ngày mùng ba Tết là ngày dành cho thầy cô [news/article_04.md::chunk-9].",
       "refused": false,
       "retrieval_source": "dense",
       "best_dense_score": 0.8886557817459106,
-      "latency_s": 1.18,
+      "latency_s": 1.35,
       "contexts": [
         "Vào ngày mùng hai, mọi người thường đi chúc Tết bạn bè và họ hàng — một cuộc hành trình vui vẻ từ nhà này sang nhà khác, từ khu phố này sang khu phố khác và khắp các cộng đồng.\n\nNgày mùng ba là ngày dành cho thầy cô (những người rất được tôn kính). Không khó để bắt gặp những nhóm bạn học cùng nhau đi thăm thầy cô giáo của mình, mang theo những món quà là hoa quả và hoa tươi.",
         "Ngày mùng một Tết dành riêng cho gia đình ruột thịt. Đó là ngày mà những người lớn tuổi được tôn kính nhất và trẻ nhỏ nhận được những phong bao chứa \"Tiền lì xì\". Ngày đầu tiên cũng liên quan đến một nghi thức vô cùng quan trọng. Người ta tin rằng, người đầu tiên xông đất vào ngày đầu năm mới sẽ tượng trưng cho cả năm đó sẽ diễn ra như thế nào. Để tránh những bất ngờ ngoài ý muốn, một thành viên đáng kính hoặc thành công trong gia đình thường được mời làm người xông đất đầu tiên",
@@ -394,10 +412,11 @@
         "# Tết: Truyền thống, Sum họp & Hương vị\n\n**Source:** https://vietnam.travel/vi/things-to-do/tet-tradition-reunion-taste\n\n**Crawled:** 2026-09-25T11:25:21.926768\n\n---\n\n**Tết Nguyên Đán (Lễ hội của buổi sáng đầu tiên ngày đầu tiên)** có thể là tên gọi chính thức cho dịp Tết Âm lịch của Việt Nam. Nhưng khi ở Việt Nam, tất cả những gì bạn cần biết chỉ là: Tết."
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.9881782977849116
+      "answer_relevancy": 0.9959400364174196,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "19": {
       "question": "Tín ngưỡng thờ Mẫu Tam phủ thuộc loại hình di sản văn hóa phi vật thể nào theo Luật Di sản văn hóa 2024, và được UNESCO ghi danh năm nào?",
@@ -405,20 +424,21 @@
       "answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
       "refused": true,
       "retrieval_source": "none",
-      "best_dense_score": 0.9158975481987,
-      "latency_s": 1.6,
+      "best_dense_score": 0.9161276817321777,
+      "latency_s": 1.38,
       "contexts": [
-        "Theo Uỷ ban Liên Chính phủ về bảo vệ di sản văn hóa phi vật thể, hồ sơ đề cử di sản văn hóa phi vật thể Thực hành Tín ngưỡng thờ Mẫu Tam phủ của người Việt “đáp ứng những tiêu chí sau để đăng ký vào Danh sách di sản văn hóa phi vật thể đại diện của nhân loại:",
+        "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi\nViệc UNESCO ghi danh Thực hành Tín ngưỡng thờ Mẫu Tam phủ của người Việt tại Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại khẳng định những nỗ lực của các cấp, các ngành và cộng đồng trong việc bảo tồn kho tàng di sản văn hóa phi vật thể của dân tộc./.",
+        "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi\nVào hồi 17h15’ giờ địa phương (12h15’giờ Việt Nam) ngày 01 tháng 12 năm 2016, tại Phiên họp Uỷ ban Liên Chính phủ về bảo vệ di sản văn hóa phi vật thể lần thứ 11 của UNESCO diễn ra tại thành phố Addis Ababa, nước Cộng hòa dân chủ Liên bang Ethiopia, di sản Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt đã chính thức được UNESCO ghi danh tại Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại.",
         "# Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt  trở thành Di sản văn hóa phi vật thể đại diện của nhân loại\n\n**Source:** https://dsvh.gov.vn/thuc-hanh-tin-nguong-tho-mau-tam-phu-cua-nguoi-viet-tro-thanh-di-san-van-hoa-phi-vat-the-dai-dien-cua-nhan-loai-1536\n\n**Crawled:** 2026-09-25T11:25:28.359052\n\n---",
-        "Việc UNESCO ghi danh Thực hành Tín ngưỡng thờ Mẫu Tam phủ của người Việt tại Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại khẳng định những nỗ lực của các cấp, các ngành và cộng đồng trong việc bảo tồn kho tàng di sản văn hóa phi vật thể của dân tộc./.",
-        "Vào hồi 17h15’ giờ địa phương (12h15’giờ Việt Nam) ngày 01 tháng 12 năm 2016, tại Phiên họp Uỷ ban Liên Chính phủ về bảo vệ di sản văn hóa phi vật thể lần thứ 11 của UNESCO diễn ra tại thành phố Addis Ababa, nước Cộng hòa dân chủ Liên bang Ethiopia, di sản Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt đã chính thức được UNESCO ghi danh tại Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại.",
-        "# Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi vật thể đại diện của nhân loại"
+        "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi\nTheo Uỷ ban Liên Chính phủ về bảo vệ di sản văn hóa phi vật thể, hồ sơ đề cử di sản văn hóa phi vật thể Thực hành Tín ngưỡng thờ Mẫu Tam phủ của người Việt “đáp ứng những tiêu chí sau để đăng ký vào Danh sách di sản văn hóa phi vật thể đại diện của nhân loại:",
+        "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi\nR.5: Thông tin Hồ sơ cũng đã cung cấp một phụ lục chứng minh di sản đã được đưa vào Danh sách di sản văn hóa phi vật thể quốc gia năm 2013. Hoạt động kiểm kê đã được Cục Di sản văn hóa (Bộ Văn hóa, Thể thao và Du lịch) phối hợp tổ chức thực hiện với Viện Văn hóa nghệ thuật quốc gia Việt Nam; kết quả kiểm kê đều được cập nhật hàng năm"
       ],
       "complete": true,
-      "context_recall": 0.644927536231884,
-      "context_precision": 1.0,
+      "overlap_recall": 0.644927536231884,
       "faithfulness": 0.0,
-      "answer_relevancy": 0.0
+      "answer_relevancy": 0.0,
+      "context_recall": 0.5,
+      "context_precision": 0.49999999995
     },
     "20": {
       "question": "Nghi lễ Chầu văn thuộc lĩnh vực di sản nào, và Luật Di sản văn hóa 2024 mô tả lĩnh vực đó ra sao?",
@@ -427,19 +447,20 @@
       "refused": true,
       "retrieval_source": "none",
       "best_dense_score": 0.9062970876693726,
-      "latency_s": 121.69,
+      "latency_s": 1.52,
       "contexts": [
         "# Nghi lễ Chầu văn của người Việt\n\n**Nghi lễ Chầu văn của người Việt là di sản văn hóa phi vật thể thuộc lĩnh vực Tập quán xã hội và tín ngưỡng, ra đời và phát triển trước hết gắn với tín ngưỡng thờ Thánh Mẫu Tứ phủ, được thực hành ở nhiều vùng, miền của đất nước, nhưng tập trung nhiều nhất ở các tỉnh miền Bắc và Bắc Trung bộ.**",
-        "Nghi lễ Chầu văn của người Việt được Thủ tướng Chính phủ đồng ý cho lập hồ sơ trình UNESCO đưa vào Danh sách di sản văn hóa phi vật thể đại diện của nhân loại trong giai đoạn tới và đã được Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch đưa vào Danh mục di sản văn hóa phi vật thể quốc gia (đợt 1), loại hình Tập quán xã hội và tín ngưỡng, tháng 12 năm 2012.\n\n**Kim Dung (Theo Hồ sơ di sản, tư liệu Cục Di sản văn hóa)**",
-        "Trong Nghi lễ Chầu văn của người Việt, các hình thức biểu đạt, động tác múa, âm nhạc và lời hát văn đều mang dấu ấn lịch sử, ghi lại sự tích và ca ngợi công đức của những nhân vật lịch sử có công với dân, với nước. Về giá trị văn hóa, Nghi lễ Chầu văn của người Việt là tín ngưỡng bản địa, tích hợp các hình thức văn hoá dân gian khác nhau như: âm nhạc, ngôn ngữ, tri thức dân gian, ca hát, nhảy múa, nghề thủ công truyền thống, trang phục cùng với nghệ thuật trang trí, kiến trúc, ẩm thực..",
+        "Nghi lễ Chầu văn của người Việt\n. Về giá trị văn hóa, Nghi lễ Chầu văn của người Việt là tín ngưỡng bản địa, tích hợp các hình thức văn hoá dân gian khác nhau như: âm nhạc, ngôn ngữ, tri thức dân gian, ca hát, nhảy múa, nghề thủ công truyền thống, trang phục cùng với nghệ thuật trang trí, kiến trúc, ẩm thực... trong một thể thống nhất hữu cơ hoàn chỉnh, trong đó yếu tố “sân khấu” kết hợp chặt chẽ với yếu tố tâm linh, phản ánh tư duy, nhận thức về tự nhiên, xã hội của cộng đồng",
+        "Nghi lễ Chầu văn của người Việt\nNghi lễ Chầu văn của người Việt được Thủ tướng Chính phủ đồng ý cho lập hồ sơ trình UNESCO đưa vào Danh sách di sản văn hóa phi vật thể đại diện của nhân loại trong giai đoạn tới và đã được Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch đưa vào Danh mục di sản văn hóa phi vật thể quốc gia (đợt 1), loại hình Tập quán xã hội và tín ngưỡng, tháng 12 năm 2012.\n\n**Kim Dung (Theo Hồ sơ di sản, tư liệu Cục Di sản văn hóa)**",
         "# Luật Di sản văn hóa số 45/2024/QH15 (Chương I–IV)\n\n**Source:** https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/01/luat45.pdf\n\n---\n\n35\n\nQUỐC HỘI\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nLuật số: 45/2024/QH15\n\nLUẬT\n\nDI SẢN VĂN HÓA\n\nCăn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nQuốc hội ban hành Luật Di sản văn hóa.\n\nChương I\nNHỮNG QUY ĐỊNH CHUNG",
-        "# Nghi lễ Chầu văn của người Việt\n\n**Source:** https://dsvh.gov.vn/nghi-le-chau-van-cua-nguoi-viet-3150\n\n**Crawled:** 2026-09-25T11:25:32.529846\n\n---"
+        "Nghi lễ Chầu văn của người Việt\nNghi lễ Chầu văn của người Việt là một hình thức biểu đạt văn hóa, tín ngưỡng phức hợp gồm nghi lễ hầu đồng gắn với hát văn hay hát chầu văn, do thủ nhang, thanh đồng (ông/bà đồng), cung văn và một số người hầu dâng (người giúp việc thanh đồng) tiến hành trước các ban thờ ở các đền, điện, phủ, miếu, … gắn với tín ngưỡng thờ Thánh Mẫu Tứ phủ."
       ],
       "complete": true,
-      "context_recall": 0.631578947368421,
-      "context_precision": 1.0,
+      "overlap_recall": 0.631578947368421,
       "faithfulness": 0.0,
-      "answer_relevancy": 0.0
+      "answer_relevancy": 0.0,
+      "context_recall": 0.5,
+      "context_precision": 0.0
     },
     "21": {
       "question": "Giá vé máy bay từ Hà Nội đi Phú Thọ là bao nhiêu?",
@@ -447,14 +468,14 @@
       "answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
       "refused": true,
       "retrieval_source": "none",
-      "best_dense_score": 0.8329675197601318,
-      "latency_s": 1.22,
+      "best_dense_score": 0.8087078928947449,
+      "latency_s": 1.91,
       "contexts": [
-        "| 455 | Mo Mường (Hà Nội) | 154/QĐ-BVHTTDL ngày 02/02/2023 | Tập quán xã hội và tín ngưỡng | Thành phố Hà Nội |\n| 456 | Mo Mường (Phú Thọ) | 233/QĐ-BVHTTDL ngày 14/02/2023 | Tập quán xã hội và tín ngưỡng | Tỉnh Phú Thọ |\n| 457 | Mo Mường (Thanh Hóa) | 232/QĐ-BVHTTDL ngày 14/02/2023 | Tập quán xã hội và tín ngưỡng | Tỉnh Thanh Hóa |\n| 458 | Lễ hội Đền Đa Hòa | 153/QĐ-BVHTTDL ngày 02/02/2023 | Lễ hội truyền thống | Tỉnh Hưng Yên |",
-        "| 384 | Hát Aday của người Khmer | 1676/QĐ-BVHTTDL ngày 26/5/2021 | Nghệ thuật trình diễn dân gian | Tỉnh Hậu Giang |\n| 385 | Lễ hội Năm làng Mọc | 1727/QĐ-BVHTTDL ngày 27/5/2021 | Lễ hội truyền thống | Thành phố Hà Nội |\n| 386 | Lễ Kết chạ Phú Mỹ - Kiều Mai | 1728/QĐ-BVHTTDL ngày 27/5/2021 | Lễ hội truyền thống | Thành phố Hà Nội |\n| 387 | Lễ hội Cầu ngư Nhượng Bạn | 1729/QĐ-BVHTTDL ngày 27/5/2021 | Lễ hội truyền thống | Tỉnh Hà Tĩnh |",
-        "| 252 | Lễ hội Đền Lăng Sương | 3325/QĐ-BVHTTDL ngày 04/9/2018 | Lễ hội truyền thống | Tỉnh Phú Thọ |\n| 253 | Lễ cúng trưởng thành của người Ê Đê | 3325/QĐ-BVHTTDL ngày 04/9/2018 | Tập quán xã hội và tín ngưỡng | Tỉnh Phú Yên |\n| 254 | Lễ vía Bà Linh Sơn Thánh Mẫu - Núi Bà Đen | 3325/QĐ-BVHTTDL ngày 04/9/2018 | Tập quán xã hội và tín ngưỡng | Tỉnh Tây Ninh |\n| 255 | Nghệ thuật múa rối nước | 3325/QĐ-BVHTTDL ngày 04/9/2018 | Nghệ thuật trình diễn dân gian | Tỉnh Thái Bình |",
-        "| 191 | Hạn Khuống của người Thái | 217/QĐ - BVHTTDL ngày 23/01/2017 | Nghệ thuật trình diễn dân gian | Tỉnh Yên Bái |\n| 192 | Tín ngưỡng thờ Mẫu Âu Cơ | 217/QĐ - BVHTTDL ngày 23/01/2017 | Tập quán xã hội và tín ngưỡng | Tỉnh Phú Thọ |\n| 193 | Lễ Tịch điền | 217/QĐ - BVHTTDL ngày 23/01/2017 | Tập quán xã hội và tín ngưỡng | Tỉnh Hà Nam |\n| 194 | Lễ hội Đền Trần Thương | 217/QĐ - BVHTTDL ngày 23/01/2017 | Lễ hội truyền thống | Tỉnh Hà Nam |",
-        "| 169 | Lễ hội Cầu Ngư | 3247/QĐ - BVHTTDL ngày 16/9/2016 | Lễ hội truyền thống | Tỉnh Phú Yên |\n| 170 | Tết cá của người Tày | 3247/QĐ - BVHTTDL ngày 16/9/2016 | Tập quán xã hội và tín ngưỡng | Tỉnh Hà Giang |\n| 171 | Lễ cúng rừng (Mo đổng trư) của người Nùng | 3247/QĐ - BVHTTDL ngày 16/9/2016 | Tập quán xã hội và tín ngưỡng | Tỉnh Hà Giang |\n| 172 | Hát múa Ải Lao | 3247/QĐ - BVHTTDL ngày 16/9/2016 | Nghệ thuật trình diễn dân gian | Thành phố Hà Nội |"
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 453 | Lượn Cọi của người Tày | 234/QĐ-BVHTTDL ngày 14/02/2023 | Nghệ thuật trình diễn dân gian | Tỉnh Cao Bằng |\n| 454 | Hò giã gạo | 216/QĐ-BVHTTDL ngày 14/02/2023 | Nghệ thuật trình diễn dân gian | Tỉnh Quảng Trị |\n| 455 | Mo Mường (Hà Nội) | 154/QĐ-BVHTTDL ngày 02/02/2023 | Tập quán xã hội và tín ngưỡng | Thành phố Hà Nội |\n| 456 | Mo Mường (Phú Thọ) | 233/QĐ-BVHTTDL ngày 14/02/2023 | Tập quán xã hội và tín ngưỡng | Tỉnh Phú Thọ |",
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 189 | Lễ hội Trò Trám | 4036/QĐ - BVHTTDL ngày 21/11/2016 | Lễ hội truyền thống | Tỉnh Phú Thọ |\n| 190 | Nghề dệt Dèng (thổ cẩm) của người Tà Ôi | 4036/QĐ - BVHTTDL ngày 21/11/2016 | Nghề thủ công truyền thống | Tỉnh Thừa Thiên Huế |\n| 191 | Hạn Khuống của người Thái | 217/QĐ - BVHTTDL ngày 23/01/2017 | Nghệ thuật trình diễn dân gian | Tỉnh Yên Bái |",
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 192 | Tín ngưỡng thờ Mẫu Âu Cơ | 217/QĐ - BVHTTDL ngày 23/01/2017 | Tập quán xã hội và tín ngưỡng | Tỉnh Phú Thọ |\n| 193 | Lễ Tịch điền | 217/QĐ - BVHTTDL ngày 23/01/2017 | Tập quán xã hội và tín ngưỡng | Tỉnh Hà Nam |\n| 194 | Lễ hội Đền Trần Thương | 217/QĐ - BVHTTDL ngày 23/01/2017 | Lễ hội truyền thống | Tỉnh Hà Nam |\n| 195 | Hội vật Liễu Đôi | 217/QĐ - BVHTTDL ngày 23/01/2017 | Lễ hội truyền thống | Tỉnh Hà Nam |",
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 250 | Hát Đúm Thủy Nguyên | 3325/QĐ-BVHTTDL ngày 04/9/2018 | Nghệ thuật trình diễn dân gian | Thành phố Hải Phòng |\n| 251 | Lễ hội Đền Quả Sơn | 3325/QĐ-BVHTTDL ngày 04/9/2018 | Lễ hội truyền thống | Tỉnh Nghệ An |\n| 252 | Lễ hội Đền Lăng Sương | 3325/QĐ-BVHTTDL ngày 04/9/2018 | Lễ hội truyền thống | Tỉnh Phú Thọ |\n| 253 | Lễ cúng trưởng thành của người Ê Đê | 3325/QĐ-BVHTTDL ngày 04/9/2018 | Tập quán xã hội và tín ngưỡng | Tỉnh Phú Yên |",
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 356 | Lễ Tết nhảy của người Dao Quần Chẹt | 2732/QĐ-BVHTTDL ngày 30/9/2020 | Tập quán xã hội và tín ngưỡng | Tỉnh Phú Thọ |\n| 357 | Lễ hội Bà Thu Bồn | 2731/QĐ-BVHTTDL ngày 30/9/2020 | Lễ hội truyền thống | Tỉnh Quảng Nam |\n| 358 | Lễ hội Bà Phường Chào | 2730/QĐ-BVHTTDL ngày 30/9/2020 | Lễ hội truyền thống | Tỉnh Quảng Nam |\n| 359 | Lễ hội Đua thuyền Tứ Linh | 2729/QĐ-BVHTTDL ngày 30/9/2020 | Lễ hội truyền thống | Tỉnh Quảng Ngãi |"
       ],
       "complete": true
     },
@@ -464,14 +485,14 @@
       "answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
       "refused": true,
       "retrieval_source": "none",
-      "best_dense_score": 0.8303838968276978,
-      "latency_s": 1.12,
+      "best_dense_score": 0.8020225763320923,
+      "latency_s": 1.16,
       "contexts": [
-        "| 384 | Hát Aday của người Khmer | 1676/QĐ-BVHTTDL ngày 26/5/2021 | Nghệ thuật trình diễn dân gian | Tỉnh Hậu Giang |\n| 385 | Lễ hội Năm làng Mọc | 1727/QĐ-BVHTTDL ngày 27/5/2021 | Lễ hội truyền thống | Thành phố Hà Nội |\n| 386 | Lễ Kết chạ Phú Mỹ - Kiều Mai | 1728/QĐ-BVHTTDL ngày 27/5/2021 | Lễ hội truyền thống | Thành phố Hà Nội |\n| 387 | Lễ hội Cầu ngư Nhượng Bạn | 1729/QĐ-BVHTTDL ngày 27/5/2021 | Lễ hội truyền thống | Tỉnh Hà Tĩnh |",
-        "| 376 | Hát Sli của người Nùng | 830/QĐ-BVHTTDL ngày 09/3/2021 | Nghệ thuật trình diễn dân gian | Tỉnh Bắc Kạn |\n| 377 | Nghề làm giày thêu của người Hoa Xạ Phang | 829/QĐ-BVHTTDL ngày 09/3/2021 | Tri thức dân gian | Tỉnh Điện Biên |\n| 378 | Múa của người Khơ mú | 828/QĐ-BVHTTDL ngày 09/3/2021 | Nghệ thuật trình diễn dân gian | Tỉnh Điện Biên |\n| 379 | Hội thổi cơm thi Thị Cấm | 827/QĐ-BVHTTDL ngày 09/3/2021 | Lễ hội truyền thống | Thành phố Hà Nội |",
-        "| 455 | Mo Mường (Hà Nội) | 154/QĐ-BVHTTDL ngày 02/02/2023 | Tập quán xã hội và tín ngưỡng | Thành phố Hà Nội |\n| 456 | Mo Mường (Phú Thọ) | 233/QĐ-BVHTTDL ngày 14/02/2023 | Tập quán xã hội và tín ngưỡng | Tỉnh Phú Thọ |\n| 457 | Mo Mường (Thanh Hóa) | 232/QĐ-BVHTTDL ngày 14/02/2023 | Tập quán xã hội và tín ngưỡng | Tỉnh Thanh Hóa |\n| 458 | Lễ hội Đền Đa Hòa | 153/QĐ-BVHTTDL ngày 02/02/2023 | Lễ hội truyền thống | Tỉnh Hưng Yên |",
-        "| 403 | Lễ cầu mùa, cầu mưa của người Dao | 66/QĐ-BVHTTDL ngày 12/1/2022 | Tập quán xã hội và tín ngưỡng | Tỉnh Hà Giang |\n| 404 | Lễ cầu an của người Giáy | 67/QĐ-BVHTTDL ngày 12/1/2022 | Tập quán xã hội và tín ngưỡng | Tỉnh Hà Giang |\n| 405 | Nghệ thuật trang trí trên trang phục của người Lô Lô Đen | 69/QĐ-BVHTTDL ngày 12/1/2022 | Tri thức dân gian | Tỉnh Hà Giang |\n| 406 | Lễ hội cầu mưa | 68/QĐ-BVHTTDL ngày 12/1/2022 | Lễ hội truyền thống | Tỉnh Hưng Yên |",
-        "| 474 | Nghi lễ Xé Pang Á (Cầu an) của người Kháng | 470/QĐ-BVHTTDL ngày 06/03/2023 | Tập quán xã hội và tín ngưỡng | Tỉnh Sơn La |\n| 475 | Lễ hội mừng cơm mới của người Bru - Vân Kiều | 471/QĐ-BVHTTDL ngày 06/03/2023 | Lễ hội truyền thống | Tỉnh Quảng Bình |\n| 476 | Lễ hội Chùa Cổ Lễ | 472/QĐ-BVHTTDL ngày 06/03/2023 | Lễ hội truyền thống | Tỉnh Nam Định |\n| 477 | Múa rối nước Đào Thục | 473/QĐ-BVHTTDL ngày 06/03/2023 | Nghệ thuật trình diễn dân gian | Thành phố Hà Nội |"
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 376 | Hát Sli của người Nùng | 830/QĐ-BVHTTDL ngày 09/3/2021 | Nghệ thuật trình diễn dân gian | Tỉnh Bắc Kạn |\n| 377 | Nghề làm giày thêu của người Hoa Xạ Phang | 829/QĐ-BVHTTDL ngày 09/3/2021 | Tri thức dân gian | Tỉnh Điện Biên |\n| 378 | Múa của người Khơ mú | 828/QĐ-BVHTTDL ngày 09/3/2021 | Nghệ thuật trình diễn dân gian | Tỉnh Điện Biên |\n| 379 | Hội thổi cơm thi Thị Cấm | 827/QĐ-BVHTTDL ngày 09/3/2021 | Lễ hội truyền thống | Thành phố Hà Nội |",
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 477 | Múa rối nước Đào Thục | 473/QĐ-BVHTTDL ngày 06/03/2023 | Nghệ thuật trình diễn dân gian | Thành phố Hà Nội |\n| 478 | Nghề dệt lụa Vạn Phúc | 476/QĐ-BVHTTDL ngày 06/03/2023 | Nghề thủ công truyền thống | Thành phố Hà Nội |\n| 479 | Hát Dô | 477/QĐ-BVHTTDL ngày 06/03/2023 | Nghệ thuật trình diễn dân gian | Thành phố Hà Nội |\n| 480 | Nghề làm bánh tráng Thuận Hưng | 478/QĐ-BVHTTDL ngày 06/03/2023 | Nghề thủ công truyền thống | Thành phố Cần Thơ |",
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 277 | Hát Dậm Quyển Sơn | 446/QĐ-BVHTTDL ngày 29/01/2019 | Nghệ thuật trình diễn dân gian | Tỉnh Hà Nam |\n| 278 | Lễ hội Làng Triều Khúc | 446/QĐ-BVHTTDL ngày 29/01/2019 | Lễ hội truyền thống | Thành phố Hà Nội |\n| 279 | Nghề cốm Mễ Trì | 446/QĐ-BVHTTDL ngày 29/01/2019 | Nghề thủ công truyền thống | Thành phố Hà Nội |\n| 280 | Nghi lễ Mo Tham Thát của người Tày | 446/QĐ-BVHTTDL ngày 29/01/2019 | Tập quán xã hội và tín ngưỡng | Tỉnh Lào Cai |",
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 274 | Mền Loóng Phạt Ái (Tết Hoa mào gà) của người Cống | 446/QĐ-BVHTTDL ngày 29/01/2019 | Lễ hội truyền thống | Tỉnh Điện Biên |\n| 275 | Lễ Gạ Ma Thú (Cúng bản) của người Hà Nhì | 446/QĐ-BVHTTDL ngày 29/01/2019 | Tập quán xã hội và tín ngưỡng | Tỉnh Điện Biên |\n| 276 | Lễ hội Chùa Bà Đanh | 446/QĐ-BVHTTDL ngày 29/01/2019 | Lễ hội truyền thống | Tỉnh Hà Nam |",
+        "Tết, thường rơi vào cuối tháng Một hoặc đầu tháng Hai, là ngày lễ quan trọng nhất trong lịch của người Việt vì đây là dịp để đoàn viên, hy vọng và may mắn.\n\nSự say mê lễ hội của người Việt được thể hiện rõ nét nhất trong dịp Tết và màn đếm ngược đến giao thừa thường bắt đầu trước đó một tuần."
       ],
       "complete": true
     },
@@ -482,13 +503,13 @@
       "refused": true,
       "retrieval_source": "none",
       "best_dense_score": 0.8355379104614258,
-      "latency_s": 1.73,
+      "latency_s": 1.66,
       "contexts": [
         "Xôi gấc (gạo nếp nấu gấc) là món ăn mang đậm tinh thần ngày lễ! Đĩa xôi màu đỏ (màu đỏ tượng trưng cho sự may mắn) có khá nhiều phiên bản, có thể nấu kèm với lạc (đậu phộng), đậu xanh hoặc các loại trái cây sấy.\n\nVì kỳ nghỉ Tết là dịp mọi người quây quần, thường là để ghé thăm nhau nhanh chóng, nên các món ăn nhẹ luôn sẵn sàng. Một trong những món phổ biến nhất là Mứt, một loại trái cây ngào đường. Bạn sẽ tìm thấy mứt gừng, dừa, mứt bí khô, me, cà rốt, bí ngô, khế, dứa và nhiều loại khác nữa.",
         ". Được làm từ gạo nếp, đậu xanh và thịt lợn (với các nguyên liệu khác được thêm vào tùy theo công thức gia truyền), bánh được gói trong lá chuối và luộc trong nhiều giờ.",
         "Thịt kho hột vịt (thịt ba chỉ kho với trứng vịt) – món ăn phổ biến của miền Nam, được ninh nhừ trong nước dừa và nước mắm, được dùng như một món ăn dân dã, ấm cúng.\n\nCủ kiệu (củ kiệu muối) được ngâm trong nước sốt chua ngọt. Củ kiệu thường được ăn kèm với Tôm khô. Củ kiệu là một món ăn kèm phổ biến trong các bữa tiệc ngày Tết.",
-        "| 415 | Nghệ thuật chế biến món ăn chay | 75/QĐ-BVHTTDL ngày 12/1/2022 | Tri thức dân gian | Tỉnh Tây Ninh |\n| 416 | Lễ hội Từ Lương Xâm | 266/QĐ-BVHTTDL ngày 11/2/2022 | Lễ hội truyền thống | Tỉnh Hải Phòng |\n| 417 | Lễ giỗ Bà Phi Yến | 773/QĐ-BVHTTDL ngày 04/4/2022 | Lễ hội truyền thống | Tỉnh Bà Rịa - Vũng Tàu |\n| 418 | Múa bát của người Tày | 774/QĐ-BVHTTDL ngày 04/4/2022 | Nghệ thuật trình diễn dân gian | Tỉnh Bắc Kạn |",
-        "| 137 | Nghệ thuật Khèn của người Mông | 3465/QĐ-BVHTTDL  Ngày 13/10/2015 | Nghệ thuật trình diễn dân gian | Tỉnh Hà Giang |\n| 138 | Hội đua bò Bảy Núi | 246/QĐ - BVHTTDL ngày 19/01/2016 | Lễ hội truyền thống | Tỉnh An Giang |\n| 139 | Lễ cầu năm mới, cầu mùa của người Dao *(Tịu siằng thun boaù lỉu)* | 246/QĐ - BVHTTDL ngày 19/01/2016 | Tập quán xã hội và tín ngưỡng | Tỉnh Bắc Kạn |\n| 140 | Lễ hội làng Diềm | 246/QĐ - BVHTTDL ngày 19/01/2016 | Lễ hội truyền thống | Tỉnh Bắc Ninh |"
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 415 | Nghệ thuật chế biến món ăn chay | 75/QĐ-BVHTTDL ngày 12/1/2022 | Tri thức dân gian | Tỉnh Tây Ninh |\n| 416 | Lễ hội Từ Lương Xâm | 266/QĐ-BVHTTDL ngày 11/2/2022 | Lễ hội truyền thống | Tỉnh Hải Phòng |\n| 417 | Lễ giỗ Bà Phi Yến | 773/QĐ-BVHTTDL ngày 04/4/2022 | Lễ hội truyền thống | Tỉnh Bà Rịa - Vũng Tàu |\n| 418 | Múa bát của người Tày | 774/QĐ-BVHTTDL ngày 04/4/2022 | Nghệ thuật trình diễn dân gian | Tỉnh Bắc Kạn |",
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 303 | Kỹ thuật chế biến rượu cần của người Xtiêng | 4597/QĐ-BVHTTDL ngày 20/12/2019 | Tri thức dân gian, nghề thủ công truyền thống | Tỉnh Bình Phước |\n| 304 | Lễ hội Miếu Bà Rá | 4600/QĐ-BVHTTDL ngày 20/12/2019 | Lễ hội truyền thống | Tỉnh Bình Phước |\n| 305 | Lễ hội Dua Tpeng (Phá bàu) của người Khmer | 4615/QĐ-BVHTTDL ngày 20/12/2019 | Lễ hội truyền thống, Tập quán xã hội và tín ngưỡng | Tỉnh Bình Phước |"
       ],
       "complete": true
     }
@@ -497,11 +518,11 @@
     "0": {
       "question": "Lễ hội truyền thống cấp tỉnh được tổ chức hằng năm phải thông báo với cơ quan nào?",
       "type": "legal",
-      "answer": "Dựa vào ngữ cảnh được cung cấp, lễ hội truyền thống cấp tỉnh được tổ chức hằng năm phải thông báo với Ủy ban nhân dân cùng cấp trước khi tổ chức [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-45].",
+      "answer": "Dựa vào ngữ cảnh được cung cấp, không có thông tin cụ thể về việc lễ hội truyền thống cấp tỉnh được tổ chức hằng năm phải thông báo với cơ quan nào (ngữ cảnh chỉ đề cập lễ hội truyền thống, lễ hội văn hóa, lễ hội ngành nghề cấp tỉnh, cấp huyện, cấp xã được tổ chức hằng năm phải thông báo với Ủy ban nhân dân cùng cấp trước khi tổ chức lễ hội [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-45], nhưng quy định cụ thể về \"lễ hội truyền thống cấp tỉnh\" hằng năm không có trong các đoạn trích; còn lễ hội cấp tỉnh tổ chức lần đầu hoặc khôi phục sau 02 năm trở lên thuộc diện đăng ký [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-28]). Do đó, tôi từ chối xác minh chi tiết này vì thiếu evidence chính xác cho trường hợp \"lễ hội truyền thống cấp tỉnh\" tổ chức hằng năm.",
       "refused": false,
       "retrieval_source": "hybrid",
       "best_dense_score": 0.9067881107330322,
-      "latency_s": 1.13,
+      "latency_s": 1.9,
       "contexts": [
         "Điều 14. Thông báo tổ chức lễ hội\n\n1. Lễ hội văn hóa, lễ hội ngành nghề cấp quốc gia hoặc cấp khu vực, lễ hội có\nnguồn gốc từ nước ngoài được tổ chức hàng năm phải thông báo với Bộ Văn hóa,\nThể thao và Du lịch trước khi tổ chức lễ hội.\n\n2. Lễ hội truyền thống, lễ hội văn hóa, lễ hội ngành nghề cấp tỉnh, cấp huyện,\ncấp xã được tổ chức hàng năm phải thông báo với Ủy ban nhân dân cùng cấp trước\nkhi tổ chức lễ hội.",
         "Điều 16. Trình tự tiếp nhận thông báo tổ chức lễ hội cấp quốc gia, cấp khu\nb)  Trong thời hạn 15  ngày,  kể  từ ngày  Ủy  ban  nhân dân  cấp tỉnh nhận  được\nvăn bản thông báo, nếu không có ý kiến trả lời thì đơn vị gửi thông báo được tổ\nchức lễ hội theo nội dung đã thông báo. Trường hợp không đồng ý với nội dung\nthông báo, cơ quan tiếp nhận phải trả lời bằng văn bản và nêu rõ lý do;",
@@ -510,61 +531,64 @@
         "Điều 9. Đăng ký tổ chức lễ hội\nc) Lễ hội truyền thống, lễ hội văn hóa, lễ hội ngành nghề cấp xã được tổ chức\n\nlần đầu hoặc khôi phục sau thời gian gián đoạn 02 năm trở lên;\n\n\n25\n\nd)  Lễ  hội  truyền  thống  cấp  huyện,  cấp  xã  được  tổ  chức  hàng  năm  nhưng  có\n\nthay đổi về cách thức tổ chức, nội dung, địa điểm so với truyền thống."
       ],
       "complete": true,
+      "overlap_recall": 1.0,
+      "faithfulness": 0.4,
+      "answer_relevancy": 0.0,
       "context_recall": 1.0,
-      "context_precision": 0.7,
-      "faithfulness": 1.0,
-      "answer_relevancy": 0.9819478246425686
+      "context_precision": 0.99999999995
     },
     "1": {
       "question": "Những lễ hội nào phải đăng ký với Bộ Văn hóa, Thể thao và Du lịch trước khi tổ chức?",
       "type": "legal",
-      "answer": "Theo quy định, các lễ hội phải đăng ký với Bộ Văn hóa, Thể thao và Du lịch trước khi tổ chức bao gồm:\n\n* Lễ hội văn hóa, lễ hội ngành nghề do cơ quan trung ương tổ chức (lễ hội cấp quốc gia) được tổ chức lần đầu [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-26].\n* Lễ hội văn hóa, lễ hội ngành nghề có từ 02 tỉnh trở lên tham gia tổ chức (lễ hội cấp khu vực) được tổ chức lần đầu [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-26].\n* Lễ hội có nguồn gốc từ nước ngoài được tổ chức lần đầu hoặc khôi phục [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-26].",
+      "answer": "Theo quy định, các lễ hội phải đăng ký với Bộ Văn hóa, Thể thao và Du lịch trước khi tổ chức bao gồm:\n\n1. **Lễ hội văn hóa, lễ hội ngành nghề do cơ quan trung ương tổ chức (lễ hội cấp quốc gia) được tổ chức lần đầu** [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-26].\n2. **Lễ hội văn hóa, lễ hội ngành nghề có từ 02 tỉnh trở lên tham gia tổ chức (lễ hội cấp khu vực) được tổ chức lần đầu** [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-26].\n3. **Lễ hội có nguồn gốc từ nước ngoài được tổ chức lần đầu hoặc khôi phục sau thời gian gián đoạn** [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-26].",
       "refused": false,
       "retrieval_source": "hybrid",
       "best_dense_score": 0.9209659099578857,
-      "latency_s": 62.24,
+      "latency_s": 3.68,
       "contexts": [
         "Điều 9. Đăng ký tổ chức lễ hội\n\n1. Lễ hội phải đăng ký với Bộ Văn hóa, Thể thao và Du lịch trước khi tổ chức gồm:\n\na) Lễ hội văn hóa, lễ hội ngành nghề do cơ quan trung ương tổ chức (sau đây\n\ngọi là lễ hội cấp quốc gia) được tổ chức lần đầu;\n\nb) Lễ hội văn hóa, lễ hội ngành nghề có từ 02 tỉnh trở lên tham gia tổ chức (sau\n\nđây gọi là lễ hội cấp khu vực) được tổ chức lần đầu;\n\nc) Lễ hội có nguồn gốc từ nước ngoài được tổ chức lần đầu hoặc khôi phục sau",
         "Điều 11. Trình tự tiếp nhận hồ sơ đăng ký tổ chức lễ hội quy mô cấp quốc\nbảo vệ môi trường;\n\n3. Trường hợp hoạt động lễ hội có nội dung liên quan đến các bộ, ngành, Bộ\nVăn hóa, Thể thao và Du lịch phải có văn bản xin ý kiến, tổng hợp, hoàn chỉnh hồ\nsơ và quyết định việc chấp thuận tổ chức hoạt động lễ hội.\n\n4. Trường hợp không đồng ý phải có văn bản trả lời và nêu rõ lý do. Chỉ được\ntổ chức lễ hội sau khi có văn bản chấp thuận của Bộ Văn hóa, Thể thao và Du lịch.",
-        "Điều 11. Trình tự tiếp nhận hồ sơ đăng ký tổ chức lễ hội quy mô cấp quốc\n\ngia, cấp khu vực, lễ hội có nguồn gốc từ nước ngoài\n\n1. Đơn vị tổ chức lễ hội gửi hồ sơ đăng ký đến Bộ Văn hóa, Thể thao và Du\nlịch (trực tiếp, qua bưu điện hoặc nộp trực tuyến) trước ngày dự kiến tổ chức lễ hội\nít nhất 30 ngày.\n\n2.  Trong  thời  hạn  20  ngày,  kể  từ  ngày  nhận  được  hồ  sơ  đăng  ký  hợp  lệ,  Bộ",
         "Điều 14. Thông báo tổ chức lễ hội\n\n1. Lễ hội văn hóa, lễ hội ngành nghề cấp quốc gia hoặc cấp khu vực, lễ hội có\nnguồn gốc từ nước ngoài được tổ chức hàng năm phải thông báo với Bộ Văn hóa,\nThể thao và Du lịch trước khi tổ chức lễ hội.\n\n2. Lễ hội truyền thống, lễ hội văn hóa, lễ hội ngành nghề cấp tỉnh, cấp huyện,\ncấp xã được tổ chức hàng năm phải thông báo với Ủy ban nhân dân cùng cấp trước\nkhi tổ chức lễ hội.",
+        "Điều 11. Trình tự tiếp nhận hồ sơ đăng ký tổ chức lễ hội quy mô cấp quốc\n\ngia, cấp khu vực, lễ hội có nguồn gốc từ nước ngoài\n\n1. Đơn vị tổ chức lễ hội gửi hồ sơ đăng ký đến Bộ Văn hóa, Thể thao và Du\nlịch (trực tiếp, qua bưu điện hoặc nộp trực tuyến) trước ngày dự kiến tổ chức lễ hội\nít nhất 30 ngày.\n\n2.  Trong  thời  hạn  20  ngày,  kể  từ  ngày  nhận  được  hồ  sơ  đăng  ký  hợp  lệ,  Bộ",
         "Điều 9. Đăng ký tổ chức lễ hội\nb) Lễ hội truyền thống, lễ hội văn hóa, lễ hội ngành nghề có nhiều huyện thuộc\nmột tỉnh, thành phố trực thuộc Trung ương tham gia tổ chức (sau đây gọi là lễ hội cấp\ntỉnh) được tổ chức lần đầu hoặc khôi phục sau thời gian gián đoạn từ 02 năm trở lên.\n\n3. Lễ hội phải đăng ký với Ủy ban nhân dân cấp huyện trước khi tổ chức gồm:\n\na) Lễ hội truyền thống, lễ hội văn hóa, lễ hội ngành nghề cấp huyện được tổ"
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 0.7000000000000001,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.9963542448059852
+      "answer_relevancy": 0.9914716515230297,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "2": {
       "question": "Khi đi lễ hội, người tham gia phải thắp hương, đốt vàng mã như thế nào?",
       "type": "legal",
-      "answer": "Khi đi lễ hội, người tham gia lễ hội có trách nhiệm thắp hương, đốt vàng mã đúng nơi quy định [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-13].",
+      "answer": "Khi đi lễ hội, người tham gia có trách nhiệm thắp hương và đốt vàng mã đúng nơi quy định [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-13].",
       "refused": false,
       "retrieval_source": "hybrid",
       "best_dense_score": 0.8961441516876221,
-      "latency_s": 1.58,
+      "latency_s": 8.8,
       "contexts": [
         "Điều 6. Quyền và trách nhiệm của người tham gia lễ hội\n2. Người tham gia lễ hội có các trách nhiệm sau\n\na) Chấp hành nghiêm các quy định của pháp luật; nội quy thực hiện nếp sống\n\nvăn minh trong lễ hội;\n\nb) Ứng xử có văn hóa trong hoạt động lễ hội; trang phục lịch sự, phù hợp với\nthuần phong mỹ tục của dân tộc Việt Nam; không nói tục, chửi thề xúc phạm tâm\nlinh, gây ảnh hưởng xấu tới không khí trang nghiêm của lễ hội;\n\nc) Thắp hương, đốt vàng mã đúng nơi quy định; không chen lấn, xô đẩy gây",
         "Điều 12. Tổ chức lễ hội\nm) Không đốt đồ mã trong khu vực lễ hội.\n\n\f96\n\n\n2. Khuyến khích các hoạt động sau trong tổ chức lễ hội:\n\na) Tổ chức giới thiệu ý nghĩa lịch sử của lễ hội, giáo dục truyền thống tốt đẹp của\n\ndân tộc, bồi dưỡng lòng yêu quê hương, đất nước, con người Việt Nam;\n\nb) Tưởng nhớ công đức của ông cha, ghi nhận công lao của các bậc tiền bối\n\ntrong lịch sử dựng nước và giữ nước của dân tộc;",
-        ". Tuy vậy, những cung văn, ông/bà đồng có kinh nghiệm, nắm giữ nhiều lời văn, làn điệu cổ… phần lớn đã tuổi cao, sức yếu nhưng kinh nghiệm, vốn kiến thức của họ chưa được khai thác kịp thời, tình trạng thương mại hoá, lợi dụng tín ngưỡng để “buôn thần bán thánh”, hiện tượng \"đồng đua\", mua sắm nhiều lễ vật đắt tiền, đốt vàng mã nhiều gây tốn kém và ô nhiễm môi trường còn tồn tại khiến nghi lễ này có nguy cơ bị biến dạng...",
         "Điều 12. Tổ chức lễ hội\ntrong lịch sử dựng nước và giữ nước của dân tộc;\n\nc) Tổ chức các trò chơi dân gian, trò chơi mới và các hoạt động văn hóa, thể thao\ncó nội dung bổ ích, lành mạnh, phù hợp với quy mô, tính chất, đặc điểm của lễ hội;\n\nd) Thắp hương theo quy định của Ban tổ chức lễ hội.\n\nChương III\nTỔ CHỨC THỰC HIỆN",
-        "Điều 12. Tổ chức lễ hội\ni) Không bán vé vào dự lễ hội;\n\nk) Nếu tổ chức các trò chơi, trò diễn, biểu diễn nghệ thuật, hội chợ, trưng bày\ntriển lãm trong khu vực lễ hội thì được bán vé cho các hoạt động đó; giá vé thực hiện\ntheo quy định của pháp luật về tài chính;\n\nl) Nghiêm cấm lợi dụng lễ hội để hành nghề mê tín dị đoan như xem số, xem bói,\n\ngọi hồn, cầu cơ, sấm truyền, yểm bùa, trừ tà, phù phép chữa bệnh;\n\nm) Không đốt đồ mã trong khu vực lễ hội.\n\n\f96"
+        "Điều 12. Tổ chức lễ hội\ni) Không bán vé vào dự lễ hội;\n\nk) Nếu tổ chức các trò chơi, trò diễn, biểu diễn nghệ thuật, hội chợ, trưng bày\ntriển lãm trong khu vực lễ hội thì được bán vé cho các hoạt động đó; giá vé thực hiện\ntheo quy định của pháp luật về tài chính;\n\nl) Nghiêm cấm lợi dụng lễ hội để hành nghề mê tín dị đoan như xem số, xem bói,\n\ngọi hồn, cầu cơ, sấm truyền, yểm bùa, trừ tà, phù phép chữa bệnh;\n\nm) Không đốt đồ mã trong khu vực lễ hội.\n\n\f96",
+        "Điều 6. Quyền và trách nhiệm của người tham gia lễ hội\n\n1. Người tham gia lễ hội có các quyền sau\n\na) Thể hiện lòng thành kính, biết ơn đối với bậc tiền nhân, nhân vật lịch sử, tôn\n\ntrọng những giá trị đạo đức, văn hóa, tâm linh, tín ngưỡng;\n\nb) Thể hiện mong muốn điều tốt đẹp, may mắn đến với cá nhân, gia đình, quê\n\nhương và đất nước;\n\nc) Được giao lưu, sinh hoạt văn hóa và hưởng thụ những giá trị văn hóa tinh thần."
       ],
       "complete": true,
-      "context_recall": 0.5925925925925926,
-      "context_precision": 1.0,
+      "overlap_recall": 0.5925925925925926,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.8944403183088611
+      "answer_relevancy": 0.8944403183088611,
+      "context_recall": 0.6666666666666666,
+      "context_precision": 0.9999999999
     },
     "3": {
       "question": "Trong khu vực lễ hội có được đốt pháo, thả đèn trời hay đốt đồ mã không?",
       "type": "legal",
-      "answer": "Trong khu vực lễ hội:\n- Không được đốt pháo, đốt và thả đèn trời [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-32].\n- Không được đốt đồ mã [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-33], [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-34].",
+      "answer": "Dựa trên các tài liệu được cung cấp:\n\n* Không được đốt pháo và đốt, thả đèn trời trong khu vực lễ hội [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-32].\n* Không được đốt đồ mã trong khu vực lễ hội [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-33], [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-34].",
       "refused": false,
       "retrieval_source": "hybrid",
       "best_dense_score": 0.88288414478302,
-      "latency_s": 2.09,
+      "latency_s": 21.53,
       "contexts": [
         "Điều 12. Tổ chức lễ hội\nm) Không đốt đồ mã trong khu vực lễ hội.\n\n\f96\n\n\n2. Khuyến khích các hoạt động sau trong tổ chức lễ hội:\n\na) Tổ chức giới thiệu ý nghĩa lịch sử của lễ hội, giáo dục truyền thống tốt đẹp của\n\ndân tộc, bồi dưỡng lòng yêu quê hương, đất nước, con người Việt Nam;\n\nb) Tưởng nhớ công đức của ông cha, ghi nhận công lao của các bậc tiền bối\n\ntrong lịch sử dựng nước và giữ nước của dân tộc;",
         "Điều 12. Tổ chức lễ hội\nd) Trang phục đẹp, lịch sự, phù hợp với thuần phong mỹ tục;\n\nđ)  Không  nói  tục,  xúc  phạm  tâm  linh  và  ảnh  hưởng  xấu  tới  không  khí  trang\n\nnghiêm của lễ hội;\n\ne) Bảo đảm trật tự, an ninh khi dự lễ hội; không đốt pháo, đốt và thả đèn trời;\n\ng) Ứng xử có văn hóa trong hoạt động lễ hội;\n\nh) Bỏ rác vào nơi quy định, giữ gìn vệ sinh môi trường;\n\ni) Không bán vé vào dự lễ hội;",
@@ -573,19 +597,20 @@
         "Đường phố tràn đầy sức sống, không chỉ bởi dòng người ăn mừng náo nhiệt, mà còn bởi những sắc hoa rực rỡ, những chiếc đèn lồng cầu kỳ, những đội múa lân sư rồng, tiếng cồng chiêng, trống và chuông. Những đoàn diễu hành không hiếm gặp, và những màn pháo hoa rực rỡ vào ban đêm cũng vậy."
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 0.5833333333333333,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.8988440957680609
+      "answer_relevancy": 0.8889884362880888,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "4": {
       "question": "Ban tổ chức có được bán vé vào dự lễ hội không?",
       "type": "legal",
-      "answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
-      "refused": true,
-      "retrieval_source": "none",
+      "answer": "Ban tổ chức không được bán vé vào dự lễ hội [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-33], [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-32], [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-22]. Tuy nhiên, nếu trong khu vực lễ hội có tổ chức các trò chơi, trò diễn, biểu diễn nghệ thuật, hội chợ, trưng bày triển lãm thì được phép bán vé cho các hoạt động đó [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-33].",
+      "refused": false,
+      "retrieval_source": "hybrid",
       "best_dense_score": 0.8929760456085205,
-      "latency_s": 1.61,
+      "latency_s": 2.83,
       "contexts": [
         "Điều 12. Tổ chức lễ hội\ni) Không bán vé vào dự lễ hội;\n\nk) Nếu tổ chức các trò chơi, trò diễn, biểu diễn nghệ thuật, hội chợ, trưng bày\ntriển lãm trong khu vực lễ hội thì được bán vé cho các hoạt động đó; giá vé thực hiện\ntheo quy định của pháp luật về tài chính;\n\nl) Nghiêm cấm lợi dụng lễ hội để hành nghề mê tín dị đoan như xem số, xem bói,\n\ngọi hồn, cầu cơ, sấm truyền, yểm bùa, trừ tà, phù phép chữa bệnh;\n\nm) Không đốt đồ mã trong khu vực lễ hội.\n\n\f96",
         "Điều 7. Trách nhiệm của cơ quan, đơn vị tổ chức lễ hội; trách nhiệm của\ne) Không bán vé, thu tiền tham dự lễ hội; hướng dẫn việc đặt tiền lễ đúng nơi\nquy định; quản lý và sử dụng nguồn thu từ hoạt động lễ hội hiệu quả, công khai,\nminh bạch, đúng mục đích.",
@@ -594,40 +619,42 @@
         "Điều 5. Tiếp nhận, quản lý, sử dụng kinh phí đối với lễ hội do cơ quan nhà\n\nnước tổ chức\n\n1. Ban tổ chức lễ hội khi ban hành quy chế làm việc và phân công trách nhiệm\n\ncủa các thành viên Ban tổ chức lễ hội theo quy định tại khoản 2 Điều 7 Nghị định\n\nsố 110/2018/NĐ-CP ngày 29 tháng 8 năm 2018 của Chính phủ, phân công cho một\n\nđơn  vị  có  đại  diện  là  thành  viên  Ban  tổ  chức  lễ  hội  để  thực  hiện  việc  tiếp  nhận,"
       ],
       "complete": true,
+      "overlap_recall": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9891821982748934,
       "context_recall": 1.0,
-      "context_precision": 1.0,
-      "faithfulness": 0.0,
-      "answer_relevancy": 0.0
+      "context_precision": 0.9999999999666667
     },
     "5": {
       "question": "Nhạc trong đám cưới được phép mở trong khung giờ nào?",
       "type": "legal",
-      "answer": "Nhạc trong đám cưới không được mở trước 06 giờ sáng và sau 22 giờ đêm [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-13].",
+      "answer": "Nhạc trong đám cưới không được mở trước 06 giờ sáng và sau 22 giờ đêm [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-13]. Do đó, âm nhạc trong đám cưới được phép mở trong khung giờ từ 06 giờ sáng đến trước 22 giờ đêm [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-13].",
       "refused": false,
       "retrieval_source": "hybrid",
       "best_dense_score": 0.898308515548706,
-      "latency_s": 1.48,
+      "latency_s": 2.78,
       "contexts": [
         "Điều 6. Tổ chức lễ cưới tại gia đình hoặc tại địa điểm cưới\ne) Âm nhạc trong đám cưới phải lành mạnh, vui tươi; âm thanh đảm bảo không\nvượt quá độ ồn cho phép theo tiêu chuẩn Việt Nam thực hiện tại bản tiêu chuẩn Việt\nNam ban hành kèm theo Quyết định số 2351/1998/QĐ-BKHCNMT ngày 05 tháng\n12 năm 1998 của Bộ Khoa học Công nghệ và Môi trường (nay là Bộ Khoa học và\nCông nghệ); không mở nhạc trước 06 giờ sáng và sau 22 giờ đêm.\n\n2. Khuyến khích thực hiện các hoạt động sau trong tổ chức việc cưới:",
         "Điều 10. Tổ chức lễ tang\ncủa địa phương, dân tộc và tôn giáo; chỉ treo cờ tang tại địa điểm tổ chức lễ tang;\n\nđ) Không cử nhạc tang trước 06 giờ sáng và sau 22 giờ đêm; âm thanh đảm\nbảo  không  vượt  quá  độ  ồn  cho  phép  theo  tiêu  chuẩn Việt  Nam  thực  hiện  tại  bản\ntiêu chuẩn Việt Nam ban hành kèm theo Quyết định số 2351/1998/QĐ-BKHCNMT\nngày 5 tháng 12 năm 1998 của Bộ Khoa học Công nghệ và Môi trường (nay là Bộ\nKhoa học và Công nghệ).\n\n\f94",
         "Điều 2. Những nguyên tắc trong tổ chức việc cưới, việc tang và lễ hội\n3. Không làm ảnh hưởng đến an toàn giao thông và trật tự, an toàn công cộng.\n\n4. Không tổ chức hoặc tham gia đánh bạc dưới mọi hình thức.\n\n5. Không được sử dụng thời gian làm việc và phương tiện của cơ quan đi đám\ncưới, lễ hội (trừ cơ quan làm nhiệm vụ); không sử dụng công quỹ của cơ quan làm\nquà mừng, quà tặng trong đám cưới và viếng đám tang.\n\nChương II\nNHỮNG QUY ĐỊNH CỤ THỂ\n\nMục 1\nNẾP SỐNG VĂN MINH TRONG VIỆC CƯỚI",
         "Điều 6. Tổ chức lễ cưới tại gia đình hoặc tại địa điểm cưới\nquán; không phô trương hình thức, rườm rà; không nặng về đòi hỏi lễ vật;\n\nc) Địa điểm cưới do hai gia đình lựa chọn; thời gian tổ chức tiệc cưới không làm\nảnh hưởng đến thời gian lao động của Nhà nước; chỉ mời khách dự tiệc cưới trong\nphạm vi gia đình, họ tộc thân thích, bạn bè và đồng nghiệp thân thiết;\n\nd) Tổ chức tiệc cưới phù hợp với hoàn cảnh gia đình, tránh phô trương, lãng phí;",
-        "|  |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| **STT** | **Tên di sản** | **Quyết định** | **Loại hình** | **Tỉnh/**  **Thành phố** |\n| 1 | Nhã nhạc - Âm nhạc Cung đình Việt Nam | 5079/QĐ - BVHTTDL Ngày 27/12/2012 | Nghệ thuật trình diễn dân gian | Tỉnh Thừa Thiên Huế |\n| 2 | Không gian văn hóa Cồng chiêng Tây Nguyên | 5079/QĐ - BVHTTDL Ngày 27/12/2012 | Nghệ thuật trình diễn dân gian | Tỉnh Đắk Lắk  Tỉnh Đắk Nông  Tỉnh Gia Lai  Tỉnh Kon Tum  Tỉnh Lâm Đồng |"
+        "Điều 6. Tổ chức lễ cưới tại gia đình hoặc tại địa điểm cưới\na) Dùng hình thức báo hỷ thay cho giấy mời dự lễ cưới, tiệc cưới;\n\nb) Hạn chế tổ chức tiệc cưới linh đình, chỉ tổ chức tiệc trà, tiệc ngọt trong lễ cưới;\n\nc) Không sử dụng thuốc lá trong đám cưới;\n\nd) Cơ quan, tổ chức, đoàn thể đứng ra tổ chức lễ cưới;\n\nđ) Cô dâu, chú rể và gia đình đặt hoa tại đài tưởng niệm liệt sĩ, nghĩa trang liệt\n\nsĩ, di tích lịch sử - văn hóa; trồng cây lưu niệm tại địa phương trong ngày cưới;"
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.958698012276207
+      "answer_relevancy": 0.9820462102720772,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "6": {
       "question": "Có được rải tiền trên đường đưa tang không?",
       "type": "legal",
-      "answer": "Không được rải tiền Việt Nam và các loại tiền của nước ngoài trên đường đưa tang [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-23]. Bên cạnh đó, cũng quy định không rắc vàng mã trên đường đưa tang [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-29].",
+      "answer": "Không được rải tiền Việt Nam và các loại tiền của nước ngoài trên đường đưa tang [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-23]. Đồng thời, quy định cũng nêu rõ là không rắc vàng mã trên đường đưa tang [legal/thong-tu-04-2011-nep-song-van-minh-cuoi-tang-le-hoi.md::chunk-29].",
       "refused": false,
       "retrieval_source": "hybrid",
       "best_dense_score": 0.8645658493041992,
-      "latency_s": 1.48,
+      "latency_s": 2.45,
       "contexts": [
         "Điều 10. Tổ chức lễ tang\n94\n\n\nTrường hợp người qua đời theo một tôn giáo hoặc là đồng bào dân tộc thiểu\nsố, trong lễ tang được sử dụng nhạc tang của tôn giáo hoặc của dân tộc thiểu số đó;\nkhông sử dụng các nhạc khúc không phù hợp trong lễ tang;\n\ne) Cấm rải tiền Việt Nam và các loại tiền của nước ngoài trên đường đưa tang;",
         "Điều 10. Tổ chức lễ tang\ntrang đã được quy hoạch;\n\nc)  Việc  chôn  cất  người  qua  đời  thực  hiện  theo  hướng  dẫn  tại  Nghị  định  số\n35/2008/NĐ-CP ngày 25 tháng 3 năm 2008 của Chính phủ quy định về xây dựng,\nquản lý và sử dụng nghĩa trang;\n\nd) Xóa bỏ các hủ tục mê tín lạc hậu như yểm bùa, trừ tà, lăn đường, khóc mướn\n\nvà những nghi thức rườm rà khác;\n\nđ) Không rắc vàng mã trên đường đưa tang.",
@@ -636,10 +663,11 @@
         "Điều 10. Tổ chức lễ tang\nb) Ủy ban nhân dân xã, phường, thị trấn có trách nhiệm tạo điều kiện thuận lợi\ncho việc tổ chức lễ tang chu đáo; vận động gia đình có người từ trần xóa bỏ các hủ\ntục lạc hậu, các hành vi mê tín dị đoan trong lễ tang;\n\nc) Việc quàn ướp thi hài thực hiện theo Thông tư số 02/2009/TT-BYT ngày\n26 tháng 5 năm 2009 của Bộ Y tế hướng dẫn vệ sinh trong hoạt động mai táng và\nhỏa táng;\n\nd) Việc mặc tang phục và treo cờ tang trong lễ tang thực hiện theo truyền thống"
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.8742817997404866
+      "answer_relevancy": 0.9669094875590877,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "7": {
       "question": "Tiền công đức, tài trợ cho di tích và hoạt động lễ hội gồm những hình thức nào?",
@@ -648,7 +676,7 @@
       "refused": false,
       "retrieval_source": "hybrid",
       "best_dense_score": 0.9161827564239502,
-      "latency_s": 1.71,
+      "latency_s": 2.85,
       "contexts": [
         "Điều 3. Giải thích từ ngữ\n\nTrong Thông tư này, các từ ngữ dưới đây được hiểu như sau:\n\n1. Tiền công đức, tài trợ cho di tích và hoạt động lễ hội bao gồm các khoản\n\nhiến, tặng cho, tài trợ của tổ chức, cá nhân cho việc bảo vệ, phát huy giá trị di tích\n\nvà hoạt động lễ hội dưới hình thức:\n\na) Bằng tiền (tiền Việt Nam, ngoại tệ) gồm tiền mặt, tiền chuyển khoản;\n\nb) Bằng các loại giấy tờ có giá, kim khí quý, đá quý theo quy định của Ngân\n\nhàng Nhà nước Việt Nam.",
         "Điều 2. Đối tượng áp dụng\nchức lễ hội và tiền công đức, tài trợ cho di tích và hoạt động lễ hội.\n\n\n5",
@@ -657,10 +685,11 @@
         "Điều 14. Quản lý, sử dụng tiền công đức, tài trợ cho di tích giao cho Ban\nthành viên Ban quản lý di tích để thực hiện các nhiệm vụ sau:\n\na) Mở tài khoản, mở sổ sách, mở sổ kế toán để ghi chép đầy đủ, kịp thời việc\n\ntiếp nhận, quản lý và sử dụng tiền công đức, tài trợ cho di tích và hoạt động lễ hội\n\nvào nguồn hoạt động khác được để lại của đơn vị;\n\nb) Hằng năm, thực hiện lập dự toán và báo cáo quyết toán thu, chi tiền công"
       ],
       "complete": true,
+      "overlap_recall": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9964919638331965,
       "context_recall": 1.0,
-      "context_precision": 1.0,
-      "faithfulness": null,
-      "answer_relevancy": 0.9953722003168859
+      "context_precision": 0.9999999999
     },
     "8": {
       "question": "Tiền trong hòm công đức phải được kiểm đếm bao lâu một lần?",
@@ -669,19 +698,20 @@
       "refused": false,
       "retrieval_source": "hybrid",
       "best_dense_score": 0.8971927165985107,
-      "latency_s": 1.52,
+      "latency_s": 8.83,
       "contexts": [
         "Điều 9. Tiếp nhận tiền công đức, tài trợ\ntrong hòm công đức (nếu có), định kỳ hằng ngày hoặc hằng tuần thực hiện kiểm\n\nđếm,  ghi  tổng  số  tiền  tiếp  nhận.  Đối  với  các  khoản  tiền  đặt  không  đúng  nơi  quy\n\nđịnh,  không  phù  hợp  với  việc  thực  hiện  nếp  sống  văn  minh  tại  di  tích  được  thu\n\ngom để kiểm đếm hoặc bỏ vào hòm công đức để kiểm đếm chung.\n\nĐối với số tiền mặt tạm thời chưa sử dụng thì gửi vào tài khoản mở tại Kho",
         "Điều 9. Tiếp nhận tiền công đức, tài trợ\n\n1. Mở tài khoản tiền gửi tại Kho bạc Nhà nước hoặc ngân hàng thương mại để\n\nphản ánh việc tiếp nhận, quản lý và sử dụng tiền công đức, tài trợ cho di tích và\n\nhoạt động lễ hội theo hình thức chuyển khoản, phương thức thanh toán điện tử.\n\n\f10\n\n\n2. Tiếp nhận tiền mặt:\n\nCử người tiếp nhận, mở sổ ghi chép đầy đủ số tiền đã tiếp nhận. Đối với tiền",
         "Điều 9. Tiếp nhận tiền công đức, tài trợ\nbạc Nhà nước hoặc ngân hàng thương mại để bảo đảm việc quản lý an toàn, minh\n\nbạch các khoản công đức, tài trợ cho di tích và hoạt động lễ hội đã tiếp nhận.\n\n3. Tiếp nhận giấy tờ có giá: Mở sổ ghi tên giấy tờ có giá, số tiền ghi trên giấy\n\ntờ có giá, tổ chức phát hành. Tổ chức, cá nhân là chủ sở hữu hoặc được giao quản\n\nlý, sử dụng di tích chịu trách nhiệm về quản lý và sử dụng giấy tờ có giá, bao gồm",
         "Điều 13. Quản lý, sử dụng tiền công đức, tài trợ cho di tích giao cho đơn vị\n\nsự nghiệp công lập quản lý, sử dụng\n\n1. Đơn vị sự nghiệp công lập thực hiện tiếp nhận tiền công đức, tài trợ cho di\n\ntích và hoạt động lễ hội theo quy định tại Điều 9 Thông tư này.\n\n2.  Số  tiền  công  đức,  tài  trợ  đã  tiếp  nhận  (trừ  các  khoản  công  đức,  tài  trợ  có\n\nmục đích, địa chỉ cụ thể) được phân bổ và sử dụng như sau:",
-        "Điều 9. Tiếp nhận tiền công đức, tài trợ\nquản  lý  và  sử  dụng  kim  khí  quý,  đá  quý,  bao  gồm  tổ  chức  bán  đấu  giá,  bán  cho\n\nngân hàng thương mại hoặc đưa vào lưu giữ, trưng bày tại di tích, tùy theo yêu cầu\n\nquản lý và nguyện vọng của tổ chức, cá nhân hiến, tặng cho (nếu có)."
+        "Điều 14. Quản lý, sử dụng tiền công đức, tài trợ cho di tích giao cho Ban\nquản lý và sử dụng tiền công đức, tài trợ đối với di tích đồng thời là cơ sở tôn giáo\n\nthực hiện theo quy định tại khoản 1 Điều 10 Thông tư này."
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.933208288698365
+      "answer_relevancy": 0.9634695575700682,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "9": {
       "question": "Ngày Di sản văn hóa Việt Nam là ngày nào?",
@@ -690,145 +720,152 @@
       "refused": false,
       "retrieval_source": "hybrid",
       "best_dense_score": 0.9211704730987549,
-      "latency_s": 1.24,
+      "latency_s": 20.72,
       "contexts": [
         "Điều 8. Ngày Di sản văn hóa Việt Nam\n\nNgày 23 tháng 11 hằng năm là Ngày Di sản văn hóa Việt Nam.",
         "Điều 4. Sở hữu di sản văn hóa\n1. Di sản văn hoá Việt Nam là tài sản quý giá của cộng đồng các dân tộc Việt\nNam, là một bộ phận của di sản văn hóa nhân loại, có vai trò to lớn trong sự nghiệp\ndựng nước và giữ nước của Nhân dân. Nhà nước đại diện chủ sở hữu và thống nhất\nquản lý di sản văn hóa thuộc sở hữu toàn dân; công nhận và bảo vệ di sản văn hóa\nthuộc hình thức sở hữu riêng, sở hữu chung theo quy định của Hiến pháp, quy định\ncủa Luật này và quy định khác của pháp luật có liên quan.",
-        "Vào hồi 17h15’ giờ địa phương (12h15’giờ Việt Nam) ngày 01 tháng 12 năm 2016, tại Phiên họp Uỷ ban Liên Chính phủ về bảo vệ di sản văn hóa phi vật thể lần thứ 11 của UNESCO diễn ra tại thành phố Addis Ababa, nước Cộng hòa dân chủ Liên bang Ethiopia, di sản Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt đã chính thức được UNESCO ghi danh tại Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại.",
-        "Vào hồi 9h47’ ngày 04/12/2024 giờ địa phương (19h47’ giờ Hà Nội), tại Kỳ họp thứ 19 của Ủy ban Liên Chính phủ Công ước 2003 về bảo vệ di sản văn hóa phi vật thể của UNESCO diễn ra tại Trung tâm hội nghị Conmebol, thủ đô Asunción, Cộng hòa Paraguay, di sản Lễ hội Vía Bà Chúa Xứ núi Sam của Việt Nam đã chính thức được **UNESCO ghi danh** **vào** **Danh sách Di sản văn hoá phi vật thể đại diện của nhân loại**",
-        "Phát triển từ nền tảng hoạt động hiệu quả của Câu lạc bộ Di sản Áo dài Việt Nam, Hiệp hội sẽ là nơi kết nối giới nghệ nhân, nhà thiết kế, học giả, nhà giáo dục và cộng đồng người Việt trong và ngoài nước cùng chung tay đưa tà Áo dài ngày càng hiện diện sâu sắc hơn trong đời sống văn hóa đương đại."
+        "Di sản Lễ hội Vía Bà Chúa Xứ núi Sam được UNESCO ghi danh vào Danh sách Di sản v\nVào hồi 9h47’ ngày 04/12/2024 giờ địa phương (19h47’ giờ Hà Nội), tại Kỳ họp thứ 19 của Ủy ban Liên Chính phủ Công ước 2003 về bảo vệ di sản văn hóa phi vật thể của UNESCO diễn ra tại Trung tâm hội nghị Conmebol, thủ đô Asunción, Cộng hòa Paraguay, di sản Lễ hội Vía Bà Chúa Xứ núi Sam của Việt Nam đã chính thức được **UNESCO ghi danh** **vào** **Danh sách Di sản văn hoá phi vật thể đại diện của nhân loại**",
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 27 | Lễ cúng thần rừng của người Pu Péo | 5079/QĐ - BVHTTDL Ngày 27/12/2012 | Tập quán xã hội và tín ngưỡng | Xã Phố Là, huyện Đồng Văn, tỉnh Hà Giang |\n| 28 | Lễ Bỏ mả của người Raglai | 5079/QĐ - BVHTTDL Ngày 27/12/2012 | Tập quán xã hội và tín ngưỡng | Xã Ba Cụm Bắc, huyện Khánh Sơn, tỉnh Khánh Hòa |\n| 29 | Nghi lễ Chầu văn của người Việt | 5079/QĐ - BVHTTDL Ngày 27/12/2012 | Tập quán xã hội và tín ngưỡng | Tỉnh Hà Nam  Tỉnh Nam Định |",
+        "Điều 4. Sở hữu di sản văn hóa\nc)  Di  sản  văn  hóa  ở  trong  lòng  đất,  dưới  nước  thuộc  đất  liền,  hải  đảo,  vùng\n\nnước nội địa, vùng biển Việt Nam;\n\n\n39\n\nd)  Di  sản  văn  hóa  dưới  nước  có  nguồn  gốc  Việt  Nam  nằm  ngoài  các  vùng\nnước nội địa, vùng biển Việt Nam được xác lập sở hữu toàn dân theo quy định của\nLuật này, quy định khác của pháp luật có liên quan và điều ước quốc tế mà nước\nCộng hòa xã hội chủ nghĩa Việt Nam là thành viên;"
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 1.0
+      "answer_relevancy": 0.9893810053258495,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "10": {
       "question": "Theo Luật Di sản văn hóa 2024, lễ hội truyền thống được hiểu như thế nào?",
       "type": "legal",
-      "answer": "Dựa trên các tài liệu được cung cấp, không có nội dung nào trong Luật Di sản văn hóa năm 2024 giải thích về \"lễ hội truyền thống\". \n\nTuy nhiên, theo Nghị định số 110/2018/NĐ-CP, lễ hội truyền thống (bao gồm cả lễ hội tại các di tích lịch sử - văn hóa, lễ hội dân gian) được định nghĩa là hình thức sinh hoạt văn hóa cộng đồng được tổ chức theo nghi lễ truyền thống, nhằm đáp ứng nhu cầu tinh thần của nhân dân [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-4].",
+      "answer": "Dựa trên context được cung cấp, Luật Di sản văn hóa số 45/2024/QH15 không chứa định nghĩa về \"lễ hội truyền thống\". \n\nĐịnh nghĩa về lễ hội truyền thống được quy định tại Nghị định 110/2018/NĐ-CP như sau: Lễ hội truyền thống (bao gồm cả lễ hội tại các di tích lịch sử - văn hóa, lễ hội dân gian) là hình thức sinh hoạt văn hóa cộng đồng được tổ chức theo nghi lễ truyền thống, nhằm đáp ứng nhu cầu tinh thần của nhân dân [legal/nghi-dinh-110-2018-quan-ly-to-chuc-le-hoi.md::chunk-4].",
       "refused": false,
       "retrieval_source": "hybrid",
-      "best_dense_score": 0.8819906711578369,
-      "latency_s": 1.99,
+      "best_dense_score": 0.8754085898399353,
+      "latency_s": 4.31,
       "contexts": [
         "Điều 3. Giải thích từ ngữ\n\nTrong Nghị định này, các từ ngữ sau đây được hiểu như sau:\n\n1. Lễ hội truyền thống (bao gồm cả lễ hội tại các di tích lịch sử - văn hóa, lễ\nhội dân gian) là hình thức sinh hoạt văn hóa cộng đồng được tổ chức theo nghi lễ\ntruyền thống, nhằm đáp ứng nhu cầu tinh thần của nhân dân.\n\n2.  Lễ hội văn hóa là  hoạt  động  giới thiệu,  quảng bá  giá trị văn hóa,  thể thao\n\ntiêu biểu, đặc sắc; tiềm năng du lịch về đất nước, con người Việt Nam.\n\n\n21",
         "# Luật Di sản văn hóa số 45/2024/QH15 (Chương I–IV)\n\n**Source:** https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/01/luat45.pdf\n\n---\n\n35\n\nQUỐC HỘI\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nLuật số: 45/2024/QH15\n\nLUẬT\n\nDI SẢN VĂN HÓA\n\nCăn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nQuốc hội ban hành Luật Di sản văn hóa.\n\nChương I\nNHỮNG QUY ĐỊNH CHUNG",
-        ". Khi di sản này này được chia sẻ bởi các nhóm dân tộc khác nhau ở Việt Nam, việc thực hành sẽ tăng cường đối thoại và thúc đẩy tôn trọng đa dạng văn hóa; giúp cho việc sáng tạo, làm giàu vốn văn hóa và trở thành một thành phần quan trọng của lễ hội, nơi mà yếu tố nghệ thuật như trang phục, vũ đạo và âm nhạc đóng vai trò quan trọng;",
+        "Điều 5. Nguyên tắc tổ chức lễ hội\n2. Lễ hội phải được tổ chức trang trọng, thiết thực, hiệu quả; phù hợp với quy\nmô, nội dung của lễ hội; tổ chức lễ hội truyền thống theo đúng bản chất, ý nghĩa\nlịch sử văn hóa; giảm tần suất, thời gian tổ chức lễ hội văn hóa.\n\n3.  Nghi  lễ  của  lễ  hội  phải  trang  nghiêm,  bảo  đảm  truyền  thống;  không  thực\nhiện nghi lễ có tính bạo lực, phản cảm, trái với truyền thống yêu hòa bình, nhân\nđạo của dân tộc Việt Nam.",
         "# Luật Di sản văn hóa số 45/2024/QH15 (Chương V trở đi)\n\n**Source:** https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/01/luat45_tiep.pdf\n\n---\n\n3\n\nVĂN BẢN QUY PHẠM PHÁP LUẬT\n\nCHỦ TỊCH NƯỚC - QUỐC HỘI\n\nLuật số 45/2024/QH15 ngày 23 tháng 11 năm 2024\nLuật Di sản văn hóa\n\n(Tiếp theo Công báo số 1519 + 1520)\n\nChương V\nBẢO TÀNG",
-        "Điều 5. Nguyên tắc tổ chức lễ hội\n2. Lễ hội phải được tổ chức trang trọng, thiết thực, hiệu quả; phù hợp với quy\nmô, nội dung của lễ hội; tổ chức lễ hội truyền thống theo đúng bản chất, ý nghĩa\nlịch sử văn hóa; giảm tần suất, thời gian tổ chức lễ hội văn hóa.\n\n3.  Nghi  lễ  của  lễ  hội  phải  trang  nghiêm,  bảo  đảm  truyền  thống;  không  thực\nhiện nghi lễ có tính bạo lực, phản cảm, trái với truyền thống yêu hòa bình, nhân\nđạo của dân tộc Việt Nam."
+        "Điều 3. Giải thích từ ngữ\n\nTrong Luật này, các từ ngữ dưới đây được hiểu như sau:\n\n1. Di sản văn hóa phi vật thể là tri thức, kỹ năng, tập quán, biểu đạt văn hóa\ncùng  đồ  vật,  đồ  tạo  tác,  không  gian  liên  quan  được  cộng  đồng,  nhóm  người,  cá\nnhân thực hành, trao truyền qua nhiều thế hệ và hình thành nên bản sắc văn hóa\ncủa họ, không ngừng được trao truyền, bảo vệ, tái tạo, sáng tạo, có giá trị lịch sử,\nvăn hóa, khoa học.\n\n\f36"
       ],
       "complete": true,
-      "context_recall": 0.23529411764705882,
-      "context_precision": 0.0,
+      "overlap_recall": 0.23529411764705882,
       "faithfulness": 0.6,
-      "answer_relevancy": 0.9171425641878629
+      "answer_relevancy": 0.9529089749306893,
+      "context_recall": 0.0,
+      "context_precision": 0.0
     },
     "11": {
       "question": "Tri thức về trang phục thuộc loại hình di sản văn hóa phi vật thể nào?",
       "type": "legal",
-      "answer": "Tri thức về trang phục thuộc loại hình tri thức dân gian [legal/luat-di-san-van-hoa-45-2024-phan-1.md::chunk-76].",
+      "answer": "Tri thức về trang phục thuộc loại hình tri thức dân gian trong di sản văn hóa phi vật thể [legal/luat-di-san-van-hoa-45-2024-phan-1.md::chunk-76].",
       "refused": false,
       "retrieval_source": "hybrid",
       "best_dense_score": 0.9044141173362732,
-      "latency_s": 1.2,
+      "latency_s": 2.68,
       "contexts": [
         "Điều 10. Các loại hình di sản văn hóa phi vật thể\ngian của cộng đồng, được thực hiện theo chu kỳ tại không gian văn hóa liên quan;\n\n5. Tri thức dân gian gồm tri thức về tự nhiên và vũ trụ, sức khỏe và đời sống\ncon người, lao động, sản xuất, phòng bệnh, chữa bệnh, ẩm thực, trang phục và các\ntri thức dân gian khác;",
         "Điều 10. Các loại hình di sản văn hóa phi vật thể\n\nDi sản văn hóa phi vật thể bao gồm các loại hình sau đây:\n\n1. Biểu đạt và truyền thống truyền khẩu gồm các hình thức thể hiện thông tin\n\nbằng ngôn ngữ, tiếng nói, chữ viết, ký tự và ngữ văn dân gian;\n\n2.  Nghệ  thuật  trình  diễn  dân  gian  gồm  âm  nhạc,  múa,  hát,  sân  khấu  truyền\n\nthống và các hình thức trình diễn dân gian khác;",
-        "Điều 3. Giải thích từ ngữ\n\nTrong Luật này, các từ ngữ dưới đây được hiểu như sau:\n\n1. Di sản văn hóa phi vật thể là tri thức, kỹ năng, tập quán, biểu đạt văn hóa\ncùng  đồ  vật,  đồ  tạo  tác,  không  gian  liên  quan  được  cộng  đồng,  nhóm  người,  cá\nnhân thực hành, trao truyền qua nhiều thế hệ và hình thành nên bản sắc văn hóa\ncủa họ, không ngừng được trao truyền, bảo vệ, tái tạo, sáng tạo, có giá trị lịch sử,\nvăn hóa, khoa học.\n\n\f36",
         "Điều 10. Các loại hình di sản văn hóa phi vật thể\n6. Nghề thủ công truyền thống gồm các thực hành thủ công bằng tri thức, kỹ năng,\nkỹ thuật, bí quyết, nghệ thuật cùng với công cụ, đồ vật, đồ tạo tác, nguyên vật liệu\ntự nhiên, tạo ra các sản phẩm mang bản sắc văn hóa của cộng đồng chủ thể.",
-        "Điều 16. Nghiên cứu, sưu tầm, tư liệu hóa di sản văn hóa phi vật thể\n5.  Bộ  trưởng  Bộ  Văn  hóa,  Thể  thao  và  Du  lịch  quy  định  chi  tiết  khoản  2  và\n\nkhoản 3 Điều này.\n\n\n51"
+        "Điều 3. Giải thích từ ngữ\n\nTrong Luật này, các từ ngữ dưới đây được hiểu như sau:\n\n1. Di sản văn hóa phi vật thể là tri thức, kỹ năng, tập quán, biểu đạt văn hóa\ncùng  đồ  vật,  đồ  tạo  tác,  không  gian  liên  quan  được  cộng  đồng,  nhóm  người,  cá\nnhân thực hành, trao truyền qua nhiều thế hệ và hình thành nên bản sắc văn hóa\ncủa họ, không ngừng được trao truyền, bảo vệ, tái tạo, sáng tạo, có giá trị lịch sử,\nvăn hóa, khoa học.\n\n\f36",
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 390 | Lễ hội đua ngựa Bắc Hà | 1732/QĐ-BVHTTDL ngày 27/5/2021 | Lễ hội truyền thống | Tỉnh Lào Cai |\n| 391 | Nghệ thuật trang trí trên trang phục của người Nùng Dín | 1733/QĐ-BVHTTDL ngày 27/5/2021 | Tri thức dân gian | Tỉnh Lào Cai |\n| 392 | Nghệ thuật trang trí trên trang phục của người Mông Hoa | 1734/QĐ-BVHTTDL ngày 27/5/2021 | Tri thức dân gian | Tỉnh Lào Cai |"
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.9414146093554356
+      "answer_relevancy": 0.9893098447846691,
+      "context_recall": 1.0,
+      "context_precision": 0.699999999965
     },
     "12": {
       "question": "Hội Gióng ở đền Phù Đổng và đền Sóc được UNESCO công nhận khi nào?",
       "type": "news",
-      "answer": "Hội Gióng ở đền Phù Đổng và đền Sóc được UNESCO công nhận là Di sản văn hóa phi vật thể đại diện của nhân loại vào tháng 11 năm 2010 [news/article_01.md::chunk-19].",
+      "answer": "Hội Gióng ở đền Phù Đổng và đền Sóc được UNESCO công nhận là Di sản văn hóa phi vật thể đại diện của nhân loại vào tháng 11 năm 2010 [news/article_01.md::chunk-21].",
       "refused": false,
       "retrieval_source": "hybrid",
-      "best_dense_score": 0.917474627494812,
-      "latency_s": 1.23,
+      "best_dense_score": 0.9192211627960205,
+      "latency_s": 1.73,
       "contexts": [
-        "Là một hội trận được trình diễn bằng một hệ thống biểu tượng độc đáo, mang đậm bản sắc văn hóa Việt, được cộng đồng bảo tồn nguyên giá trị cho tới ngày nay, Hội Gióng ở đền Phù Đổng và đền Sóc đã được UNESCO công nhận là Di sản văn hóa phi vật thể đại diện của nhân loại vào tháng 11 năm 2010.",
+        "Hội Gióng ở đền Phù Đổng và đền Sóc\nLà một hội trận được trình diễn bằng một hệ thống biểu tượng độc đáo, mang đậm bản sắc văn hóa Việt, được cộng đồng bảo tồn nguyên giá trị cho tới ngày nay, Hội Gióng ở đền Phù Đổng và đền Sóc đã được UNESCO công nhận là Di sản văn hóa phi vật thể đại diện của nhân loại vào tháng 11 năm 2010.",
+        "Hội Gióng ở đền Phù Đổng và đền Sóc\n. Hội Gióng ở đền Phù Đổng, xã Phù Đổng, huyện Gia Lâm - nơi sinh Thánh Gióng diễn ra từ ngày 7 đến ngày 9 tháng 4 Âm lịch, và Hội Gióng ở đền Sóc ở xã Phù Linh, huyện Sóc Sơn (nay thuộc Hà Nội) - nơi Thánh hóa diễn ra từ ngày 6 đến ngày 8 tháng giêng.",
         "# Hội Gióng ở đền Phù Đổng và đền Sóc",
-        ". Hội Gióng ở đền Phù Đổng, xã Phù Đổng, huyện Gia Lâm - nơi sinh Thánh Gióng diễn ra từ ngày 7 đến ngày 9 tháng 4 Âm lịch, và Hội Gióng ở đền Sóc ở xã Phù Linh, huyện Sóc Sơn (nay thuộc Hà Nội) - nơi Thánh hóa diễn ra từ ngày 6 đến ngày 8 tháng giêng.",
-        "# Hội Gióng ở đền Phù Đổng và đền Sóc\n\n**Source:** https://dsvh.gov.vn/hoi-giong-o-den-phu-dong-va-den-soc-486\n\n**Crawled:** 2026-09-25T11:25:03.641555\n\n---\n\nNgày 25 tháng 9 năm 2026",
-        "Từ đó, ngài Gióng được thiêng hóa thành một vị Thánh bất tử bảo hộ mùa màng, hòa bình cho đất nước, thịnh vượng cho muôn dân. Để tưởng nhớ công ơn của ngài, người dân lập đền, thờ phụng và mở hội hằng năm với tên gọi là Hội Gióng ở đền Phù Đổng và đền Sóc. Đó là một trong những lễ hội lớn nhất vùng châu thổ Bắc Bộ, tổ chức theo một nghi thức được quy định chặt chẽ, chuẩn bị hết sức công phu, với sự tham gia đông đảo của dân làng quanh khu vực hai đền"
+        "Hội Gióng ở đền Phù Đổng và đền Sóc\nPrevious\n\n\nNext\n\nDI sản văn hóa phi vật thể đại diện của nhân loại",
+        "Hội Gióng ở đền Phù Đổng và đền Sóc\nTừ đó, ngài Gióng được thiêng hóa thành một vị Thánh bất tử bảo hộ mùa màng, hòa bình cho đất nước, thịnh vượng cho muôn dân. Để tưởng nhớ công ơn của ngài, người dân lập đền, thờ phụng và mở hội hằng năm với tên gọi là Hội Gióng ở đền Phù Đổng và đền Sóc. Đó là một trong những lễ hội lớn nhất vùng châu thổ Bắc Bộ, tổ chức theo một nghi thức được quy định chặt chẽ, chuẩn bị hết sức công phu, với sự tham gia đông đảo của dân làng quanh khu vực hai đền"
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.9589325836580793
+      "answer_relevancy": 0.9478505282088715,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "13": {
       "question": "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ được UNESCO ghi danh khi nào và ở đâu?",
       "type": "news",
-      "answer": "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt đã chính thức được UNESCO ghi danh tại Phiên họp Uỷ ban Liên Chính phủ về bảo vệ di sản văn hóa phi vật thể lần thứ 11 diễn ra vào hồi 17h15’ giờ địa phương (12h15’ giờ Việt Nam) ngày 01 tháng 12 năm 2016 tại thành phố Addis Ababa, nước Cộng hòa dân chủ Liên bang Ethiopia [news/article_06.md::chunk-2].",
+      "answer": "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt đã chính thức được UNESCO ghi danh tại Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại vào hồi 17h15’ giờ địa phương (12h15’giờ Việt Nam) ngày 01 tháng 12 năm 2016 [news/article_06.md::chunk-2]. \n\nSự kiện này diễn ra tại Phiên họp Uỷ ban Liên Chính phủ về bảo vệ di sản văn hóa phi vật thể lần thứ 11 của UNESCO tại thành phố Addis Ababa, nước Cộng hòa dân chủ Liên bang Ethiopia [news/article_06.md::chunk-2].",
       "refused": false,
       "retrieval_source": "hybrid",
-      "best_dense_score": 0.896675705909729,
-      "latency_s": 1.85,
+      "best_dense_score": 0.9076549410820007,
+      "latency_s": 2.25,
       "contexts": [
-        "Việc UNESCO ghi danh Thực hành Tín ngưỡng thờ Mẫu Tam phủ của người Việt tại Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại khẳng định những nỗ lực của các cấp, các ngành và cộng đồng trong việc bảo tồn kho tàng di sản văn hóa phi vật thể của dân tộc./.",
-        "Vào hồi 17h15’ giờ địa phương (12h15’giờ Việt Nam) ngày 01 tháng 12 năm 2016, tại Phiên họp Uỷ ban Liên Chính phủ về bảo vệ di sản văn hóa phi vật thể lần thứ 11 của UNESCO diễn ra tại thành phố Addis Ababa, nước Cộng hòa dân chủ Liên bang Ethiopia, di sản Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt đã chính thức được UNESCO ghi danh tại Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại.",
-        "Thực hành Tín ngưỡng Thờ Mẫu tam phủ của người Việt phân bố ở nhiều địa phương: Tây Bắc, Đông Bắc, Bắc Bộ, Bắc Trung Bộ, thành phố Hồ Chí Minh, lan tỏa và được thực hành ở nhiều địa phương trong cả nước. Tỉnh Nam Định được coi là một trong những địa phương có các trung tâm thờ thánh Mẫu Liễu Hạnh tiêu biểu với những nơi lưu giữ sự tích về sự giáng thế của Mẫu như Phủ Dầy, Phủ Nấp và gần 400 nơi thờ cúng thánh Mẫu",
-        "Tín ngưỡng Thờ Mẫu Tam phủ là một hình thức thờ cúng người Mẹ hóa thân ở các miền trời, sông nước, rừng núi được hình thành trên nền tảng của tín ngưỡng thờ Nữ thần. Người dân thờ cúng Thánh Mẫu Liễu Hạnh cùng với các vị Thánh Mẫu cai quản miền trời, rừng, nước, những nhân vật lịch sử hoặc huyền thoại có công với nước, với dân",
-        "Tại các điện thờ Thánh Mẫu, nghi thức thờ cúng hàng ngày do các thủ nhang thực hiện. Thực hành cơ bản của Tín ngưỡng Thờ Mẫu Tam phủ là nghi lễ lên đồng và lễ hội, tiêu biểu là Lễ hội Phủ Dầy ở xã Kim Thái, huyện Vụ Bản, tỉnh Nam Định diễn ra từ ngày mồng 3 đến ngày 10 tháng Ba âm lịch (ngày giỗ của Thánh Mẫu Liễu Hạnh) với những nghi lễ, diễn xướng dân gian, xếp chữ, lễ rước thỉnh kinh"
+        "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi\nViệc UNESCO ghi danh Thực hành Tín ngưỡng thờ Mẫu Tam phủ của người Việt tại Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại khẳng định những nỗ lực của các cấp, các ngành và cộng đồng trong việc bảo tồn kho tàng di sản văn hóa phi vật thể của dân tộc./.",
+        "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi\nVào hồi 17h15’ giờ địa phương (12h15’giờ Việt Nam) ngày 01 tháng 12 năm 2016, tại Phiên họp Uỷ ban Liên Chính phủ về bảo vệ di sản văn hóa phi vật thể lần thứ 11 của UNESCO diễn ra tại thành phố Addis Ababa, nước Cộng hòa dân chủ Liên bang Ethiopia, di sản Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt đã chính thức được UNESCO ghi danh tại Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại.",
+        "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi\nThực hành Tín ngưỡng Thờ Mẫu tam phủ của người Việt phân bố ở nhiều địa phương: Tây Bắc, Đông Bắc, Bắc Bộ, Bắc Trung Bộ, thành phố Hồ Chí Minh, lan tỏa và được thực hành ở nhiều địa phương trong cả nước. Tỉnh Nam Định được coi là một trong những địa phương có các trung tâm thờ thánh Mẫu Liễu Hạnh tiêu biểu với những nơi lưu giữ sự tích về sự giáng thế của Mẫu như Phủ Dầy, Phủ Nấp và gần 400 nơi thờ cúng thánh Mẫu",
+        "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi\nTín ngưỡng Thờ Mẫu Tam phủ là một hình thức thờ cúng người Mẹ hóa thân ở các miền trời, sông nước, rừng núi được hình thành trên nền tảng của tín ngưỡng thờ Nữ thần. Người dân thờ cúng Thánh Mẫu Liễu Hạnh cùng với các vị Thánh Mẫu cai quản miền trời, rừng, nước, những nhân vật lịch sử hoặc huyền thoại có công với nước, với dân",
+        "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi\nTại các điện thờ Thánh Mẫu, nghi thức thờ cúng hàng ngày do các thủ nhang thực hiện. Thực hành cơ bản của Tín ngưỡng Thờ Mẫu Tam phủ là nghi lễ lên đồng và lễ hội, tiêu biểu là Lễ hội Phủ Dầy ở xã Kim Thái, huyện Vụ Bản, tỉnh Nam Định diễn ra từ ngày mồng 3 đến ngày 10 tháng Ba âm lịch (ngày giỗ của Thánh Mẫu Liễu Hạnh) với những nghi lễ, diễn xướng dân gian, xếp chữ, lễ rước thỉnh kinh"
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.9853453867973251
+      "answer_relevancy": 0.940514478852989,
+      "context_recall": 1.0,
+      "context_precision": 0.49999999995
     },
     "14": {
       "question": "Lễ hội Vía Bà Chúa Xứ núi Sam diễn ra vào thời gian nào và ở đâu?",
       "type": "news",
-      "answer": "Lễ hội Vía Bà Chúa Xứ núi Sam diễn ra từ ngày 22 đến ngày 27 tháng 4 Âm lịch [news/article_07.md::chunk-4]. \n\nLễ hội diễn ra trong miếu Bà Chúa Xứ núi Sam và khu vực bệ đá thờ Bà trên núi Sam [news/article_07.md::chunk-4] tại thành phố Châu Đốc [news/article_07.md::chunk-9].",
+      "answer": "Lễ hội Vía Bà Chúa Xứ núi Sam diễn ra từ ngày 22 đến ngày 27 tháng 4 Âm lịch [news/article_07.md::chunk-4]. \n\nLễ hội diễn ra trong miếu Bà Chúa Xứ núi Sam và khu vực bệ đá thờ Bà trên núi Sam [news/article_07.md::chunk-4], tại thành phố Châu Đốc [news/article_07.md::chunk-9].",
       "refused": false,
       "retrieval_source": "hybrid",
-      "best_dense_score": 0.9291303753852844,
-      "latency_s": 1.22,
+      "best_dense_score": 0.9251859188079834,
+      "latency_s": 8.99,
       "contexts": [
-        "Lễ hội Vía Bà Chúa Xứ núi Sam diễn ra từ ngày 22 đến ngày 27 tháng 4 Âm lịch, trong miếu Bà Chúa Xứ núi Sam và khu vực bệ đá thờ Bà trên núi Sam, là các nghi thức tâm linh và diễn xướng nghệ thuật, biểu hiện niềm tin, sự biết ơn Mẹ Đất - Mẹ Xứ sở của cộng đồng các dân tộc Việt, Chăm, Khmer và Hoa ở Châu Đốc, An Giang. Bà Chúa Xứ là vị thánh Mẫu trong tín ngưỡng thờ nữ thần, luôn che chở, phù trợ cho dân chúng",
-        "1. Lễ hội Vía Bà Chúa Xứ Núi Sam được cộng đồng người Kinh, Khmer, Chăm và Hoa tại thành phố Châu Đốc tổ chức. Di sản này bao gồm việc thực hiện các nghi lễ tôn giáo và nghệ thuật diễn xướng dân gian để bày tỏ lòng biết ơn đối với Nữ thần Xứ sở. Các nghi lễ, phong tục và kỹ năng thực hành nghi lễ liên quan đến di sản này được trao truyền trong gia đình và cộng đồng thông qua truyền miệng, thực hành trực tiếp và tham gia vào lễ hội",
-        "**Cục Di sản văn hoá**\n\nẢnh: Tượng Bà Chúa Xứ núi Sam\n\nẢnh: Lễ tế tại miếu Bà Chúa Xứ núi Sam\n\nẢnh: Bà Nancy Ovelar de Gorostiaga, Đại sứ đặc mệnh toàn quyền và Đại biểu thường trực của Cộng hòa Paraguay tại UNESCO, Chủ trì Kỳ họp gõ búa thông qua hồ sơ Lễ Vía Bà Chúa Xử núi Sam của Việt Nam ghi danh vào Danh sách Di sản văn hoá phi vật thể đại diện của nhân loại.",
-        "# Di sản Lễ hội Vía Bà Chúa Xứ núi Sam được UNESCO ghi danh vào Danh sách Di sản văn hoá phi vật thể đại diện của nhân loại",
-        "Lễ hội Vía Bà Chúa Xứ núi Sam là sự kế thừa, tiếp thu, tích hợp và sáng tạo của cư dân Việt trong quá trình khẩn hoang và là sự tổng hòa của tín ngưỡng thờ Mẫu của các dân tộc Việt, Chăm, Khmer và Hoa"
+        "Di sản Lễ hội Vía Bà Chúa Xứ núi Sam được UNESCO ghi danh vào Danh sách Di sản v\nLễ hội Vía Bà Chúa Xứ núi Sam diễn ra từ ngày 22 đến ngày 27 tháng 4 Âm lịch, trong miếu Bà Chúa Xứ núi Sam và khu vực bệ đá thờ Bà trên núi Sam, là các nghi thức tâm linh và diễn xướng nghệ thuật, biểu hiện niềm tin, sự biết ơn Mẹ Đất - Mẹ Xứ sở của cộng đồng các dân tộc Việt, Chăm, Khmer và Hoa ở Châu Đốc, An Giang. Bà Chúa Xứ là vị thánh Mẫu trong tín ngưỡng thờ nữ thần, luôn che chở, phù trợ cho dân chúng",
+        "Di sản Lễ hội Vía Bà Chúa Xứ núi Sam được UNESCO ghi danh vào Danh sách Di sản v\n1. Lễ hội Vía Bà Chúa Xứ Núi Sam được cộng đồng người Kinh, Khmer, Chăm và Hoa tại thành phố Châu Đốc tổ chức. Di sản này bao gồm việc thực hiện các nghi lễ tôn giáo và nghệ thuật diễn xướng dân gian để bày tỏ lòng biết ơn đối với Nữ thần Xứ sở",
+        "Di sản Lễ hội Vía Bà Chúa Xứ núi Sam được UNESCO ghi danh vào Danh sách Di sản v\nVào hồi 9h47’ ngày 04/12/2024 giờ địa phương (19h47’ giờ Hà Nội), tại Kỳ họp thứ 19 của Ủy ban Liên Chính phủ Công ước 2003 về bảo vệ di sản văn hóa phi vật thể của UNESCO diễn ra tại Trung tâm hội nghị Conmebol, thủ đô Asunción, Cộng hòa Paraguay, di sản Lễ hội Vía Bà Chúa Xứ núi Sam của Việt Nam đã chính thức được **UNESCO ghi danh** **vào** **Danh sách Di sản văn hoá phi vật thể đại diện của nhân loại**",
+        "Di sản Lễ hội Vía Bà Chúa Xứ núi Sam được UNESCO ghi danh vào Danh sách Di sản v\nLễ hội Vía Bà Chúa Xứ núi Sam là sự kế thừa, tiếp thu, tích hợp và sáng tạo của cư dân Việt trong quá trình khẩn hoang và là sự tổng hòa của tín ngưỡng thờ Mẫu của các dân tộc Việt, Chăm, Khmer và Hoa",
+        "Di sản Lễ hội Vía Bà Chúa Xứ núi Sam được UNESCO ghi danh vào Danh sách Di sản v\n**Cục Di sản văn hoá**\n\nẢnh: Tượng Bà Chúa Xứ núi Sam\n\nẢnh: Lễ tế tại miếu Bà Chúa Xứ núi Sam\n\nẢnh: Bà Nancy Ovelar de Gorostiaga, Đại sứ đặc mệnh toàn quyền và Đại biểu thường trực của Cộng hòa Paraguay tại UNESCO, Chủ trì Kỳ họp gõ búa thông qua hồ sơ Lễ Vía Bà Chúa Xử núi Sam của Việt Nam ghi danh vào Danh sách Di sản văn hoá phi vật thể đại diện của nhân loại."
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.9951105331732746
+      "answer_relevancy": 0.7716329619381436,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "15": {
       "question": "Mỗi vấn hầu trong nghi lễ hầu đồng gồm những bước nào?",
       "type": "news",
-      "answer": "Mỗi vấn hầu trong nghi lễ hầu đồng có thể được thực hành qua 4 bước hoặc 3 bước [news/article_09.md::chunk-10]:\n\n- **Trường hợp 4 bước:** \n  1. Mời thánh nhập hay Thánh giáng (ca ngợi công đức) [news/article_09.md::chunk-10].\n  2. Phán truyền [news/article_09.md::chunk-10].\n  3. Ban lộc [news/article_09.md::chunk-10].\n  4. Đưa tiễn (Thánh thăng, cung văn hát điệu xa giá hồi cung, âm nhạc sôi động, náo nhiệt) [news/article_09.md::chunk-10].\n\n- **Trường hợp 3 bước:** \n  1. Phụ đồng (còn gọi là kiều bóng), bắt đầu hát câu vỉa ở thể lục bát, sau miêu tả diện mạo ông hoàng, bà chúa [news/article_09.md::chunk-10].\n  2. Thánh nhập (hay dùng trà, thuốc, rượu) [news/article_09.md::chunk-10].\n  3. Đồng thăng [news/article_09.md::chunk-10].",
+      "answer": "Mỗi vấn hầu trong nghi lễ hầu đồng có thể được thực hành qua 4 bước hoặc 3 bước [news/article_09.md::chunk-11]:\n\n- Trường hợp gồm 4 bước: \n  1. Mời thánh nhập hay Thánh giáng (ca ngợi công đức) [news/article_09.md::chunk-11].\n  2. Phán truyền [news/article_09.md::chunk-11].\n  3. Ban lộc [news/article_09.md::chunk-11].\n  4. Đưa tiễn (Thánh thăng, cung văn hát điệu xa giá hồi cung, âm nhạc sôi động, náo nhiệt) [news/article_09.md::chunk-11].\n\n- Trường hợp gồm 3 bước: \n  1. Phụ đồng (còn gọi là kiều bóng), bắt đầu hát câu vỉa ở thể lục bát, sau miêu tả diện mạo ông hoàng, bà chúa [news/article_09.md::chunk-11].\n  2. Thánh nhập (hay dùng trà, thuốc, rượu) [news/article_09.md::chunk-11].\n  3. Đồng thăng [news/article_09.md::chunk-11].",
       "refused": false,
       "retrieval_source": "hybrid",
-      "best_dense_score": 0.9257693886756897,
-      "latency_s": 1.68,
+      "best_dense_score": 0.9145058989524841,
+      "latency_s": 19.58,
       "contexts": [
-        "Mỗi vấn hầu được thực hành qua 4 bước: Mời thánh nhập hay Thánh giáng (ca ngợi công đức), phán truyền, ban lộc và đưa tiễn (Thánh thăng, cung văn hát điệu xa giá hồi cung, âm nhạc sôi động, náo nhiệt). Cũng có khi một vấn hầu chỉ gồm 3 bước: Phụ đồng (còn gọi là kiều bóng), bắt đầu hát câu vỉa ở thể lục bát, sau miêu tả diện mạo ông hoàng, bà chúa; bước 2 là Thánh nhập (hay dùng trà, thuốc, rượu) và bước cuối là Đồng thăng.",
-        "Trong nghi lễ hầu đồng, trước mỗi vấn hầu, những người tham gia phải chuẩn bị lễ vật, trang phục, đạo cụ trong múa hầu đồng phù hợp với từng giá hầu, phản ánh tính cách của từng vị thánh được hầu.\n\nLễ vật trong mỗi vấn hầu trước kia thường đơn giản. Vật phẩm cơ bản gồm xôi, thịt, hoa quả, trầu, cau, rượu, thuốc, vàng mã,… Ngày nay, lễ vật ngày càng phong phú, gồm cả những sản phẩm hàng hóa công nghiệp, thực phẩm đương thời, đắt tiền, dùng trong cả lễ mặn và lễ chay.",
-        "Mở đầu mỗi vấn hầu, thủ nhang/pháp sư thường đăng đàn cúng Phật, Thánh, sau đó người hầu đồng vào xin phép loan giá ngự đồng. Ông/bà đồng ngồi vào giữa bốn người hầu dâng và được người hầu dâng trùm lên đầu một vấn khăn màu đỏ, gọi là khăn phủ diện, và bắt đầu vấn hầu. Thường là mở đầu bằng giá Tam tòa thánh Mẫu. Tiếp theo đó, người có căn Đức Thánh Trần thì hầu giá Đức Thánh Trần",
-        ". Trong nghi lễ hầu đồng, có tất cả 36 giá đồng, mỗi giá thờ một vị Thánh, nhưng một buổi hầu không phải bao giờ cũng hầu đủ 36 giá, mà thường là từ 8 đến 15 giá, tùy thuộc vào tâm nguyện của ông/bà đồng.",
-        "Cung văn phục vụ trong mỗi cuộc hầu đồng thường gồm từ 03 đến 05 nhạc công, sử dụng đàn nguyệt, trống ban (trống con), phách, cảnh, thanh la, đồng thời là những người biết hát văn. Cung văn phải luôn nhạy bén, ứng tác kịp thời và phù hợp với các hành động của ông/bà đồng, góp phần tạo điều kiện cho sự thăng hoa của người hầu đồng. Hiện nay còn có nhiều nhạc cụ mới (nhị, kèn, sáo, đàn thập lục, trống cơm…) tham gia cung văn"
+        "Nghi lễ Chầu văn của người Việt\nMỗi vấn hầu được thực hành qua 4 bước: Mời thánh nhập hay Thánh giáng (ca ngợi công đức), phán truyền, ban lộc và đưa tiễn (Thánh thăng, cung văn hát điệu xa giá hồi cung, âm nhạc sôi động, náo nhiệt). Cũng có khi một vấn hầu chỉ gồm 3 bước: Phụ đồng (còn gọi là kiều bóng), bắt đầu hát câu vỉa ở thể lục bát, sau miêu tả diện mạo ông hoàng, bà chúa; bước 2 là Thánh nhập (hay dùng trà, thuốc, rượu) và bước cuối là Đồng thăng.",
+        "Nghi lễ Chầu văn của người Việt\nTrong nghi lễ hầu đồng, trước mỗi vấn hầu, những người tham gia phải chuẩn bị lễ vật, trang phục, đạo cụ trong múa hầu đồng phù hợp với từng giá hầu, phản ánh tính cách của từng vị thánh được hầu.",
+        "Nghi lễ Chầu văn của người Việt\nMở đầu mỗi vấn hầu, thủ nhang/pháp sư thường đăng đàn cúng Phật, Thánh, sau đó người hầu đồng vào xin phép loan giá ngự đồng. Ông/bà đồng ngồi vào giữa bốn người hầu dâng và được người hầu dâng trùm lên đầu một vấn khăn màu đỏ, gọi là khăn phủ diện, và bắt đầu vấn hầu. Thường là mở đầu bằng giá Tam tòa thánh Mẫu. Tiếp theo đó, người có căn Đức Thánh Trần thì hầu giá Đức Thánh Trần",
+        "Nghi lễ Chầu văn của người Việt\nLễ vật trong mỗi vấn hầu trước kia thường đơn giản. Vật phẩm cơ bản gồm xôi, thịt, hoa quả, trầu, cau, rượu, thuốc, vàng mã,… Ngày nay, lễ vật ngày càng phong phú, gồm cả những sản phẩm hàng hóa công nghiệp, thực phẩm đương thời, đắt tiền, dùng trong cả lễ mặn và lễ chay.\n\nTrang phục của người trình diễn trong nghi lễ hầu đồng rất phong phú, đa",
+        "Nghi lễ Chầu văn của người Việt\n. Trong nghi lễ hầu đồng, có tất cả 36 giá đồng, mỗi giá thờ một vị Thánh, nhưng một buổi hầu không phải bao giờ cũng hầu đủ 36 giá, mà thường là từ 8 đến 15 giá, tùy thuộc vào tâm nguyện của ông/bà đồng."
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.9075212392046348
+      "answer_relevancy": 0.9933129180123699,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "16": {
       "question": "Đường đi lên đền Tổ mẫu Âu Cơ được xây bằng bao nhiêu bậc đá?",
@@ -836,29 +873,30 @@
       "answer": "Đường đi lên đền Tổ mẫu Âu Cơ được xây bằng 553 bậc đá [news/article_08.md::chunk-15].",
       "refused": false,
       "retrieval_source": "hybrid",
-      "best_dense_score": 0.904049277305603,
-      "latency_s": 1.07,
+      "best_dense_score": 0.9040490984916687,
+      "latency_s": 2.01,
       "contexts": [
         "*Đền Tổ mẫu Âu Cơ:*được khởi dựng trên đỉnh Ốc sơn (thường gọi là núi Vặn) vào năm 2001, khánh thành tháng 12 năm 2004. Các hạng mục kiến trúc gồm: đền chính, tả, hữu vu, nhà bia, trụ biểu, tam quan, nhà tiếp khách và hệ thống sân, vườn. Kiến trúc đền theo lối cổ, với cột, xà, hoành, rui bằng gỗ lim, mái được lợp bằng ngói mũi hài, tường bằng gạch. Đền chính kiểu chữ đinh, có diện tích 137m2.\n\nTrong đền có tượng thờ Mẹ Âu Cơ và Lạc hầu, Lạc tướng. Đường đi lên đền được xây bằng 553 bậc đá.",
         "*Đền Thượng:*các công trình của đền được xây dựng qua ba cấp khác nhau: phía trước là bức nghi môn lớn, nhà chuông trống, tiền tế, đại bái và hậu cung. Bên phía tay trái đền có một cột đá thề, hình vuông, cao 1,3m, rộng 0,3m. Năm 1968, Ty Văn hoá Vĩnh Phú tôn tạo di tích, làm bệ cho cột đá thề như hiện nay.",
         "Ngay chân đền Hạ là nhà bia, với kiến trúc hình lục giác, xây dựng năm 1917, trên đỉnh có đắp hình nậm rượu, 6 mái được lợp bằng gạch bìa bên trong, bên ngoài láng xi măng, có 6 cột bằng gạch xây tròn, dưới chân có lan can. Trong nhà bia hiện nay đặt một bia đá, nội dung ghi lời dặn của Chủ tịch Hồ Chí Minh khi Người về thăm đền Hùng ngày 19/9/1954:\n\n**“Các Vua Hùng đã có công dựng nước,**\n\n**Bác cháu ta phải cùng nhau giữ lấy nước”.**",
-        "| 191 | Hạn Khuống của người Thái | 217/QĐ - BVHTTDL ngày 23/01/2017 | Nghệ thuật trình diễn dân gian | Tỉnh Yên Bái |\n| 192 | Tín ngưỡng thờ Mẫu Âu Cơ | 217/QĐ - BVHTTDL ngày 23/01/2017 | Tập quán xã hội và tín ngưỡng | Tỉnh Phú Thọ |\n| 193 | Lễ Tịch điền | 217/QĐ - BVHTTDL ngày 23/01/2017 | Tập quán xã hội và tín ngưỡng | Tỉnh Hà Nam |\n| 194 | Lễ hội Đền Trần Thương | 217/QĐ - BVHTTDL ngày 23/01/2017 | Lễ hội truyền thống | Tỉnh Hà Nam |",
-        ". Vào chính hội, trước tiên dân làng tổ chức các nghi thức tế Thánh, sau đó là lễ rước nước lau rửa tự khí từ giếng đền Mẫu (đền Hạ) với ý nguyện được mưa thuận, gió hòa, lễ rước cờ “lệnh” từ đền Mẫu lên đền Thượng, tiếp đến là lễ khám đường, lễ duyệt tướng … Ngày chính hội mùng 9 tháng 4, Hội Gióng diễn ra trang trọng, linh thiêng và náo nhiệt nhất là hai trận đánh"
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 192 | Tín ngưỡng thờ Mẫu Âu Cơ | 217/QĐ - BVHTTDL ngày 23/01/2017 | Tập quán xã hội và tín ngưỡng | Tỉnh Phú Thọ |\n| 193 | Lễ Tịch điền | 217/QĐ - BVHTTDL ngày 23/01/2017 | Tập quán xã hội và tín ngưỡng | Tỉnh Hà Nam |\n| 194 | Lễ hội Đền Trần Thương | 217/QĐ - BVHTTDL ngày 23/01/2017 | Lễ hội truyền thống | Tỉnh Hà Nam |\n| 195 | Hội vật Liễu Đôi | 217/QĐ - BVHTTDL ngày 23/01/2017 | Lễ hội truyền thống | Tỉnh Hà Nam |",
+        "Hội Gióng ở đền Phù Đổng và đền Sóc\n. Vào chính hội, trước tiên dân làng tổ chức các nghi thức tế Thánh, sau đó là lễ rước nước lau rửa tự khí từ giếng đền Mẫu (đền Hạ) với ý nguyện được mưa thuận, gió hòa, lễ rước cờ “lệnh” từ đền Mẫu lên đền Thượng, tiếp đến là lễ khám đường, lễ duyệt tướng … Ngày chính hội mùng 9 tháng 4, Hội Gióng diễn ra trang trọng, linh thiêng và náo nhiệt nhất là hai trận đánh"
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 1.0
+      "answer_relevancy": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "17": {
       "question": "Hiệp hội Văn hóa Áo dài Việt Nam được thành lập theo quyết định nào?",
       "type": "news",
-      "answer": "Hiệp hội Văn hóa Áo dài Việt Nam được thành lập theo Quyết định số 579/QĐ-BNV ngày 9/6/2025 của Bộ trưởng Bộ Nội vụ [news/article_10.md::chunk-5].",
+      "answer": "Hiệp hội được thành lập theo Quyết định số 579/QĐ-BNV ngày 9/6/2025 của Bộ trưởng Bộ Nội vụ [news/article_10.md::chunk-5].",
       "refused": false,
       "retrieval_source": "hybrid",
       "best_dense_score": 0.9066807627677917,
-      "latency_s": 0.98,
+      "latency_s": 2.8,
       "contexts": [
         "Hiệp hội được thành lập theo Quyết định số 579/QĐ-BNV ngày 9/6/2025 của Bộ trưởng Bộ Nội vụ, với tư cách là tổ chức xã hội, nghề nghiệp tập hợp những người yêu mến, sáng tạo, nghiên cứu và bảo tồn văn hóa áo dài trong nước và quốc tế./.",
         "Hiệp hội Văn hóa Áo dài Việt Nam sẽ chính thức ra mắt công chúng tại Nhà hát Lớn Hà Nội vào ngày 9/8, đánh dấu bước tiến mới trong nỗ lực gìn giữ, phát huy và lan tỏa giá trị của tà Áo dài, một trong những biểu tượng văn hóa đặc sắc của dân tộc Việt Nam.",
@@ -867,10 +905,11 @@
         "“Áo dài không chỉ là trang phục truyền thống mà còn là kết tinh của tâm hồn, phẩm hạnh và bản lĩnh văn hóa người Việt. Tà áo mềm mại nhưng đầy nội lực ấy đã đi cùng người phụ nữ Việt Nam qua mọi thời kỳ, từ lịch sử dựng nước, giữ nước đến hành trình hội nhập hôm nay,” nguyên Thứ trưởng Bộ Văn hóa, Thể thao và Du lịch, Chủ tịch danh dự Câu lạc bộ Di sản Áo dài Việt Nam, tiến sỹ Đặng Thị Bích Liên chia sẻ."
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 1.0
+      "answer_relevancy": 0.8996504146334409,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "18": {
       "question": "Theo phong tục Tết của người Việt, ngày mùng ba Tết dành cho ai?",
@@ -879,7 +918,7 @@
       "refused": false,
       "retrieval_source": "hybrid",
       "best_dense_score": 0.8886557817459106,
-      "latency_s": 0.97,
+      "latency_s": 1.96,
       "contexts": [
         "Vào ngày mùng hai, mọi người thường đi chúc Tết bạn bè và họ hàng — một cuộc hành trình vui vẻ từ nhà này sang nhà khác, từ khu phố này sang khu phố khác và khắp các cộng đồng.\n\nNgày mùng ba là ngày dành cho thầy cô (những người rất được tôn kính). Không khó để bắt gặp những nhóm bạn học cùng nhau đi thăm thầy cô giáo của mình, mang theo những món quà là hoa quả và hoa tươi.",
         "Ngày mùng một Tết dành riêng cho gia đình ruột thịt. Đó là ngày mà những người lớn tuổi được tôn kính nhất và trẻ nhỏ nhận được những phong bao chứa \"Tiền lì xì\". Ngày đầu tiên cũng liên quan đến một nghi thức vô cùng quan trọng. Người ta tin rằng, người đầu tiên xông đất vào ngày đầu năm mới sẽ tượng trưng cho cả năm đó sẽ diễn ra như thế nào. Để tránh những bất ngờ ngoài ý muốn, một thành viên đáng kính hoặc thành công trong gia đình thường được mời làm người xông đất đầu tiên",
@@ -888,52 +927,55 @@
         ". Nói một cách dễ hiểu: mọi người không chỉ đơn giản là \"tạt qua chơi\" vào ngày mùng một Tết — có rất nhiều điều phụ thuộc vào đó! Và nói về những điều kiêng kỵ, dù việc dọn dẹp nhà cửa kỹ lưỡng trước Tết là điều bắt buộc, bạn sẽ không thấy chiếc chổi nào hoạt động trong suốt những ngày Tết — người ta phải tránh nguy cơ quét đi sự may mắn."
       ],
       "complete": true,
-      "context_recall": 1.0,
-      "context_precision": 1.0,
+      "overlap_recall": 1.0,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.9959400364174196
+      "answer_relevancy": 0.9959400364174196,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
     },
     "19": {
       "question": "Tín ngưỡng thờ Mẫu Tam phủ thuộc loại hình di sản văn hóa phi vật thể nào theo Luật Di sản văn hóa 2024, và được UNESCO ghi danh năm nào?",
       "type": "multi_doc",
-      "answer": "Dựa trên các tài liệu được cung cấp, di sản \"Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt\" đã chính thức được UNESCO ghi danh vào Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại vào năm 2016 [news/article_06.md::chunk-2]. \n\nTuy nhiên, các tài liệu được cung cấp không chứa thông tin về Luật Di sản văn hóa 2024 cũng như việc tín ngưỡng này thuộc loại hình di sản văn hóa phi vật thể nào theo bộ luật đó. Do đó, tôi từ chối xác minh phần thông tin này do thiếu evidence.",
-      "refused": false,
-      "retrieval_source": "hybrid",
-      "best_dense_score": 0.9158975481987,
-      "latency_s": 1.3,
+      "answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+      "refused": true,
+      "retrieval_source": "none",
+      "best_dense_score": 0.9161276817321777,
+      "latency_s": 2.77,
       "contexts": [
-        "Theo Uỷ ban Liên Chính phủ về bảo vệ di sản văn hóa phi vật thể, hồ sơ đề cử di sản văn hóa phi vật thể Thực hành Tín ngưỡng thờ Mẫu Tam phủ của người Việt “đáp ứng những tiêu chí sau để đăng ký vào Danh sách di sản văn hóa phi vật thể đại diện của nhân loại:",
-        "Việc UNESCO ghi danh Thực hành Tín ngưỡng thờ Mẫu Tam phủ của người Việt tại Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại khẳng định những nỗ lực của các cấp, các ngành và cộng đồng trong việc bảo tồn kho tàng di sản văn hóa phi vật thể của dân tộc./.",
-        "Vào hồi 17h15’ giờ địa phương (12h15’giờ Việt Nam) ngày 01 tháng 12 năm 2016, tại Phiên họp Uỷ ban Liên Chính phủ về bảo vệ di sản văn hóa phi vật thể lần thứ 11 của UNESCO diễn ra tại thành phố Addis Ababa, nước Cộng hòa dân chủ Liên bang Ethiopia, di sản Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt đã chính thức được UNESCO ghi danh tại Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại.",
-        "# Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt  trở thành Di sản văn hóa phi vật thể đại diện của nhân loại\n\n**Source:** https://dsvh.gov.vn/thuc-hanh-tin-nguong-tho-mau-tam-phu-cua-nguoi-viet-tro-thanh-di-san-van-hoa-phi-vat-the-dai-dien-cua-nhan-loai-1536\n\n**Crawled:** 2026-09-25T11:25:28.359052\n\n---",
-        "# Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi vật thể đại diện của nhân loại"
+        "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi\nViệc UNESCO ghi danh Thực hành Tín ngưỡng thờ Mẫu Tam phủ của người Việt tại Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại khẳng định những nỗ lực của các cấp, các ngành và cộng đồng trong việc bảo tồn kho tàng di sản văn hóa phi vật thể của dân tộc./.",
+        "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi\nVào hồi 17h15’ giờ địa phương (12h15’giờ Việt Nam) ngày 01 tháng 12 năm 2016, tại Phiên họp Uỷ ban Liên Chính phủ về bảo vệ di sản văn hóa phi vật thể lần thứ 11 của UNESCO diễn ra tại thành phố Addis Ababa, nước Cộng hòa dân chủ Liên bang Ethiopia, di sản Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt đã chính thức được UNESCO ghi danh tại Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại.",
+        "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi\nTheo Uỷ ban Liên Chính phủ về bảo vệ di sản văn hóa phi vật thể, hồ sơ đề cử di sản văn hóa phi vật thể Thực hành Tín ngưỡng thờ Mẫu Tam phủ của người Việt “đáp ứng những tiêu chí sau để đăng ký vào Danh sách di sản văn hóa phi vật thể đại diện của nhân loại:",
+        "# Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi vật thể đại diện của nhân loại",
+        "Thực hành Tín ngưỡng Thờ Mẫu Tam phủ của người Việt trở thành Di sản văn hóa phi\nR.5: Thông tin Hồ sơ cũng đã cung cấp một phụ lục chứng minh di sản đã được đưa vào Danh sách di sản văn hóa phi vật thể quốc gia năm 2013. Hoạt động kiểm kê đã được Cục Di sản văn hóa (Bộ Văn hóa, Thể thao và Du lịch) phối hợp tổ chức thực hiện với Viện Văn hóa nghệ thuật quốc gia Việt Nam; kết quả kiểm kê đều được cập nhật hàng năm"
       ],
       "complete": true,
-      "context_recall": 0.644927536231884,
-      "context_precision": 1.0,
-      "faithfulness": 1.0,
-      "answer_relevancy": 0.0
+      "overlap_recall": 0.644927536231884,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_recall": 0.5,
+      "context_precision": 0.49999999995
     },
     "20": {
       "question": "Nghi lễ Chầu văn thuộc lĩnh vực di sản nào, và Luật Di sản văn hóa 2024 mô tả lĩnh vực đó ra sao?",
       "type": "multi_doc",
-      "answer": "Nghi lễ Chầu văn của người Việt là di sản văn hóa phi vật thể thuộc lĩnh vực \"Tập quán xã hội và tín ngưỡng\" [news/article_09.md::chunk-1]. \n\nLiên quan đến lĩnh vực di sản văn hóa, Luật Di sản văn hóa số 45/2024/QH15 quy định việc xây dựng cơ sở dữ liệu quốc gia về di sản văn hóa nhằm lưu giữ, quản lý, bảo vệ, khai thác và phát huy giá trị di sản văn hóa để phục vụ phát triển kinh tế - xã hội, đồng thời bảo đảm tuân thủ các quy định của pháp luật về dữ liệu, giao dịch điện tử và các quy định khác có liên quan [legal/luat-di-san-van-hoa-45-2024-phan-2.md::chunk-77].",
+      "answer": "Dựa trên context được cung cấp, Nghi lễ Chầu văn của người Việt là di sản văn hóa phi vật thể thuộc lĩnh vực \"Tập quán xã hội và tín ngưỡng\" [news/article_09.md::chunk-1]. \n\nTuy nhiên, context không cung cấp thông tin về việc \"Luật Di sản văn hóa 2024 mô tả lĩnh vực đó ra sao\", do đó tôi từ chối xác minh phần câu hỏi này.",
       "refused": false,
       "retrieval_source": "hybrid",
       "best_dense_score": 0.9062970876693726,
-      "latency_s": 1.51,
+      "latency_s": 8.54,
       "contexts": [
         "# Nghi lễ Chầu văn của người Việt\n\n**Nghi lễ Chầu văn của người Việt là di sản văn hóa phi vật thể thuộc lĩnh vực Tập quán xã hội và tín ngưỡng, ra đời và phát triển trước hết gắn với tín ngưỡng thờ Thánh Mẫu Tứ phủ, được thực hành ở nhiều vùng, miền của đất nước, nhưng tập trung nhiều nhất ở các tỉnh miền Bắc và Bắc Trung bộ.**",
-        "Nghi lễ Chầu văn của người Việt được Thủ tướng Chính phủ đồng ý cho lập hồ sơ trình UNESCO đưa vào Danh sách di sản văn hóa phi vật thể đại diện của nhân loại trong giai đoạn tới và đã được Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch đưa vào Danh mục di sản văn hóa phi vật thể quốc gia (đợt 1), loại hình Tập quán xã hội và tín ngưỡng, tháng 12 năm 2012.\n\n**Kim Dung (Theo Hồ sơ di sản, tư liệu Cục Di sản văn hóa)**",
-        "Điều 85. Cơ sở dữ liệu quốc gia về di sản văn hóa và chuyển đổi số trong\n\nlĩnh vực di sản văn hóa\n\n1. Xây dựng cơ sở dữ liệu quốc gia về di sản văn hóa nhằm lưu giữ, quản lý,\nbảo vệ, khai thác, phát huy giá trị di sản văn hóa phục vụ phát triển kinh tế - xã hội\nbảo đảm tuân thủ quy định của pháp luật về dữ liệu, giao dịch điện tử và quy định\nkhác của pháp luật có liên quan.",
-        "Trong Nghi lễ Chầu văn của người Việt, các hình thức biểu đạt, động tác múa, âm nhạc và lời hát văn đều mang dấu ấn lịch sử, ghi lại sự tích và ca ngợi công đức của những nhân vật lịch sử có công với dân, với nước. Về giá trị văn hóa, Nghi lễ Chầu văn của người Việt là tín ngưỡng bản địa, tích hợp các hình thức văn hoá dân gian khác nhau như: âm nhạc, ngôn ngữ, tri thức dân gian, ca hát, nhảy múa, nghề thủ công truyền thống, trang phục cùng với nghệ thuật trang trí, kiến trúc, ẩm thực..",
-        "Điều 83. Ngân sách nhà nước chi cho hoạt động bảo vệ và phát huy giá trị\nm) Hoạt động của các Hội đồng thẩm định, khoa học, chuyên môn trong lĩnh\n\nvực di sản văn hóa và Hội đồng Di sản văn hóa quốc gia theo quy định của Luật này;\n\nn) Nhiệm vụ khác theo quy định của pháp luật.\n\n2. Chính phủ quy định chi tiết nhiệm vụ, nội dung chi, mức chi cho các nhiệm\n\nvụ bảo vệ và phát huy giá trị di sản văn hóa tại Điều này."
+        "Nghi lễ Chầu văn của người Việt\nNghi lễ Chầu văn của người Việt được Thủ tướng Chính phủ đồng ý cho lập hồ sơ trình UNESCO đưa vào Danh sách di sản văn hóa phi vật thể đại diện của nhân loại trong giai đoạn tới và đã được Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch đưa vào Danh mục di sản văn hóa phi vật thể quốc gia (đợt 1), loại hình Tập quán xã hội và tín ngưỡng, tháng 12 năm 2012.\n\n**Kim Dung (Theo Hồ sơ di sản, tư liệu Cục Di sản văn hóa)**",
+        "Nghi lễ Chầu văn của người Việt\nNghi lễ Chầu văn của người Việt phát triển mạnh ở Nam Định từ thế kỷ  XVII cùng với quá trình hình thành quần thể các di tích trọng điểm ở Nam Định như phủ Dầy (xã Kim Thái, huyện Vụ Bản), phủ Quảng Cung (xã Yên Đồng, huyện Ý Yên), đền Bảo Lộc (xã Mỹ Phúc, huyện Mỹ Lộc), đền Cố Trạch (phường Lộc Vượng, thành phố Nam Định)..., sau đó phát triển ra các vùng lân cận như Hà Nam, Thái Bình và ngày càng lan tỏa ra nhiều vùng trên cả nước.",
+        "Nghi lễ Chầu văn của người Việt\nNam Định là một trong những trung tâm của tín ngưỡng thờ Mẫu Tứ phủ và thờ Đức Thánh Trần, là nơi Nghi lễ Chầu văn còn được bảo lưu và tiếp tục trình diễn khá phổ biến, với chủ thể là những cung văn, thanh đồng, thủ nhang (người trông coi di tích), người hầu dâng, con nhang, đệ tử…hiện phân bố trên khắp 10 huyện và thành phố thuộc tỉnh Nam Định.",
+        "Nghi lễ Chầu văn của người Việt\n. Về giá trị văn hóa, Nghi lễ Chầu văn của người Việt là tín ngưỡng bản địa, tích hợp các hình thức văn hoá dân gian khác nhau như: âm nhạc, ngôn ngữ, tri thức dân gian, ca hát, nhảy múa, nghề thủ công truyền thống, trang phục cùng với nghệ thuật trang trí, kiến trúc, ẩm thực... trong một thể thống nhất hữu cơ hoàn chỉnh, trong đó yếu tố “sân khấu” kết hợp chặt chẽ với yếu tố tâm linh, phản ánh tư duy, nhận thức về tự nhiên, xã hội của cộng đồng"
       ],
       "complete": true,
-      "context_recall": 0.631578947368421,
-      "context_precision": 1.0,
-      "faithfulness": 0.8333333333333334,
-      "answer_relevancy": 0.9577479919367059
+      "overlap_recall": 0.631578947368421,
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.0,
+      "context_recall": 0.5,
+      "context_precision": 0.0
     },
     "21": {
       "question": "Giá vé máy bay từ Hà Nội đi Phú Thọ là bao nhiêu?",
@@ -941,14 +983,14 @@
       "answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
       "refused": true,
       "retrieval_source": "none",
-      "best_dense_score": 0.8329675197601318,
-      "latency_s": 1.22,
+      "best_dense_score": 0.8087078928947449,
+      "latency_s": 19.04,
       "contexts": [
-        "| 455 | Mo Mường (Hà Nội) | 154/QĐ-BVHTTDL ngày 02/02/2023 | Tập quán xã hội và tín ngưỡng | Thành phố Hà Nội |\n| 456 | Mo Mường (Phú Thọ) | 233/QĐ-BVHTTDL ngày 14/02/2023 | Tập quán xã hội và tín ngưỡng | Tỉnh Phú Thọ |\n| 457 | Mo Mường (Thanh Hóa) | 232/QĐ-BVHTTDL ngày 14/02/2023 | Tập quán xã hội và tín ngưỡng | Tỉnh Thanh Hóa |\n| 458 | Lễ hội Đền Đa Hòa | 153/QĐ-BVHTTDL ngày 02/02/2023 | Lễ hội truyền thống | Tỉnh Hưng Yên |",
-        "| 191 | Hạn Khuống của người Thái | 217/QĐ - BVHTTDL ngày 23/01/2017 | Nghệ thuật trình diễn dân gian | Tỉnh Yên Bái |\n| 192 | Tín ngưỡng thờ Mẫu Âu Cơ | 217/QĐ - BVHTTDL ngày 23/01/2017 | Tập quán xã hội và tín ngưỡng | Tỉnh Phú Thọ |\n| 193 | Lễ Tịch điền | 217/QĐ - BVHTTDL ngày 23/01/2017 | Tập quán xã hội và tín ngưỡng | Tỉnh Hà Nam |\n| 194 | Lễ hội Đền Trần Thương | 217/QĐ - BVHTTDL ngày 23/01/2017 | Lễ hội truyền thống | Tỉnh Hà Nam |",
-        "| 332 | Lễ hội làng Chử Xá | 252/QĐ-BVHTTDL ngày 22/01/2020 | Lễ hội truyền thống | Thành phố Hà Nội |\n| 333 | Lễ hội Gầu tào của người Mông | 253/QĐ-BVHTTDL ngày 22/01/2020 | Lễ hội truyền thống | Tỉnh Lai Châu |\n| 334 | Nghề làm trống của người Dao Đỏ | 257/QĐ-BVHTTDL ngày 22/01/2020 | Nghề thủ công truyền thống | Tỉnh Lào Cai |\n| 335 | Lễ Cấp sắc của Dao Tiền | 258/QĐ-BVHTTDL ngày 22/01/2020 | Tập quán xã hội và tín ngưỡng | Tỉnh Phú Thọ |",
-        "| 384 | Hát Aday của người Khmer | 1676/QĐ-BVHTTDL ngày 26/5/2021 | Nghệ thuật trình diễn dân gian | Tỉnh Hậu Giang |\n| 385 | Lễ hội Năm làng Mọc | 1727/QĐ-BVHTTDL ngày 27/5/2021 | Lễ hội truyền thống | Thành phố Hà Nội |\n| 386 | Lễ Kết chạ Phú Mỹ - Kiều Mai | 1728/QĐ-BVHTTDL ngày 27/5/2021 | Lễ hội truyền thống | Thành phố Hà Nội |\n| 387 | Lễ hội Cầu ngư Nhượng Bạn | 1729/QĐ-BVHTTDL ngày 27/5/2021 | Lễ hội truyền thống | Tỉnh Hà Tĩnh |",
-        "| 407 | Nghệ thuật Hát Xẩm | 76/QĐ-BVHTTDL ngày 12/1/2022 | Nghệ thuật trình diễn dân gian | Tỉnh Ninh Bình |\n| 408 | Lễ hội làng Bình Hải | 78/QĐ-BVHTTDL ngày 12/1/2022 | Lễ hội truyền thống | Tỉnh Ninh Bình |\n| 409 | Lễ hội Đình Hùng Lô | 70/QĐ-BVHTTDL ngày 12/1/2022 | Lễ hội truyền thống | Tỉnh Phú Thọ |\n| 410 | Lễ hội Đền Vân Luông | 72/QĐ-BVHTTDL ngày 12/1/2022 | Lễ hội truyền thống | Tỉnh Phú Thọ |"
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 453 | Lượn Cọi của người Tày | 234/QĐ-BVHTTDL ngày 14/02/2023 | Nghệ thuật trình diễn dân gian | Tỉnh Cao Bằng |\n| 454 | Hò giã gạo | 216/QĐ-BVHTTDL ngày 14/02/2023 | Nghệ thuật trình diễn dân gian | Tỉnh Quảng Trị |\n| 455 | Mo Mường (Hà Nội) | 154/QĐ-BVHTTDL ngày 02/02/2023 | Tập quán xã hội và tín ngưỡng | Thành phố Hà Nội |\n| 456 | Mo Mường (Phú Thọ) | 233/QĐ-BVHTTDL ngày 14/02/2023 | Tập quán xã hội và tín ngưỡng | Tỉnh Phú Thọ |",
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 192 | Tín ngưỡng thờ Mẫu Âu Cơ | 217/QĐ - BVHTTDL ngày 23/01/2017 | Tập quán xã hội và tín ngưỡng | Tỉnh Phú Thọ |\n| 193 | Lễ Tịch điền | 217/QĐ - BVHTTDL ngày 23/01/2017 | Tập quán xã hội và tín ngưỡng | Tỉnh Hà Nam |\n| 194 | Lễ hội Đền Trần Thương | 217/QĐ - BVHTTDL ngày 23/01/2017 | Lễ hội truyền thống | Tỉnh Hà Nam |\n| 195 | Hội vật Liễu Đôi | 217/QĐ - BVHTTDL ngày 23/01/2017 | Lễ hội truyền thống | Tỉnh Hà Nam |",
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 4 | Hát Ca trù | 5079/QĐ - BVHTTDL Ngày 27/12/2012 | Nghệ thuật trình diễn dân gian | Tỉnh Bắc Giang  Tỉnh Bắc Ninh  Tỉnh Hà Nội  Tỉnh Hà Tĩnh  Tỉnh Hải Dương  Tỉnh Hải Phòng  Tỉnh Hồ Chí Minh  Tỉnh Hưng Yên  Tỉnh Nam Định  Tỉnh Nghệ An  Tỉnh Phú Thọ  Tỉnh Quảng Bình  Tỉnh Thái Bình  Tỉnh Thanh Hóa  Tỉnh Vĩnh Phúc |\n| 5 | Hát Xoan ở Phú Thọ | 5079/QĐ - BVHTTDL Ngày 27/12/2012 | Nghệ thuật trình diễn dân gian | Tỉnh Phú Thọ |",
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 408 | Lễ hội làng Bình Hải | 78/QĐ-BVHTTDL ngày 12/1/2022 | Lễ hội truyền thống | Tỉnh Ninh Bình |\n| 409 | Lễ hội Đình Hùng Lô | 70/QĐ-BVHTTDL ngày 12/1/2022 | Lễ hội truyền thống | Tỉnh Phú Thọ |\n| 410 | Lễ hội Đền Vân Luông | 72/QĐ-BVHTTDL ngày 12/1/2022 | Lễ hội truyền thống | Tỉnh Phú Thọ |\n| 411 | Nghề làm nước mắm Phú Yên | 71/QĐ-BVHTTDL ngày 12/1/2022 | Nghề thủ công truyền thống | Tỉnh Phú Yên |",
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 189 | Lễ hội Trò Trám | 4036/QĐ - BVHTTDL ngày 21/11/2016 | Lễ hội truyền thống | Tỉnh Phú Thọ |\n| 190 | Nghề dệt Dèng (thổ cẩm) của người Tà Ôi | 4036/QĐ - BVHTTDL ngày 21/11/2016 | Nghề thủ công truyền thống | Tỉnh Thừa Thiên Huế |\n| 191 | Hạn Khuống của người Thái | 217/QĐ - BVHTTDL ngày 23/01/2017 | Nghệ thuật trình diễn dân gian | Tỉnh Yên Bái |"
       ],
       "complete": true
     },
@@ -958,14 +1000,14 @@
       "answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
       "refused": true,
       "retrieval_source": "none",
-      "best_dense_score": 0.8303838968276978,
-      "latency_s": 0.92,
+      "best_dense_score": 0.8020225763320923,
+      "latency_s": 9.01,
       "contexts": [
-        "| 384 | Hát Aday của người Khmer | 1676/QĐ-BVHTTDL ngày 26/5/2021 | Nghệ thuật trình diễn dân gian | Tỉnh Hậu Giang |\n| 385 | Lễ hội Năm làng Mọc | 1727/QĐ-BVHTTDL ngày 27/5/2021 | Lễ hội truyền thống | Thành phố Hà Nội |\n| 386 | Lễ Kết chạ Phú Mỹ - Kiều Mai | 1728/QĐ-BVHTTDL ngày 27/5/2021 | Lễ hội truyền thống | Thành phố Hà Nội |\n| 387 | Lễ hội Cầu ngư Nhượng Bạn | 1729/QĐ-BVHTTDL ngày 27/5/2021 | Lễ hội truyền thống | Tỉnh Hà Tĩnh |",
-        "| 276 | Lễ hội Chùa Bà Đanh | 446/QĐ-BVHTTDL ngày 29/01/2019 | Lễ hội truyền thống | Tỉnh Hà Nam |\n| 277 | Hát Dậm Quyển Sơn | 446/QĐ-BVHTTDL ngày 29/01/2019 | Nghệ thuật trình diễn dân gian | Tỉnh Hà Nam |\n| 278 | Lễ hội Làng Triều Khúc | 446/QĐ-BVHTTDL ngày 29/01/2019 | Lễ hội truyền thống | Thành phố Hà Nội |\n| 279 | Nghề cốm Mễ Trì | 446/QĐ-BVHTTDL ngày 29/01/2019 | Nghề thủ công truyền thống | Thành phố Hà Nội |",
-        "| 455 | Mo Mường (Hà Nội) | 154/QĐ-BVHTTDL ngày 02/02/2023 | Tập quán xã hội và tín ngưỡng | Thành phố Hà Nội |\n| 456 | Mo Mường (Phú Thọ) | 233/QĐ-BVHTTDL ngày 14/02/2023 | Tập quán xã hội và tín ngưỡng | Tỉnh Phú Thọ |\n| 457 | Mo Mường (Thanh Hóa) | 232/QĐ-BVHTTDL ngày 14/02/2023 | Tập quán xã hội và tín ngưỡng | Tỉnh Thanh Hóa |\n| 458 | Lễ hội Đền Đa Hòa | 153/QĐ-BVHTTDL ngày 02/02/2023 | Lễ hội truyền thống | Tỉnh Hưng Yên |",
-        "| 308 | Nghề gác kèo ong | 4613/QĐ-BVHTTDL ngày 20/12/2019 | Tri thức dân gian, nghề thủ công truyền thống | Tỉnh Cà Mau |\n| 309 | Nghề gốm làng Bát Tràng | 4610/QĐ-BVHTTDL ngày 20/12/2019 | Nghề thủ công truyền thống | Thành phố Hà Nội |\n| 310 | Lễ hội Chùa Láng | 4611/QĐ-BVHTTDL ngày 20/12/2019 | Lễ hội truyền thống | Thành phố Hà Nội |\n| 311 | Lễ hội Chùa Đọi Sơn | 4608/QĐ-BVHTTDL ngày 20/12/2019 | Lễ hội truyền thống | Tỉnh Hà Nam |",
-        "| 478 | Nghề dệt lụa Vạn Phúc | 476/QĐ-BVHTTDL ngày 06/03/2023 | Nghề thủ công truyền thống | Thành phố Hà Nội |\n| 479 | Hát Dô | 477/QĐ-BVHTTDL ngày 06/03/2023 | Nghệ thuật trình diễn dân gian | Thành phố Hà Nội |\n| 480 | Nghề làm bánh tráng Thuận Hưng | 478/QĐ-BVHTTDL ngày 06/03/2023 | Nghề thủ công truyền thống | Thành phố Cần Thơ |\n| 481 | Nghề đan gùi của người Xtiêng | 479/QĐ-BVHTTDL ngày 06/03/2023 | Nghề thủ công truyền thống | Tỉnh Bình Phước |"
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 477 | Múa rối nước Đào Thục | 473/QĐ-BVHTTDL ngày 06/03/2023 | Nghệ thuật trình diễn dân gian | Thành phố Hà Nội |\n| 478 | Nghề dệt lụa Vạn Phúc | 476/QĐ-BVHTTDL ngày 06/03/2023 | Nghề thủ công truyền thống | Thành phố Hà Nội |\n| 479 | Hát Dô | 477/QĐ-BVHTTDL ngày 06/03/2023 | Nghệ thuật trình diễn dân gian | Thành phố Hà Nội |\n| 480 | Nghề làm bánh tráng Thuận Hưng | 478/QĐ-BVHTTDL ngày 06/03/2023 | Nghề thủ công truyền thống | Thành phố Cần Thơ |",
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 383 | Lễ hội Cầu bông của người Kinh | 823/QĐ-BVHTTDL ngày 09/3/2021 | Lễ hội truyền thống | Tỉnh Bình Phước |\n| 384 | Hát Aday của người Khmer | 1676/QĐ-BVHTTDL ngày 26/5/2021 | Nghệ thuật trình diễn dân gian | Tỉnh Hậu Giang |\n| 385 | Lễ hội Năm làng Mọc | 1727/QĐ-BVHTTDL ngày 27/5/2021 | Lễ hội truyền thống | Thành phố Hà Nội |\n| 386 | Lễ Kết chạ Phú Mỹ - Kiều Mai | 1728/QĐ-BVHTTDL ngày 27/5/2021 | Lễ hội truyền thống | Thành phố Hà Nội |",
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 277 | Hát Dậm Quyển Sơn | 446/QĐ-BVHTTDL ngày 29/01/2019 | Nghệ thuật trình diễn dân gian | Tỉnh Hà Nam |\n| 278 | Lễ hội Làng Triều Khúc | 446/QĐ-BVHTTDL ngày 29/01/2019 | Lễ hội truyền thống | Thành phố Hà Nội |\n| 279 | Nghề cốm Mễ Trì | 446/QĐ-BVHTTDL ngày 29/01/2019 | Nghề thủ công truyền thống | Thành phố Hà Nội |\n| 280 | Nghi lễ Mo Tham Thát của người Tày | 446/QĐ-BVHTTDL ngày 29/01/2019 | Tập quán xã hội và tín ngưỡng | Tỉnh Lào Cai |",
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 453 | Lượn Cọi của người Tày | 234/QĐ-BVHTTDL ngày 14/02/2023 | Nghệ thuật trình diễn dân gian | Tỉnh Cao Bằng |\n| 454 | Hò giã gạo | 216/QĐ-BVHTTDL ngày 14/02/2023 | Nghệ thuật trình diễn dân gian | Tỉnh Quảng Trị |\n| 455 | Mo Mường (Hà Nội) | 154/QĐ-BVHTTDL ngày 02/02/2023 | Tập quán xã hội và tín ngưỡng | Thành phố Hà Nội |\n| 456 | Mo Mường (Phú Thọ) | 233/QĐ-BVHTTDL ngày 14/02/2023 | Tập quán xã hội và tín ngưỡng | Tỉnh Phú Thọ |",
+        "Danh mục Di sản văn hóa phi vật thể quốc gia\n| 376 | Hát Sli của người Nùng | 830/QĐ-BVHTTDL ngày 09/3/2021 | Nghệ thuật trình diễn dân gian | Tỉnh Bắc Kạn |\n| 377 | Nghề làm giày thêu của người Hoa Xạ Phang | 829/QĐ-BVHTTDL ngày 09/3/2021 | Tri thức dân gian | Tỉnh Điện Biên |\n| 378 | Múa của người Khơ mú | 828/QĐ-BVHTTDL ngày 09/3/2021 | Nghệ thuật trình diễn dân gian | Tỉnh Điện Biên |\n| 379 | Hội thổi cơm thi Thị Cấm | 827/QĐ-BVHTTDL ngày 09/3/2021 | Lễ hội truyền thống | Thành phố Hà Nội |"
       ],
       "complete": true
     },
@@ -976,7 +1018,7 @@
       "refused": true,
       "retrieval_source": "none",
       "best_dense_score": 0.8355379104614258,
-      "latency_s": 61.24,
+      "latency_s": 8.9,
       "contexts": [
         "Xôi gấc (gạo nếp nấu gấc) là món ăn mang đậm tinh thần ngày lễ! Đĩa xôi màu đỏ (màu đỏ tượng trưng cho sự may mắn) có khá nhiều phiên bản, có thể nấu kèm với lạc (đậu phộng), đậu xanh hoặc các loại trái cây sấy.\n\nVì kỳ nghỉ Tết là dịp mọi người quây quần, thường là để ghé thăm nhau nhanh chóng, nên các món ăn nhẹ luôn sẵn sàng. Một trong những món phổ biến nhất là Mứt, một loại trái cây ngào đường. Bạn sẽ tìm thấy mứt gừng, dừa, mứt bí khô, me, cà rốt, bí ngô, khế, dứa và nhiều loại khác nữa.",
         "Điều 52. Bản sao di vật, cổ vật, bảo vật quốc gia\n3.  Quy  trình  làm  bản  sao,  chất  liệu,  trình  tự  kỹ  thuật  chế  tác,  số  lượng,  thời\ngian làm bản sao di vật, cổ vật, bảo vật quốc gia phải được thể hiện chi tiết và lưu\nthành hồ sơ.\n\n4. Điều kiện làm bản sao di vật, cổ vật, bảo vật quốc gia bao gồm:\n\na) Có bản gốc để đối chiếu;\n\nb) Có dấu hiệu riêng và ghi rõ thời gian chế tác trên bản sao để phân biệt với\n\nbản gốc;",

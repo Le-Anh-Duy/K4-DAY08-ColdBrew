@@ -31,6 +31,8 @@ OUT_OF_CORPUS = "Không có trong corpus"
 # Đoạn khớp ngắn hơn ngưỡng này bị bỏ qua để cụm phổ biến ("lễ hội", "di sản văn hóa")
 # ở chỗ khác không bị tính là đã phủ evidence.
 MIN_MATCH_TOKENS = 4
+# Precision: chunk phủ >= 20 token (hoặc nửa đoạn evidence ngắn) mới tính là relevant.
+RELEVANT_MIN_TOKENS = 20
 
 
 def _read(source: str) -> str:
@@ -81,12 +83,44 @@ def context_overlap_recall(expected_contexts: list[str], retrieved: list[str]) -
     for tokens in expected:
         hit = [False] * len(tokens)
         for chunk in chunks:
-            matcher = SequenceMatcher(None, tokens, chunk, autojunk=False)
-            for block in matcher.get_matching_blocks():
-                if block.size >= MIN_MATCH_TOKENS:
-                    hit[block.a:block.a + block.size] = [True] * block.size
+            hit = [a or b for a, b in zip(hit, _covered(tokens, chunk))]
         covered += sum(hit)
     return covered / total
+
+
+def context_overlap_precision(expected_contexts: list[str], retrieved: list[str]) -> float:
+    """Average precision@k như ragas context precision, nhưng "relevant" xét bằng overlap.
+
+    Chunk được coi là relevant nếu một mình nó phủ ít nhất nửa một đoạn evidence
+    (hoặc >= RELEVANT_MIN_TOKENS token của đoạn đó) — nên chunk chỉ trùng vài cụm
+    phổ biến không được tính. Điểm cao khi chunk relevant nằm ở đầu top k.
+    """
+    expected = [tokens for tokens in (tokenize(t) for t in expected_contexts) if tokens]
+    if not expected or not retrieved:
+        return 0.0
+    relevant = []
+    for text in retrieved:
+        chunk = tokenize(text)
+        relevant.append(any(
+            sum(_covered(tokens, chunk)) >= min(RELEVANT_MIN_TOKENS, len(tokens) / 2)
+            for tokens in expected
+        ))
+    hits, score = 0, 0.0
+    for k, is_relevant in enumerate(relevant, 1):
+        if is_relevant:
+            hits += 1
+            score += hits / k
+    return score / hits if hits else 0.0
+
+
+def _covered(tokens: list[str], chunk: list[str]) -> list[bool]:
+    """Token nào của evidence nằm trong một đoạn khớp liên tiếp >= MIN_MATCH_TOKENS với chunk."""
+    hit = [False] * len(tokens)
+    matcher = SequenceMatcher(None, tokens, chunk, autojunk=False)
+    for block in matcher.get_matching_blocks():
+        if block.size >= MIN_MATCH_TOKENS:
+            hit[block.a:block.a + block.size] = [True] * block.size
+    return hit
 
 
 # type: legal | news | multi_doc | out_of_domain
