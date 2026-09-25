@@ -1,3 +1,9 @@
+# Nghị định 208/2025/NĐ-CP về quy hoạch khảo cổ, bảo quản, tu bổ, phục hồi di tích
+
+**Source:** https://vanban.chinhphu.vn/?docid=214676&pageid=27160
+
+---
+
 |  |  |
 | --- | --- |
 | **CHÍNH PHỦ**  \_\_\_\_\_\_\_\_\_  Số: 208/2025/NĐ-CP | **CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM**  **Độc lập - Tự do - Hạnh phúc**  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  *Hà Nội, ngày 17 tháng 7 năm 2025* |
@@ -756,11 +762,11 @@ c) Thẩm định dự toán kinh phí thực hiện, chi phí lập, thẩm đ�
 
 4. Kết quả thẩm định gồm:
 
-a) Đánh giá về mức độ đáp ứng yêu cầu đối với từng nội dung thẩm định và kết luận cho toàn bộ các nội dung thẩm định;
+a) Đánh giá về mức độ đáp ứng yêu cầu đối với từng nội dung thẩm định và kết luận cho toàn bộ các nội dung thẩm định;
 
-b) Các yêu cầu đối với người đề nghị thẩm định, người quyết định đầu tư.
+b) Các yêu cầu đối với người đề nghị thẩm định, người quyết định đầu tư.
 
-5. Văn bản thông báo kết quả thẩm định Báo cáo nghiên cứu khả thi bảo quản, tu bổ, phục hồi di tích, Báo cáo nghiên cứu khả thi bảo quản di tích, Báo cáo kinh tế - kỹ thuật bảo quản, tu bổ, phục hồi di tích.
+5. Văn bản thông báo kết quả thẩm định Báo cáo nghiên cứu khả thi bảo quản, tu bổ, phục hồi di tích, Báo cáo nghiên cứu khả thi bảo quản di tích, Báo cáo kinh tế - kỹ thuật bảo quản, tu bổ, phục hồi di tích.
 
 **Điều 31. Trình tự, thủ tục thẩm định, phê duyệt Báo cáo nghiên cứu khả thi bảo quản, tu bổ, phục hồi** **di tích, Báo cáo nghiên cứu khả thi bảo quản** **di tích, Báo cáo kinh tế - kỹ thuật bảo quản, tu bổ, phục hồi** **di tích**
 
@@ -1026,11 +1032,11 @@ c) Thẩm định dự toán kinh phí thực hiện, chi phí lập, thẩm đ�
 
 2. Kết quả thẩm định gồm:
 
-a) Đánh giá về mức độ đáp ứng yêu cầu đối với từng nội dung thẩm định và kết luận cho toàn bộ các nội dung thẩm định;
+a) Đánh giá về mức độ đáp ứng yêu cầu đối với từng nội dung thẩm định và kết luận cho toàn bộ các nội dung thẩm định;
 
-b) Các yêu cầu đối với người đề nghị thẩm định, người quyết định đầu tư.
+b) Các yêu cầu đối với người đề nghị thẩm định, người quyết định đầu tư.
 
-Kết quả thẩm định được đồng thời gửi cơ quan quản lý xây dựng ở địa phương để biết và quản lý.
+Kết quả thẩm định được đồng thời gửi cơ quan quản lý xây dựng ở địa phương để biết và quản lý.
 
 3. Văn bản thông báo kết quả thẩm định **Thiết kế bản vẽ thi công** bảo quản, tu bổ, phục hồi di tích**, Thiết kế bản vẽ thi công bảo quản di tích** thực hiện theo Mẫu số 07 tại Phụ lục ban hành kèm theo Nghị định này.
 
@@ -1346,17 +1352,17 @@ l) Báo cáo tiếp thu, giải trình các ý kiến góp ý của chuyên gia,
 
 a) Đáp ứng các yêu cầu quy định tại Điều 46 Luật Di sản văn hóa và các tiêu chuẩn quốc gia, quy chuẩn quốc gia liên quan;
 
-b) Bảo đảm an toàn khỏi sự xâm nhập vô tình của khách tham quan, trộm, cắp, phá hoại, khủng bố và các hành động phạm tội khác, với sự hỗ trợ của hệ thống cảnh báo xâm nhập trái phép;
+b) Bảo đảm an toàn khỏi sự xâm nhập vô tình của khách tham quan, trộm, cắp, phá hoại, khủng bố và các hành động phạm tội khác, với sự hỗ trợ của hệ thống cảnh báo xâm nhập trái phép;
 
-c) Các vật liệu phục vụ bảo quản hiện vật trong kho phải bảo đảm không gây hại đến hiện vật; tường, sàn nhà và trần phải được làm bằng vật liệu bảo đảm các tiêu chuẩn về an toàn cháy theo quy định hiện hành; vật liệu sử dụng cho nội thất kho bảo quản hiện vật phải không gây cản trở đến khả năng điều tiết nhiệt độ và độ ẩm của tòa nhà, nhằm duy trì điều kiện bảo quản ổn định và không phát sinh bụi;
+c) Các vật liệu phục vụ bảo quản hiện vật trong kho phải bảo đảm không gây hại đến hiện vật; tường, sàn nhà và trần phải được làm bằng vật liệu bảo đảm các tiêu chuẩn về an toàn cháy theo quy định hiện hành; vật liệu sử dụng cho nội thất kho bảo quản hiện vật phải không gây cản trở đến khả năng điều tiết nhiệt độ và độ ẩm của tòa nhà, nhằm duy trì điều kiện bảo quản ổn định và không phát sinh bụi;
 
-d) Giá, tủ hiện vật không được xếp chồng quá hai nguyên đơn theo chiều đứng, không được lưu giữ hiện vật có độ nặng vượt quá trọng tải cho phép của nhà sản xuất giá, tủ; giá, tủ hiện vật phải có độ cao hơn mặt sàn kho ít nhất là 15 cm, để bảo đảm thuận tiện cho các hoạt động bảo quản phòng ngừa; giá, tủ hiện vật và các thiết bị lưu trữ khác phải được làm bằng chất liệu không phát tán các khí có hại đến môi trường trong kho bảo quản hiện vật;
+d) Giá, tủ hiện vật không được xếp chồng quá hai nguyên đơn theo chiều đứng, không được lưu giữ hiện vật có độ nặng vượt quá trọng tải cho phép của nhà sản xuất giá, tủ; giá, tủ hiện vật phải có độ cao hơn mặt sàn kho ít nhất là 15 cm, để bảo đảm thuận tiện cho các hoạt động bảo quản phòng ngừa; giá, tủ hiện vật và các thiết bị lưu trữ khác phải được làm bằng chất liệu không phát tán các khí có hại đến môi trường trong kho bảo quản hiện vật;
 
-đ) Khi xây mới hoặc cải tạo không gian đã có làm kho bảo quản hiện vật phải lưu ý đến các vật liệu, chất liệu sử dụng bảo đảm việc kiểm soát môi trường bên trong kho bảo quản hiện vật;
+đ) Khi xây mới hoặc cải tạo không gian đã có làm kho bảo quản hiện vật phải lưu ý đến các vật liệu, chất liệu sử dụng bảo đảm việc kiểm soát môi trường bên trong kho bảo quản hiện vật;
 
 e) Thiết kế tường kho, mái kho, cửa ra vào, cửa sổ, cầu thang của kho bảo quản phải đáp ứng các điều kiện bảo đảm an toàn hiện vật và thiết bị của kho bảo quản;
 
-g) Có thiết bị duy trì nhiệt độ, độ ẩm phù hợp với từng loại hình hiện vật trong kho bảo quản hiện vật khi xác định môi trường kho bảo quản hiện vật không thể đáp ứng các quy định kỹ thuật nếu không có điều hòa nhiệt độ, thiết bị duy trì độ ẩm;
+g) Có thiết bị duy trì nhiệt độ, độ ẩm phù hợp với từng loại hình hiện vật trong kho bảo quản hiện vật khi xác định môi trường kho bảo quản hiện vật không thể đáp ứng các quy định kỹ thuật nếu không có điều hòa nhiệt độ, thiết bị duy trì độ ẩm;
 
 h) Hệ thống cấp và thoát nước được lắp đặt riêng; đường ống nước bảo đảm độ kín, không rò rỉ, không đi qua khu vực kho bảo quản; không đặt thiết bị cấp nước ở tầng trên của khu vực kho bảo quản và khu vực trưng bày.
 

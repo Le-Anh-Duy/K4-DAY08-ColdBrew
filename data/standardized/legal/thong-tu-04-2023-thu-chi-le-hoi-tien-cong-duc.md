@@ -1,4 +1,8 @@
-CÔNG BÁO/Số 357 + 358/Ngày 13-02-2023
+# Thông tư 04/2023/TT-BTC hướng dẫn quản lý, thu chi tài chính cho tổ chức lễ hội và tiền công đức
+
+**Source:** https://vanban.chinhphu.vn/?pageid=27160&docid=207374
+
+---
 
 3
 
@@ -55,7 +59,6 @@ lễ hội.
 
 4
 
-CÔNG BÁO/Số 357 + 358/Ngày 13-02-2023
 
 Chương I
 
@@ -115,7 +118,6 @@ di tích tư nhân, đơn vị sự nghiệp công lập, ban quản lý di tíc
 
 chức lễ hội và tiền công đức, tài trợ cho di tích và hoạt động lễ hội.
 
-CÔNG BÁO/Số 357 + 358/Ngày 13-02-2023
 
 5
 
@@ -177,7 +179,6 @@ tỉnh cấp bằng xếp hạng di tích cấp tỉnh; Bộ trưởng Bộ Văn
 
 6
 
-CÔNG BÁO/Số 357 + 358/Ngày 13-02-2023
 
 cấp bằng xếp hạng di tích quốc gia; Thủ tướng Chính phủ cấp bằng xếp hạng di
 
@@ -231,7 +232,6 @@ hàng thương mại theo quy định.
 
 4. Ngân sách nhà nước hỗ trợ đối với lễ hội truyền thống (nếu có).
 
-CÔNG BÁO/Số 357 + 358/Ngày 13-02-2023
 
 7
 
@@ -295,7 +295,6 @@ chuyển nguồn sang năm sau sử dụng cho công tác tổ chức lễ hội
 
 8
 
-CÔNG BÁO/Số 357 + 358/Ngày 13-02-2023
 
 hợp năm sau không tổ chức lễ hội thì báo cáo Trưởng ban Ban tổ chức lễ hội để
 
@@ -353,7 +352,6 @@ h)  Chi  hương,  hoa,  lễ  vật,  đèn  nhang;  chi  hoạt  động  từ
 
 khoản chi khác tùy theo thực tế của từng lễ hội.
 
-CÔNG BÁO/Số 357 + 358/Ngày 13-02-2023
 
 9
 
@@ -413,7 +411,6 @@ hoạt động lễ hội theo hình thức chuyển khoản, phương thức th
 
 10
 
-CÔNG BÁO/Số 357 + 358/Ngày 13-02-2023
 
 2. Tiếp nhận tiền mặt:
 
@@ -473,7 +470,6 @@ nhà nước có thẩm quyền giao cho đơn vị sự nghiệp công lập qu
 
 thực hiện theo quy định tại khoản 4 Điều 13 Thông tư này.
 
-CÔNG BÁO/Số 357 + 358/Ngày 13-02-2023
 
 11
 
@@ -537,7 +533,6 @@ hội theo quy định tại điểm a khoản 2 Điều 5 Thông tư này;
 
 12
 
-CÔNG BÁO/Số 357 + 358/Ngày 13-02-2023
 
 c) Trích để lại theo tỷ lệ phần trăm (%) để chi hoạt động thường xuyên của đơn
 
@@ -601,7 +596,6 @@ b) Người đại diện cơ sở tôn giáo có trách nhiệm chi trả cho �
 
 công lập một phần chi phí sửa chữa, bảo dưỡng, cải tạo, nâng cấp, xây dựng mới
 
-CÔNG BÁO/Số 357 + 358/Ngày 13-02-2023
 
 13
 
@@ -667,7 +661,6 @@ năm sau để tiếp tục sử dụng cho các nhiệm vụ đặc thù của 
 
 14
 
-CÔNG BÁO/Số 357 + 358/Ngày 13-02-2023
 
 Mức trích cụ thể theo các nội dung quy định tại các điểm a, b, c và d khoản 2
 
@@ -727,7 +720,6 @@ b)  Chi  phí  treo,  đặt  các  bảng,  biển  chỉ  dẫn,  trang  trí,
 
 sức hấp dẫn đối với khách tham quan, du lịch, nghiên cứu di tích;
 
-CÔNG BÁO/Số 357 + 358/Ngày 13-02-2023
 
 15
 
@@ -791,7 +783,6 @@ bổ, phục hồi di tích trên địa bàn, trong đó quy định cụ thể
 
 16
 
-CÔNG BÁO/Số 357 + 358/Ngày 13-02-2023
 
 hạn và phương thức chuyển kinh phí, trách nhiệm chuyển kinh phí của các đơn vị
 
@@ -849,7 +840,6 @@ cho công tác tổ chức lễ hội và tiền công đức, tài trợ cho di
 
 giao quản lý, sử dụng di tích theo quy định tại Thông tư này có trách nhiệm:
 
-CÔNG BÁO/Số 357 + 358/Ngày 13-02-2023
 
 17
 

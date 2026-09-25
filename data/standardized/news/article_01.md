@@ -2,7 +2,7 @@
 
 **Source:** https://dsvh.gov.vn/hoi-giong-o-den-phu-dong-va-den-soc-486
 
-**Crawled:** 2026-09-25T11:01:22.959273
+**Crawled:** 2026-09-25T11:25:03.641555
 
 ---
 
@@ -67,10 +67,6 @@ Bảo tàng tỉnh Thái Nguyên
 Trung tâm Quản lý di tích và bảo tàng tỉnh Quảng Trị
 Hoàng thành Thăng Long
 
-![Hướng tới Ngày Chuyển đổi số quốc gia 10/10/2023](/ckfinder/userfiles/files/Design%202.png)
-
-![Tạp chí Di sản văn hóa](/ckfinder/userfiles/files/12.jpg)
-
 Previous
 
 
@@ -109,25 +105,11 @@ Xem tất cả
 
 Thông báo mới
 
-Rà soát toàn diện văn bản quy phạm pháp luật: Gỡ 'điểm nghẽn', khơi th... ![icon-new](/Content/iconnew.png)
+Rà soát toàn diện văn bản quy phạm pháp luật: Gỡ 'điểm nghẽn', khơi th...
 
-Bồi dưỡng, tập huấn nâng cao nhận thức và kiến thức chuyên môn nghiệp ... ![icon-new](/Content/iconnew.png)
+Bồi dưỡng, tập huấn nâng cao nhận thức và kiến thức chuyên môn nghiệp ...
 
-Trang Thông tin điện tử đang trong quá trình nâng cấp. Tổ chức, cá nhâ... ![icon-new](/Content/iconnew.png)
-
-![Thủ tục hành chính](/ckfinder/userfiles/images/BANNER/thu%20tuc%20hanh%20chinh.png)
-
-![QL Di sản VH phi vật thể](/ckfinder/userfiles/images/BANNER/ht%20thong%20tin%20ql%20dsvh%20phi%20vat%20the.png)
-
-![Liên kết CSDL](/ckfinder/userfiles/images/BANNER/1234.jpg)
-
-![Quản lý bảo tàng](/ckfinder/userfiles/images/BANNER/he%20thong%20thong%20tin%20ql%20b%E1%BA%A3o%20t%C3%A0ng.png)
-
-![Hành trình văn hóa](/ckfinder/userfiles/images/BANNER/hanh%20tr%C3%ACnh%20vh.png)
-
-![Danh mục tổ chức, cá nhân](/ckfinder/userfiles/images/BANNER/LogoDanhmucchungchihanhnghe(1).png)
-
-![Tài liệu phòng chống rủi ro](/ckfinder/userfiles/images/BANNER/Logotailieuphongchongruiro(1).jpg)
+Trang Thông tin điện tử đang trong quá trình nâng cấp. Tổ chức, cá nhâ...
 
 Liên kết website
 
@@ -145,10 +127,6 @@ Bảo tàng Thành phố Hồ Chí Minh
 Bảo tàng tỉnh Thái Nguyên
 Trung tâm Quản lý di tích và bảo tàng tỉnh Quảng Trị
 Hoàng thành Thăng Long
-
-![Hướng tới Ngày Chuyển đổi số quốc gia 10/10/2023](/ckfinder/userfiles/files/Design%202.png)
-
-![Tạp chí Di sản văn hóa](/ckfinder/userfiles/files/12.jpg)
 
 Previous
 

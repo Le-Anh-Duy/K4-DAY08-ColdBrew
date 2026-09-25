@@ -1,4 +1,8 @@
-CÔNG BÁO/Số 1521 + 1522/Ngày 29-12-2024
+# Luật Di sản văn hóa số 45/2024/QH15 (Chương V trở đi)
+
+**Source:** https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/01/luat45_tiep.pdf
+
+---
 
 3
 
@@ -47,7 +51,6 @@ bảo tàng.
 
 4
 
-CÔNG BÁO/Số 1521 + 1522/Ngày 29-12-2024
 
 2. Thẩm quyền, trình tự, thủ tục, hồ sơ thành lập bảo tàng công lập được quy
 
@@ -106,7 +109,6 @@ c)  Giấy  phép  hoạt  động  bảo  tàng  ngoài  công  lập  bị  th
 trong các trường hợp sau: tự nguyện giải thể; vi phạm quy định tại một trong các
 khoản 3, 4, 7, 10, 11 và 12 Điều 9 của Luật này; không còn đủ điều kiện hoạt động
 
-CÔNG BÁO/Số 1521 + 1522/Ngày 29-12-2024
 
 5
 
@@ -174,7 +176,6 @@ c) Cơ sở vật chất và trang thiết bị kỹ thuật;
 
 6
 
-CÔNG BÁO/Số 1521 + 1522/Ngày 29-12-2024
 
 d) Mức độ chuẩn hóa nhân lực chuyên môn, nghiệp vụ;
 
@@ -229,7 +230,6 @@ kiến đồng ý bằng văn bản của Bộ trưởng Bộ Văn hóa, Thể t
 sở ý kiến của Hội đồng khoa học về bảo tàng do Bộ trưởng Bộ Văn hóa, Thể thao
 và Du lịch thành lập.
 
-CÔNG BÁO/Số 1521 + 1522/Ngày 29-12-2024
 
 7
 
@@ -290,7 +290,6 @@ và bằng công nghệ thông tin.
 
 8
 
-CÔNG BÁO/Số 1521 + 1522/Ngày 29-12-2024
 
 Điều 73. Hoạt động bảo quản hiện vật của bảo tàng
 
@@ -352,7 +351,6 @@ khách tham quan;
 
 e) Tuân thủ các quy định của pháp luật.
 
-CÔNG BÁO/Số 1521 + 1522/Ngày 29-12-2024
 
 9
 
@@ -418,7 +416,6 @@ h) Hợp tác khai quật khảo cổ;
 
 10
 
-CÔNG BÁO/Số 1521 + 1522/Ngày 29-12-2024
 
 i) Hợp tác bồi dưỡng chuyên môn, nghiệp vụ về bảo tàng;
 
@@ -467,7 +464,6 @@ hoạch bảo quản, tu bổ, phục hồi di tích;
 b) Đối với ngành, nghề lập dự án, báo cáo kinh tế - kỹ thuật bảo quản, tu bổ,
 phục hồi di tích phải có đủ điều kiện hành nghề thiết kế xây dựng theo quy định
 
-CÔNG BÁO/Số 1521 + 1522/Ngày 29-12-2024
 
 11
 
@@ -521,7 +517,6 @@ quan có thẩm quyền cấp.
 
 12
 
-CÔNG BÁO/Số 1521 + 1522/Ngày 29-12-2024
 
 2. Chính phủ quy định chi tiết điều kiện, thẩm quyền, trình tự, thủ tục, hồ sơ cấp,
 
@@ -574,7 +569,6 @@ BẢO VỆ VÀ PHÁT HUY GIÁ TRỊ DI SẢN VĂN HÓA
 cơ quan ngang Bộ, cơ quan thuộc Chính phủ, cơ quan, tổ chức khác ở trung ương
 và địa phương theo quy định của pháp luật về ngân sách nhà nước.
 
-CÔNG BÁO/Số 1521 + 1522/Ngày 29-12-2024
 
 13
 
@@ -634,7 +628,6 @@ danh theo quy định của pháp luật;
 
 14
 
-CÔNG BÁO/Số 1521 + 1522/Ngày 29-12-2024
 
 i) Đào tạo, bồi dưỡng, tập huấn nguồn nhân lực; nghiên cứu khoa học, hợp tác
 
@@ -691,7 +684,6 @@ theo quy định của pháp luật về dữ liệu và quy định khác của
 hành, cập nhật, duy trì và hướng dẫn việc khai thác, sử dụng cơ sở dữ liệu quốc gia
 về di sản văn hóa.
 
-CÔNG BÁO/Số 1521 + 1522/Ngày 29-12-2024
 
 15
 
@@ -746,7 +738,6 @@ bảo vệ và phát huy giá trị di sản văn hóa.
 
 16
 
-CÔNG BÁO/Số 1521 + 1522/Ngày 29-12-2024
 
 2. Nguồn lực xã hội hóa được sử dụng cho các hoạt động sau:
 
@@ -812,7 +803,6 @@ b) Góp phần sáng tạo những giá trị văn hóa mới, làm giàu kho t�
 
 hóa Việt Nam và mở rộng giao lưu văn hóa quốc tế;
 
-CÔNG BÁO/Số 1521 + 1522/Ngày 29-12-2024
 
 17
 
@@ -871,7 +861,6 @@ di sản văn hóa phi vật thể có nguồn gốc Việt Nam từ nước ngo
 
 18
 
-CÔNG BÁO/Số 1521 + 1522/Ngày 29-12-2024
 
 d) Mua di vật, cổ vật, bảo vật quốc gia, di sản tư liệu có giá trị của Việt Nam
 
@@ -921,7 +910,6 @@ a) Xây dựng, ban hành hoặc trình cơ quan nhà nước có thẩm quyền
 và tổ chức thực hiện văn bản quy phạm pháp luật, chiến lược, chương trình, quy
 hoạch, kế hoạch nhằm bảo vệ và phát huy giá trị di sản văn hóa;
 
-CÔNG BÁO/Số 1521 + 1522/Ngày 29-12-2024
 
 19
 
@@ -984,7 +972,6 @@ b) Chịu trách nhiệm toàn diện về hoạt động quản lý, bảo vệ
 
 20
 
-CÔNG BÁO/Số 1521 + 1522/Ngày 29-12-2024
 
 hóa trên địa bàn được xếp hạng, ghi danh, công nhận trong các danh mục của quốc
 gia, các danh sách, danh mục của UNESCO theo quy định của Luật này, quy định
@@ -1035,7 +1022,6 @@ danh lam thắng cảnh”.
 
 1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025.
 
-CÔNG BÁO/Số 1521 + 1522/Ngày 29-12-2024
 
 21
 

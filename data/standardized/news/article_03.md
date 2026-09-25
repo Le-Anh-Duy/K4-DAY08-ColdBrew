@@ -2,7 +2,7 @@
 
 **Source:** https://ich.unesco.org/en/RL/festival-of-ba-chua-xu-goddess-at-sam-mountain-01999
 
-**Crawled:** 2026-09-25T11:01:31.781713
+**Crawled:** 2026-09-25T11:25:21.367055
 
 ---
 
@@ -12,42 +12,30 @@ Your browser is not supported by this application. Please use recent versions of
 
 Inscribed in 2024 (19.COM) on the Representative List of the Intangible Cultural Heritage of Humanity
 
-![](https://img.youtube.com/vi/d9Es3BYHHkQ/0.jpg)
-
 *play\_arrow*
 
 **© Châu Đốc People's Committee, Viet Nam, 2022**
 
 The festival of Bà Chúa Xứ Goddess at Sam Mountain takes place from the 22nd to the 27th day of the fourth lunar month. Observed by the Kinh, Khmer, Cham and Hoa communities in Châu Đốc city, it entails performing religious ceremonies and music and dance to express gratitude to the Mother Earth goddess, who is believed to grant protection and promote prosperity, health and peace. Some key components of the festival include a palanquin procession, a bathing ceremony to change the clothes and jewelry of the statue of the goddess, and the preparation and presentation of offerings. A management board is nominated to coordinate the festivities, and each community contributes to a key component of the event. This collaborative approach underscores the cultural integration and harmony of different communities that share a geographic location and similar beliefs. The rituals and customs of the festival are transmitted within families and communities through hands-on practice and participation in the festival. A source of cultural exchange and social cohesion, the festival of Bà Chúa Xứ Goddess at Sam Mountain is also an opportunity to transmit common values, celebrate the role of women in society, and commemorate the contributions of ancestors to the nation’s history.
 
-![](https://ich.unesco.org/img/photo/thumb/16997-SML.webp)![](/img/photo/thumb/16997-HUG.jpg?t=1783000021)
 :   © Châu Đốc People’s Committee, Viet Nam, 2021
 
-![](https://ich.unesco.org/img/photo/thumb/16998-SML.webp)![](/img/photo/thumb/16998-HUG.jpg?t=1783000021)
 :   © Châu Đốc People’s Committee, Viet Nam, 2021
 
-![](https://ich.unesco.org/img/photo/thumb/16999-SML.webp)![](/img/photo/thumb/16999-HUG.jpg?t=1783000021)
 :   © Châu Đốc People’s Committee, Viet Nam, 2021
 
-![](https://ich.unesco.org/img/photo/thumb/17000-SML.webp)![](/img/photo/thumb/17000-HUG.jpg?t=1783000021)
 :   © Châu Đốc People’s Committee, Viet Nam, 2021
 
-![](https://ich.unesco.org/img/photo/thumb/17001-SML.webp)![](/img/photo/thumb/17001-HUG.jpg?t=1783000022)
 :   © Châu Đốc People’s Committee, Viet Nam, 2021
 
-![](https://ich.unesco.org/img/photo/thumb/17002-SML.webp)![](/img/photo/thumb/17002-HUG.jpg?t=1783000022)
 :   © Châu Đốc People’s Committee, Viet Nam, 2021
 
-![](https://ich.unesco.org/img/photo/thumb/17003-SML.webp)![](/img/photo/thumb/17003-HUG.jpg?t=1783000022)
 :   © Châu Đốc People’s Committee, Viet Nam, 2021
 
-![](https://ich.unesco.org/img/photo/thumb/17004-SML.webp)![](/img/photo/thumb/17004-HUG.jpg?t=1783000022)
 :   © Châu Đốc People’s Committee, Viet Nam, 2021
 
-![](https://ich.unesco.org/img/photo/thumb/17005-SML.webp)![](/img/photo/thumb/17005-HUG.jpg?t=1783000022)
 :   © Châu Đốc People’s Committee, Viet Nam, 2021
 
-![](https://ich.unesco.org/img/photo/thumb/17006-SML.webp)![](/img/photo/thumb/17006-HUG.jpg?t=1783000023)
 :   © Châu Đốc People’s Committee, Viet Nam, 2021
 
 1. Dance (272)

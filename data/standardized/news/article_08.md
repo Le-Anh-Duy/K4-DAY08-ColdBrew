@@ -1,0 +1,41 @@
+# DI tích lịch sử Đền Hùng
+
+**Source:** https://dsvh.gov.vn/di-tich-lich-su-den-hung-2939
+
+**Crawled:** 2026-09-25T11:25:30.900188
+
+---
+
+Trong khu vực đền Hùng có 4 ngôi đền, 1 ngôi chùa, 1 lăng và một số hạng mục kiến trúc khác, được xây dựng hài hoà với cảnh quan thiên nhiên hùng vĩ, nơi khí thiêng của non sông hội tụ.
+
+*Cổng đền:*được xây dựng trên núi Nghĩa Lĩnh vào năm Khải Định thứ 2 (1917), dạng vòm cuốn, cao 8,5m, gồm 2 tầng, 8 mái... Tầng dưới có một cửa vòm cuốn lớn, đầu cột trụ cổng tầng trên có cửa vòm nhỏ hơn, 4 góc mái trang trí rồng, đắp nổi hai con nghê. Mặt trước của cổng đắp nổi phù điêu hai võ sĩ, một người cầm giáo, một người cầm rìu chiến, mặc áo giáp, ngực trang trí hình hổ phù. *Đền Hạ:*được xây dựng lại trên nền cũ, vào khoảng thế kỷ XVII - XVIII, kiểu chữ “nhị”, gồm tiền bái và hậu cung, mỗi toà ba gian, cách nhau 1,5m, kiến trúc đơn sơ, kèo cầu suốt, bẩy gối vào đầu kèo làm cho mái sau dài hơn mái trước. Đốc xây liền tường với đốc hậu cung, hai bên đắp phù điêu, một bên voi, một bên ngựa. Bờ nóc phẳng, không trang trí, mái lợp ngói mũi, địa phương gọi là ngói mũi lợn.
+
+Ngay chân đền Hạ là nhà bia, với kiến trúc hình lục giác, xây dựng năm 1917, trên đỉnh có đắp hình nậm rượu, 6 mái được lợp bằng gạch bìa bên trong, bên ngoài láng xi măng, có 6 cột bằng gạch xây tròn, dưới chân có lan can. Trong nhà bia hiện nay đặt một bia đá, nội dung ghi lời dặn của Chủ tịch Hồ Chí Minh khi Người về thăm đền Hùng ngày 19/9/1954:
+
+**“Các Vua Hùng đã có công dựng nước,**
+
+**Bác cháu ta phải cùng nhau giữ lấy nước”.**
+
+*Chùa Thiên Quang:*được xây theo kiểu nội công ngoại quốc, gồm các toà Tiền đường (5 gian), Thiêu hương (2 gian), Tam bảo (3 gian) ở phía trước, dãy hành lang, nhà Tổ ở phía sau. Các toà được làm theo kiểu cột trụ, quá giang gối đầu vào cột xây, kèo suốt. Mái chùa được lợp ngói mũi, có đầu đao cong. Bờ nóc tiền đường đắp lưỡng long chầu nguyệt. Chùa thờ Phật theo lối Đại thừa. Trước sân chùa có 2 tháp sư, hình trụ, 4 tầng; trên nóc đắp hình hoa sen; lòng tháp xây rỗng; cửa vòm nhỏ. Trong tháp có bia đá khắc tên các vị hoà thượng đã tu hành và viên tịch tại chùa.
+
+Chùa còn có một gác chuông, được xây dựng vào thế kỷ XVII, gồm 3 gian, 2 tầng mái, 4 vì kèo kiểu chồng rường kết hợp với bẩy kẻ. Các bẩy, kẻ hầu như để trơn, không chạm trổ. Quả chuông treo trên gác không ghi niên đại đúc chuông mà chỉ ghi: “Đại Việt quốc, Sơn Tây đạo, Lâm Thao phủ, Sơn Vi huyện, Hy Cương xã, Cổ Tích thôn cư phụng”.
+
+*Đền Trung (Hùng Vương Tổ miếu):* nằm trên núi Nghĩa Lĩnh, được xây theo kiểu hình chữ nhất, có 3 gian, quay về hướng Nam, dài 7,2m, rộng 3,7m; mái hiên cao 1,8m. Bộ vì kiểu kèo cầu quá giang gối vào tường, phía trước mở 3 cửa.
+
+*Đền Thượng:*các công trình của đền được xây dựng qua ba cấp khác nhau: phía trước là bức nghi môn lớn, nhà chuông trống, tiền tế, đại bái và hậu cung. Bên phía tay trái đền có một cột đá thề, hình vuông, cao 1,3m, rộng 0,3m. Năm 1968, Ty Văn hoá Vĩnh Phú tôn tạo di tích, làm bệ cho cột đá thề như hiện nay.
+
+*Lăng Hùng Vương:*tương truyền là mộ của vua Hùng thứ 6. Lăng mộ nằm ở phía Đông của đền Thượng, có vị trí đầu đội sơn, chân đạp thủy, mặt quay theo hướng Đông Nam. Lăng hình vuông, cột liền tường, có đao cong 8 góc, tạo thành 2 tầng mái; tầng dưới 4 góc đắp 4 con rồng trong tư thế bò, tầng trên đắp rồng uốn ngược, đỉnh lăng đắp hình “quả ngọc” theo tích “cửu long tranh châu”; mái đắpgiả ngói ống cổ; diềm 3 phía đều đắp mặt hổ phù; ba mặt Tây, Đông, Nam đều có cửa vòm, 2 bên cửa đều đắp kỳ lân, xung quanh có tường bao quanh, chất liệu bằng đá. Trong lăng có mộ vua Hùng. Mộ xây hình hộp chữ nhật, dài 1,3m, rộng 1,8m, cao 1,0m. Phía trong lăng còn có bia đá ghi: biểu chính (lăng chính). Phía trên ba mặt lăng đều có đề: Hùng Vương lăng (lăng Hùng Vương).
+
+*Đền Giếng:*tên chữ là Ngọc Tỉnh, nằm trên núi Nghĩa Lĩnh, được xây dựng vào thế kỷ XVIII, quay hướng Đông Nam, kiến trúc kiểu chữ Công, gồm nhà tiền bái (3 gian), hậu cung (3 gian), 1 chuôi vồ và 2 nhà oản (4 gian), có phương đình nối tiền bái với hậu cung.
+
+Cổng đền Giếng được xây vào thời Nguyễn, theo kiểu kiến trúc 2 tầng, 8 mái. Ở giữa tầng dưới có một cửa xây kiểu vòm, hai bên có hai cột trụ, trên đắp nghê chầu. Trên cổng có bức đại tự đề: *“Trung sơn tiểu thất”* (ngôi nhà nhỏ trong núi).
+
+*Đền Tổ mẫu Âu Cơ:*được khởi dựng trên đỉnh Ốc sơn (thường gọi là núi Vặn) vào năm 2001, khánh thành tháng 12 năm 2004. Các hạng mục kiến trúc gồm: đền chính, tả, hữu vu, nhà bia, trụ biểu, tam quan, nhà tiếp khách và hệ thống sân, vườn. Kiến trúc đền theo lối cổ, với cột, xà, hoành, rui bằng gỗ lim, mái được lợp bằng ngói mũi hài, tường bằng gạch. Đền chính kiểu chữ đinh, có diện tích 137m2.
+
+Trong đền có tượng thờ Mẹ Âu Cơ và Lạc hầu, Lạc tướng. Đường đi lên đền được xây bằng 553 bậc đá.
+
+*Đền thờ Lạc Long Quân:***khởi công xây dựng năm 2007, tại đồi Sim, với tổng diện tích đất sử dụng là 13,79ha, khánh thành năm 2009, gồm các hạng mục: nghi môn, trụ biểu, nhà bia, đền chính (gồm tiền tế, đại bái, hậu cung), tả, hữu vu. Trong đền đặt tượng Lạc Long Quân, đúc bằng đồng, bệ tượng, lư hương được tạc bằng đá khối, họa tiết trang trí tinh xảo.**
+
+Đền Hùng là nơi hội tụ văn hóa tâm linh của dân tộc. Tín ngưỡng thờ cúng Hùng Vương và lễ hội đền Hùng là thể hiện hết sứuc cụ thể, sinh động và thiêng liêng truyền thống cố kết cộng đồng của dân tộc Việt Nam. Lễ hội đền Hùng là một lễ hội lớn mang tầm vóc quốc gia ở Việt Nam; đặc biệt, Tín ngưỡng thờ cúng Hùng Vương vừa qua đã được UNESCO vinh danh là Di sản văn hóa phi vật thể đại diện của nhân loại.
+
+Với những giá trị lịch sử, văn hóa và khoa học đặc biệt của Di tích, Thủ tướng Chính phủ đã quyết định xếp hạng Di tích lịch sử đền Hùng là di tích quốc gia đặc biệt (Quyết định số 1272/QĐ-TTg, ngày 12/8/2009).
