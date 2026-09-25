@@ -13,6 +13,7 @@ chạy lại pipeline không tạo dữ liệu trùng. Task 5 phải dùng chung
 
 import os
 import re
+import unicodedata
 from functools import lru_cache
 from pathlib import Path
 
@@ -96,7 +97,8 @@ def load_documents() -> list[dict]:
     """Đọc Markdown và trả về danh sách Document."""
     documents = []
     for path in sorted(STANDARDIZED_DIR.rglob("*.md")):
-        content = path.read_text(encoding="utf-8")
+        # NFC: PDF/DOCX hay ra NFD, làm regex "Điều" và BM25 không khớp với query gõ tay.
+        content = unicodedata.normalize("NFC", path.read_text(encoding="utf-8"))
         if not content.strip():
             continue
         # Task 3 ghi header "# <title>" và "**Source:** <url>" cho news.
