@@ -135,8 +135,13 @@ def _split_sections(text: str, doc_type: str) -> list[tuple[str, str]]:
                 continue
             part = pending + part
             pending = ""
-            heading = part.split("\n", 1)[0].strip("#* \t")[:HEADING_MAX]
-            sections.append((heading if is_heading(part) else "", part))
+            first_line = part.split("\n", 1)[0]
+            heading = first_line.strip("#* \t")[:HEADING_MAX]
+            # Không lặp tiêu đề bài ("# ...") vào mọi chunk con: nó đã có trong metadata.title,
+            # và khi lặp thì mọi chunk của bài giống nhau ở đầu, tiêu đề lấn át nội dung khi xếp hạng.
+            if first_line.startswith("# ") or not is_heading(part):
+                heading = ""
+            sections.append((heading, part))
         if pending:
             sections.append(("", pending.strip()))
         return sections

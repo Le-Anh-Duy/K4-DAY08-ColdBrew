@@ -23,6 +23,21 @@ Lưu ý khi đọc số liệu:
 - `answer_relevancy` dùng `strictness=1` (mặc định ragas là 3) để vừa quota free tier.
 - Evaluator và generator cùng một model nên có thể thiên vị theo hướng dễ dãi với câu trả lời của chính nó.
 
+### Cập nhật sau evaluation: sửa chunking (chưa chấm lại ragas)
+
+Sau lần chạy trên, nhóm phát hiện lỗi ở Task 4. Tiêu đề bài (`# ...`) bị lặp vào đầu mọi chunk con của các bài không có heading con. Ví dụ, cả 27 chunk của bài Lễ hội Vía Bà Chúa Xứ đều mở đầu bằng cùng một tiêu đề 80 ký tự, nên top 5 trông giống hệt nhau và tiêu đề lấn át nội dung khi xếp hạng. Bản sửa chỉ lặp heading của mục con (`##`, `###`) và "Điều N"; tiêu đề bài đã có trong `metadata.title`.
+
+Đo lại phần không cần LLM trên cùng golden set:
+
+| Chỉ số | Trước sửa | Sau sửa |
+| ------ | --------: | ------: |
+| Số chunk | 1578 | 1545 |
+| Overlap recall — Config A | 0.933 | 0.927 |
+| Overlap recall — Config B | 0.910 | 0.910 |
+| Cosine in-domain thấp nhất / out-of-domain cao nhất | 0.865 / 0.836 | 0.865 / 0.836 |
+
+Các chỉ số ragas bên dưới vẫn là số của bản chunking cũ (commit `23e71f2`). Top 5 sau khi sửa đa dạng hơn (không còn các chunk trùng phần đầu), còn overlap recall và ngưỡng fallback gần như không đổi.
+
 ## Configurations
 
 - **Config A — dense-only:** `retrieve(query, top_k=5, use_reranking=False)` — top 5 chunk theo cosine từ ChromaDB.
