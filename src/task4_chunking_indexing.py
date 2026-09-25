@@ -27,7 +27,27 @@ CHROMA_DIR = Path(__file__).parent.parent / "chroma_db"
 # Giải thích lựa chọn tham số trong báo cáo nhóm.
 CHUNK_SIZE = 500
 CHUNK_OVERLAP = 50
-CHUNKING_METHOD = "recursive"
+CHUNKING_METHOD = "structure"  # legal theo Điều, news theo heading; fallback recursive
+
+# Ranh giới section, thử lần lượt; pattern nào tách được >= 2 section thì dùng.
+# Không pattern nào khớp (tài liệu không đúng cấu trúc dự kiến) -> recursive thường.
+SECTION_PATTERNS = {
+    "legal": [
+        # "Điều 1." đầu dòng, chấp nhận "**Điều 1**", "## Điều 1"
+        re.compile(r"(?m)^(?=[#* \t]*Điều\s+\d+)"),
+        # PDF mất xuống dòng: "Điều N." ngay sau dấu kết câu, tránh cắt ở "theo Điều 5"
+        re.compile(r"(?:(?<=[.:;] )|(?<=[.:;]\n))(?=\**Điều\s+\d+\s*\.)"),
+    ],
+    "news": [
+        re.compile(r"(?m)^(?=#{1,3} )"),
+    ],
+}
+# Section bắt đầu bằng mẫu này thì dòng đầu là tiêu đề, được lặp lại ở chunk con.
+HEADING_START = {
+    "legal": re.compile(r"[#* \t]*Điều\s+\d+"),
+    "news": re.compile(r"#{1,3} "),
+}
+HEADING_MAX = 80
 
 EMBEDDING_PROVIDER = os.getenv("EMBEDDING_PROVIDER") or "sentence_transformers"
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL") or "intfloat/multilingual-e5-small"
@@ -95,19 +115,48 @@ def load_documents() -> list[dict]:
     return documents
 
 
+def _split_sections(text: str, doc_type: str) -> list[tuple[str, str]]:
+    """Trả về [(heading, section)]; heading rỗng nếu không nhận ra cấu trúc."""
+    for attempt, pattern in enumerate(SECTION_PATTERNS.get(doc_type, [])):
+        parts = [p.strip() for p in pattern.split(text) if p.strip()]
+        if len(parts) < 2:
+            continue
+        is_heading = HEADING_START[doc_type].match
+        sections, pending = [], ""
+        for part in parts:
+            # Section chỉ có dòng tiêu đề (vd "## Tham khảo" rỗng) -> gộp vào section sau.
+            # Không áp dụng cho pattern fallback: text mất xuống dòng nên part nào cũng 1 dòng.
+            if attempt == 0 and "\n" not in part and len(part) <= HEADING_MAX and is_heading(part):
+                pending += part + "\n"
+                continue
+            part = pending + part
+            pending = ""
+            heading = part.split("\n", 1)[0].strip("#* \t")[:HEADING_MAX]
+            sections.append((heading if is_heading(part) else "", part))
+        if pending:
+            sections.append(("", pending.strip()))
+        return sections
+    return [("", text)]
+
+
 def chunk_documents(documents: list[dict]) -> list[dict]:
-    """Chia Document thành chunks có id và chunk_index."""
+    """Chia theo cấu trúc (Điều / heading), section dài thì recursive và lặp lại heading."""
     from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-    splitter = RecursiveCharacterTextSplitter(
-        chunk_size=CHUNK_SIZE,
-        chunk_overlap=CHUNK_OVERLAP,
-        # "\nĐiều " để văn bản luật được cắt theo từng Điều trước.
-        separators=["\nĐiều ", "\n\n", "\n", ". ", " ", ""],
-    )
     chunks = []
     for document in documents:
-        texts = [t for t in splitter.split_text(document["content"]) if t.strip()]
+        texts = []
+        for heading, section in _split_sections(
+            document["content"], document["metadata"]["doc_type"]
+        ):
+            splitter = RecursiveCharacterTextSplitter(
+                chunk_size=CHUNK_SIZE - len(heading) - 1,
+                chunk_overlap=CHUNK_OVERLAP,
+                separators=["\n\n", "\n", ". ", " ", ""],
+            )
+            pieces = [p for p in splitter.split_text(section) if p.strip()]
+            # Chunk con thứ 2 trở đi mất tiêu đề -> chèn lại để giữ ngữ cảnh.
+            texts += pieces[:1] + [f"{heading}\n{p}" if heading else p for p in pieces[1:]]
         for index, text in enumerate(texts):
             chunks.append({
                 "id": f"{document['id']}::chunk-{index}",
