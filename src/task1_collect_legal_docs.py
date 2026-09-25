@@ -38,7 +38,7 @@ SOURCES = {
     },
     "thong-tu-04-2023-thu-chi-le-hoi-tien-cong-duc.pdf": {
         "title": "Thông tư 04/2023/TT-BTC hướng dẫn quản lý, thu chi tài chính cho tổ chức lễ hội và tiền công đức",
-        # Bản Công báo 357+358 tải tay; trang gốc chỉ có bản scan không trích được text.
+        # Bản Công báo 357+358 tải tay; trang vanban.chinhphu.vn chỉ có link bản ký số.
         "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=207374",
     },
     "nghi-dinh-208-2025-quy-hoach-tu-bo-di-tich.docx": {
