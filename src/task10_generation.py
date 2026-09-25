@@ -12,6 +12,10 @@ Nếu context không đủ hoặc provider lỗi, trả safe refusal; không b�
 """
 
 import os
+import threading
+import time
+from collections import deque
+from functools import lru_cache
 
 from dotenv import load_dotenv
 
@@ -26,6 +30,16 @@ TEMPERATURE = 0.3
 
 LLM_PROVIDER = os.getenv("LLM_PROVIDER", "openai")
 LLM_MODEL = os.getenv("LLM_MODEL", "")
+
+# Free tier Gemini ~15 RPM, vượt thì bị chặn vài phút -> tự giới hạn dưới mức đó.
+LLM_RPM = int(os.getenv("LLM_RPM", "12"))
+RATE_LIMIT_COOLDOWN = 60  # giây chờ khi provider vẫn trả 429
+LLM_MAX_RETRIES = 2
+
+# ponytail: limiter trong 1 process; app và script evaluation chạy song song thì
+# mỗi process đếm riêng -> tổng có thể vượt RPM. Cần chung thì chạy lần lượt.
+_call_times: deque[float] = deque()
+_rate_lock = threading.Lock()
 
 SYSTEM_PROMPT = """Trả lời chỉ từ context được cung cấp.
 Mỗi khẳng định phải có citation. Nếu thiếu evidence, hãy từ chối xác minh."""
@@ -58,16 +72,89 @@ def format_context(chunks: list[dict]) -> str:
     raise NotImplementedError("Implement format_context")
 
 
+def _wait_for_rate_limit() -> None:
+    """Sliding window: tối đa LLM_RPM request trong 60 giây gần nhất."""
+    with _rate_lock:
+        now = time.monotonic()
+        while _call_times and now - _call_times[0] >= 60:
+            _call_times.popleft()
+        if len(_call_times) >= LLM_RPM:
+            wait = 60 - (now - _call_times[0])
+            print(f"[rate limit] {LLM_RPM} request/phút, chờ {wait:.0f}s")
+            time.sleep(wait)
+            _call_times.popleft()
+        _call_times.append(time.monotonic())
+
+
+def _is_rate_limited(error: Exception) -> bool:
+    # google-genai: .code; openai/anthropic: .status_code
+    return 429 in (getattr(error, "code", None), getattr(error, "status_code", None))
+
+
+@lru_cache(maxsize=1)
+def _client():
+    if LLM_PROVIDER == "gemini":
+        from google import genai
+        return genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+    if LLM_PROVIDER == "openai":
+        from openai import OpenAI
+        return OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    if LLM_PROVIDER == "anthropic":
+        from anthropic import Anthropic
+        return Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
+    raise ValueError(f"Unsupported LLM_PROVIDER: {LLM_PROVIDER}")
+
+
+def _send(system_prompt: str, user_message: str) -> str:
+    client = _client()
+    if LLM_PROVIDER == "gemini":
+        from google.genai import types
+        response = client.models.generate_content(
+            model=LLM_MODEL,
+            contents=user_message,
+            config=types.GenerateContentConfig(
+                system_instruction=system_prompt,
+                temperature=TEMPERATURE,
+                top_p=TOP_P,
+                # Không dùng tool calling; tắt để SDK không in cảnh báo AFC.
+                automatic_function_calling=types.AutomaticFunctionCallingConfig(disable=True),
+            ),
+        )
+        return response.text or ""
+    if LLM_PROVIDER == "openai":
+        response = client.chat.completions.create(
+            model=LLM_MODEL,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_message},
+            ],
+            temperature=TEMPERATURE,
+            top_p=TOP_P,
+        )
+        return response.choices[0].message.content or ""
+    # anthropic: không truyền top_p cùng temperature (một số model từ chối).
+    response = client.messages.create(
+        model=LLM_MODEL,
+        system=system_prompt,
+        messages=[{"role": "user", "content": user_message}],
+        max_tokens=1024,
+        temperature=TEMPERATURE,
+    )
+    return "".join(block.text for block in response.content if block.type == "text")
+
+
 def call_llm(system_prompt: str, user_message: str) -> str:
-    """Gọi OpenAI, Gemini hoặc Anthropic theo cấu hình."""
-    # TODO: Dispatch theo LLM_PROVIDER.
-    #
-    # - openai    -> OPENAI_API_KEY
-    # - gemini    -> GEMINI_API_KEY
-    # - anthropic -> ANTHROPIC_API_KEY
-    #
-    # Dùng LLM_MODEL và trả về text thuần cho cả ba nhánh.
-    raise NotImplementedError("Implement call_llm")
+    """Gọi OpenAI, Gemini hoặc Anthropic theo cấu hình, có giới hạn RPM."""
+    for attempt in range(LLM_MAX_RETRIES + 1):
+        _wait_for_rate_limit()
+        try:
+            return _send(system_prompt, user_message)
+        except Exception as error:
+            if not _is_rate_limited(error) or attempt == LLM_MAX_RETRIES:
+                raise
+            print(f"[rate limit] provider trả 429, chờ {RATE_LIMIT_COOLDOWN}s rồi thử lại")
+            time.sleep(RATE_LIMIT_COOLDOWN)
+    raise AssertionError("unreachable")
 
 
 def generate_with_citation(query: str, top_k: int = TOP_K) -> dict:
