@@ -23,7 +23,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 STANDARDIZED_DIR = Path(__file__).parent.parent / "data" / "standardized"
-CHROMA_DIR = Path(__file__).parent.parent / "chroma_db"
+# Chroma 1.5.x không đọc lại được HNSW index (>~1000 vector) nếu đường dẫn có ký tự
+# non-ASCII (vd "Thực Chiến") -> đặt CHROMA_DIR trong .env tới thư mục ASCII.
+CHROMA_DIR = Path(os.getenv("CHROMA_DIR") or Path(__file__).parent.parent / "chroma_db")
 
 # Giải thích lựa chọn tham số trong báo cáo nhóm.
 CHUNK_SIZE = 500
