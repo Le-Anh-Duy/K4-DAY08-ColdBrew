@@ -1,24 +1,24 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { 
-  FileText, 
-  MessageSquare, 
-  Search, 
-  Send, 
-  ExternalLink, 
-  Trash2, 
-  X, 
-  Sparkles, 
-  Layers, 
-  BookOpen, 
-  Scroll, 
-  ChevronDown, 
-  ChevronUp, 
-  Compass, 
-  Volume2, 
-  VolumeX, 
-  Crown, 
-  Flame, 
-  Landmark, 
+import {
+  FileText,
+  MessageSquare,
+  Search,
+  Send,
+  ExternalLink,
+  Trash2,
+  X,
+  Sparkles,
+  Layers,
+  BookOpen,
+  Scroll,
+  ChevronDown,
+  ChevronUp,
+  Compass,
+  Volume2,
+  VolumeX,
+  Crown,
+  Flame,
+  Landmark,
   Music,
   User,
   Coins,
@@ -316,7 +316,7 @@ export default function App() {
     const cleanKey = keyword.trim();
     const regex = new RegExp(`(${cleanKey.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
     const parts = text.split(regex);
-    return parts.map((part, i) => 
+    return parts.map((part, i) =>
       part.toLowerCase() === cleanKey.toLowerCase() ? (
         <mark key={i} className="doc-highlight-match">{part}</mark>
       ) : part
@@ -374,8 +374,8 @@ export default function App() {
   const filteredDocs = documents.filter(doc => {
     const matchRegion = selectedRegion === 'all' || doc.region === selectedRegion || doc.region === 'national';
     const matchCategory = selectedCategory === 'all' || doc.type === selectedCategory;
-    const matchSearch = !searchQuery || 
-      doc.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
+    const matchSearch = !searchQuery ||
+      doc.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
       doc.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       (doc.category && doc.category.toLowerCase().includes(searchQuery.toLowerCase()));
     return matchRegion && matchCategory && matchSearch;
@@ -516,27 +516,27 @@ export default function App() {
 
         {/* 2 Navigation Tabs */}
         <nav className="nav-tabs" role="tablist">
-          <button 
+          <button
             className={`tab-btn ${screen === 'documents' ? 'active' : ''}`}
             onClick={() => setScreen('documents')}
           >
             <Compass size={17} />
-            <span>Màn 1: Triển Lãm & Thư Viện</span>
+            <span>Triển Lãm & Thư Viện</span>
             <span className="counter-pill">{documents.length}</span>
           </button>
 
-          <button 
+          <button
             className={`tab-btn ${screen === 'pdf-chat' ? 'active' : ''}`}
             onClick={() => setScreen('pdf-chat')}
           >
             <BookOpen size={17} />
-            <span>Màn 2: Cổ Thư PDF & Đàm Thoại AI</span>
+            <span>Cổ Thư PDF & Đàm Thoại AI</span>
           </button>
         </nav>
 
         {/* Ambient Sound & System Status */}
         <div className="nav-actions">
-          <button 
+          <button
             className={`audio-btn ${isAudioPlaying ? 'playing' : ''}`}
             onClick={toggleAmbientAudio}
             title={isAudioPlaying ? "Tắt âm sáo trúc & chuông thiền" : "Bật âm hưởng không gian truyền thống"}
@@ -556,73 +556,14 @@ export default function App() {
       {/* MAIN CONTAINER                                                   */}
       {/* ================================================================ */}
       <main className="main-content">
-        
+
         {/* ============================================================== */}
         {/* SCREEN 1: BẢO TÀNG SỐ, BENTO GRID & THƯ VIỆN DI SẢN (MÀN 1)    */}
         {/* ============================================================== */}
         {screen === 'documents' && (
           <section className="screen-showcase screen-view">
-            
-            {/* HERO SECTION: "Hồn cốt ngàn năm trong hơi thở thời đại" */}
-            <div className="hero-heritage">
-              <div className="hero-tag">
-                <Crown size={14} />
-                <span>DI SẢN QUỐC GIA & KIỆT TÁC NHÂN LOẠI</span>
-              </div>
-              <h1 className="hero-title">
-                Hồn Cốt Ngàn Năm Trong Hơi Thở Thời Đại
-              </h1>
-              <p className="hero-desc">
-                Chào mừng Quý khách bước vào không gian bảo tàng số cao cấp lưu giữ tinh hoa văn hóa Việt Nam. Nơi đây kết nối chiều sâu lịch sử với công nghệ trí tuệ nhân tạo, giúp tra cứu văn bản quy phạm pháp luật, khảo cứu hồ sơ di sản UNESCO và đàm thoại tri thức cùng AI.
-              </p>
 
-              {/* Stats Ribbon */}
-              <div className="stats-ribbon">
-                <div className="stat-box">
-                  <div className="stat-emblem emblem-gold">
-                    <Crown size={22} />
-                  </div>
-                  <div>
-                    <div className="stat-num">{documents.length}</div>
-                    <div className="stat-lbl">Tổng Danh Mục Di Sản</div>
-                  </div>
-                </div>
 
-                <div className="stat-box">
-                  <div className="stat-emblem emblem-red">
-                    <Scroll size={22} />
-                  </div>
-                  <div>
-                    <div className="stat-num">
-                      {documents.filter(d => d.type === 'legal').length}
-                    </div>
-                    <div className="stat-lbl">Văn Bản Pháp Quy (PDF/DOCX)</div>
-                  </div>
-                </div>
-
-                <div className="stat-box">
-                  <div className="stat-emblem emblem-brown">
-                    <Flame size={22} />
-                  </div>
-                  <div>
-                    <div className="stat-num">
-                      {documents.filter(d => d.type === 'news').length}
-                    </div>
-                    <div className="stat-lbl">Kiệt Tác Phi Vật Thể</div>
-                  </div>
-                </div>
-
-                <div className="stat-box">
-                  <div className="stat-emblem emblem-gold-dark">
-                    <Layers size={22} />
-                  </div>
-                  <div>
-                    <div className="stat-num">100%</div>
-                    <div className="stat-lbl">Chuẩn Hóa Tri Thức Số</div>
-                  </div>
-                </div>
-              </div>
-            </div>
 
             {/* BENTO SHOWCASE GRID */}
             <h3 className="bento-section-title">
@@ -631,7 +572,7 @@ export default function App() {
             </h3>
 
             <div className="bento-grid">
-              
+
               {/* Thẻ lớn UNESCO Hero: Tín ngưỡng Hùng Vương */}
               <div className="bento-card bento-col-8 bento-featured">
                 <div>
@@ -662,14 +603,14 @@ export default function App() {
                 </div>
 
                 <div className="bento-actions">
-                  <button 
+                  <button
                     className="btn-lacquer"
                     onClick={() => handleStartChatAboutDoc("Tín ngưỡng thờ cúng Hùng Vương")}
                   >
                     <MessageSquare size={15} />
                     <span>Đàm Thoại Cùng AI</span>
                   </button>
-                  <button 
+                  <button
                     className="btn-outline-gold"
                     onClick={() => handleOpenDrawer(INITIAL_DOCUMENTS[4])}
                   >
@@ -698,7 +639,7 @@ export default function App() {
                 </div>
 
                 <div className="bento-actions">
-                  <button 
+                  <button
                     className="btn-outline-gold"
                     style={{ width: '100%', justifyContent: 'center' }}
                     onClick={() => handleOpenDrawer(INITIAL_DOCUMENTS[5])}
@@ -728,7 +669,7 @@ export default function App() {
                 </div>
 
                 <div className="bento-actions">
-                  <button 
+                  <button
                     className="btn-outline-gold"
                     style={{ width: '100%', justifyContent: 'center' }}
                     onClick={() => handleOpenDrawer(INITIAL_DOCUMENTS[6])}
@@ -761,14 +702,14 @@ export default function App() {
                 </div>
 
                 <div className="bento-actions">
-                  <button 
+                  <button
                     className="btn-gold"
                     onClick={() => handleOpenPdf("VanBanGoc_TT 04_2023_TT_BTC.pdf")}
                   >
                     <BookOpen size={15} />
                     <span>Mở Văn Bản Gốc (PDF)</span>
                   </button>
-                  <button 
+                  <button
                     className="btn-outline-gold"
                     onClick={() => handleStartChatAboutDoc("Thông tư 04/2023/TT-BTC về tiền công đức")}
                   >
@@ -791,9 +732,9 @@ export default function App() {
                 {/* Search */}
                 <div className="search-heritage">
                   <Search size={18} />
-                  <input 
-                    type="text" 
-                    placeholder="Tìm kiếm theo tên văn bản, cơ quan ban hành, di tích..." 
+                  <input
+                    type="text"
+                    placeholder="Tìm kiếm theo tên văn bản, cơ quan ban hành, di tích..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                   />
@@ -801,25 +742,25 @@ export default function App() {
 
                 {/* Regional Filters (3 Miền) */}
                 <div className="region-filters">
-                  <button 
+                  <button
                     className={`region-btn ${selectedRegion === 'all' ? 'active' : ''}`}
                     onClick={() => setSelectedRegion('all')}
                   >
                     Toàn Quốc
                   </button>
-                  <button 
+                  <button
                     className={`region-btn ${selectedRegion === 'north' ? 'active' : ''}`}
                     onClick={() => setSelectedRegion('north')}
                   >
                     Miền Bắc
                   </button>
-                  <button 
+                  <button
                     className={`region-btn ${selectedRegion === 'central' ? 'active' : ''}`}
                     onClick={() => setSelectedRegion('central')}
                   >
                     Miền Trung
                   </button>
-                  <button 
+                  <button
                     className={`region-btn ${selectedRegion === 'south' ? 'active' : ''}`}
                     onClick={() => setSelectedRegion('south')}
                   >
@@ -831,8 +772,8 @@ export default function App() {
               {/* Cards Grid */}
               <div className="heritage-cards-grid">
                 {filteredDocs.map((doc) => {
-                  const sealClass = doc.format === 'PDF' 
-                    ? 'badge-pdf-seal' 
+                  const sealClass = doc.format === 'PDF'
+                    ? 'badge-pdf-seal'
                     : (doc.format === 'DOCX' ? 'badge-docx-seal' : 'badge-json-seal');
 
                   return (
@@ -870,8 +811,8 @@ export default function App() {
 
                       <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
                         {doc.is_pdf && (
-                          <button 
-                            className="btn-gold" 
+                          <button
+                            className="btn-gold"
                             style={{ padding: '0.45rem 0.85rem', fontSize: '0.8rem' }}
                             onClick={() => handleOpenDoc(doc.name)}
                           >
@@ -880,8 +821,8 @@ export default function App() {
                           </button>
                         )}
                         {doc.format === 'DOCX' && (
-                          <button 
-                            className="btn-gold" 
+                          <button
+                            className="btn-gold"
                             style={{ padding: '0.45rem 0.85rem', fontSize: '0.8rem', borderColor: 'var(--brown-primary)', color: 'var(--brown-primary)' }}
                             onClick={() => handleOpenDoc(doc.name)}
                           >
@@ -889,16 +830,16 @@ export default function App() {
                             Xem DOCX
                           </button>
                         )}
-                        <button 
-                          className="btn-outline-gold" 
+                        <button
+                          className="btn-outline-gold"
                           style={{ padding: '0.45rem 0.85rem', fontSize: '0.8rem' }}
                           onClick={() => handleOpenDrawer(doc)}
                         >
                           <Scroll size={14} />
                           Chi Tiết
                         </button>
-                        <button 
-                          className="btn-lacquer" 
+                        <button
+                          className="btn-lacquer"
                           style={{ padding: '0.45rem 0.85rem', fontSize: '0.8rem' }}
                           onClick={() => handleStartChatAboutDoc(doc.title)}
                         >
@@ -922,7 +863,7 @@ export default function App() {
         {screen === 'pdf-chat' && (
           <section className="screen-view" style={{ height: '100%' }}>
             <div className="split-heritage-container">
-              
+
               {/* CỘT TRÁI: TRÌNH XEM VĂN BẢN PDF / DOCX CỔ THƯ */}
               <div className="pane-heritage pane-left">
                 <div className="pane-header-heritage">
@@ -941,7 +882,7 @@ export default function App() {
                   </div>
 
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-                    <select 
+                    <select
                       className="select-heritage"
                       value={selectedDocName}
                       onChange={(e) => handleOpenDoc(e.target.value)}
@@ -956,7 +897,7 @@ export default function App() {
                     {/* Mode toggle for PDF */}
                     {currentDoc?.is_pdf && (
                       <div style={{ display: 'flex', border: '1px solid var(--border-gold)', borderRadius: 'var(--radius-sm)', overflow: 'hidden' }}>
-                        <button 
+                        <button
                           className={`tab-btn ${docViewMode === 'native' ? 'active' : ''}`}
                           style={{ padding: '0.25rem 0.55rem', fontSize: '0.74rem' }}
                           onClick={() => setDocViewMode('native')}
@@ -964,7 +905,7 @@ export default function App() {
                         >
                           PDF
                         </button>
-                        <button 
+                        <button
                           className={`tab-btn ${docViewMode === 'markdown' ? 'active' : ''}`}
                           style={{ padding: '0.25rem 0.55rem', fontSize: '0.74rem' }}
                           onClick={() => setDocViewMode('markdown')}
@@ -976,8 +917,8 @@ export default function App() {
                     )}
 
                     {currentDoc?.is_pdf && (
-                      <button 
-                        className="audio-btn" 
+                      <button
+                        className="audio-btn"
                         style={{ padding: '0.4rem 0.6rem' }}
                         title="Mở tệp PDF trong tab mới"
                         onClick={() => window.open(`/api/pdf/${encodeURIComponent(currentDoc.name)}`, '_blank')}
@@ -986,10 +927,10 @@ export default function App() {
                       </button>
                     )}
 
-                    <a 
+                    <a
                       href={`/api/pdf/${encodeURIComponent(currentDoc?.name || '')}`}
                       download={currentDoc?.name}
-                      className="audio-btn" 
+                      className="audio-btn"
                       style={{ padding: '0.4rem 0.6rem', textDecoration: 'none' }}
                       title={`Tải về ${currentDoc?.format} gốc`}
                     >
@@ -1001,9 +942,9 @@ export default function App() {
                 {/* PDF or DOCX Viewport */}
                 <div className="pdf-viewport">
                   {currentDoc?.is_pdf && docViewMode === 'native' ? (
-                    <iframe 
+                    <iframe
                       key={currentDoc.name}
-                      className="pdf-iframe-heritage" 
+                      className="pdf-iframe-heritage"
                       src={`/api/pdf/${encodeURIComponent(currentDoc.name)}#toolbar=1&view=FitH`}
                       title={`Tài liệu ${currentDoc.title}`}
                     />
@@ -1012,8 +953,8 @@ export default function App() {
                       <div className="doc-reader-toolbar">
                         <div className="doc-search-box">
                           <Search size={14} color="var(--gold-primary)" />
-                          <input 
-                            type="text" 
+                          <input
+                            type="text"
                             placeholder="Tra cứu từ khóa trong văn bản..."
                             value={docSearchKeyword}
                             onChange={(e) => setDocSearchKeyword(e.target.value)}
@@ -1027,7 +968,7 @@ export default function App() {
                           <span className={`badge-seal ${currentDoc?.format === 'DOCX' ? 'badge-docx-seal' : 'badge-pdf-seal'}`}>
                             {currentDoc?.format} • {currentDoc?.size_formatted}
                           </span>
-                          <a 
+                          <a
                             href={`/api/pdf/${encodeURIComponent(currentDoc?.name || '')}`}
                             download={currentDoc?.name}
                             className="btn-outline-gold"
@@ -1092,7 +1033,7 @@ export default function App() {
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem' }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', fontSize: '0.74rem', color: 'var(--text-muted)' }}>
                       <span>Trích dẫn:</span>
-                      <select 
+                      <select
                         className="select-heritage"
                         style={{ padding: '0.2rem 0.5rem', fontSize: '0.74rem', width: 'auto' }}
                         value={topK}
@@ -1104,8 +1045,8 @@ export default function App() {
                       </select>
                     </div>
 
-                    <button 
-                      className="audio-btn" 
+                    <button
+                      className="audio-btn"
                       style={{ padding: '0.35rem 0.65rem' }}
                       title="Thanh tẩy lịch sử đàm thoại"
                       onClick={handleClearChat}
@@ -1125,7 +1066,7 @@ export default function App() {
                         <div className="msg-avatar">
                           {msg.role === 'user' ? <User size={18} /> : <Landmark size={18} />}
                         </div>
-                        
+
                         <div className="msg-content-wrapper">
                           <div className="msg-author">
                             {msg.role === 'user' ? 'Khách Viếng Thăm' : 'Học Giả AI Di Sản'}
@@ -1148,28 +1089,28 @@ export default function App() {
                                 <span>Khảo cứu câu hỏi tiêu biểu:</span>
                               </div>
                               <div className="chips-heritage-list">
-                                <button 
+                                <button
                                   className="chip-heritage"
                                   onClick={() => handleQuickPrompt("Quy định mở tài khoản và thu chi tiền công đức lễ hội theo Thông tư 04/2023/TT-BTC?")}
                                 >
                                   <Coins size={13} style={{ display: 'inline', marginRight: '0.35rem', verticalAlign: 'middle' }} />
                                   Tiền công đức TT 04/2023
                                 </button>
-                                <button 
+                                <button
                                   className="chip-heritage"
                                   onClick={() => handleQuickPrompt("Ý nghĩa nhân văn và giá trị văn hóa tâm linh của Tín ngưỡng thờ cúng Hùng Vương?")}
                                 >
                                   <Crown size={13} style={{ display: 'inline', marginRight: '0.35rem', verticalAlign: 'middle' }} />
                                   Tín ngưỡng Hùng Vương
                                 </button>
-                                <button 
+                                <button
                                   className="chip-heritage"
                                   onClick={() => handleQuickPrompt("Nghi thức tắm Bà và rước kiệu trong Lễ hội Vía Bà Chúa Xứ Núi Sam diễn ra như thế nào?")}
                                 >
                                   <Flame size={13} style={{ display: 'inline', marginRight: '0.35rem', verticalAlign: 'middle' }} />
                                   Vía Bà Chúa Xứ Núi Sam
                                 </button>
-                                <button 
+                                <button
                                   className="chip-heritage"
                                   onClick={() => handleQuickPrompt("Nghị định 208/2025/NĐ-CP có những điểm mới nào về quản lý di sản văn hóa?")}
                                 >
@@ -1183,7 +1124,7 @@ export default function App() {
                           {/* Sources Card */}
                           {msg.sources && msg.sources.length > 0 && (
                             <div className="sources-card-heritage">
-                              <div 
+                              <div
                                 className="sources-head"
                                 onClick={() => toggleSourceAccordion(msg.id)}
                               >
@@ -1210,12 +1151,12 @@ export default function App() {
                                         {s.content ? s.content.slice(0, 240) + '...' : ''}
                                       </p>
                                       {s.pdf_name && (
-                                        <button 
+                                        <button
                                           className="btn-open-pdf-inline"
-                                          onClick={() => handleOpenPdf(s.pdf_name)}
+                                          onClick={() => handleOpenDoc(s.pdf_name)}
                                         >
                                           <FileText size={13} />
-                                          <span>Mở Cổ Thư PDF Này ({s.pdf_name})</span>
+                                          <span>Mở Văn Bản / Cổ Thư ({s.pdf_name})</span>
                                           <ExternalLink size={12} />
                                         </button>
                                       )}
@@ -1257,7 +1198,7 @@ export default function App() {
                 <div className="chat-input-bar">
                   <form onSubmit={handleSendChat}>
                     <div className="input-box-heritage">
-                      <textarea 
+                      <textarea
                         rows={1}
                         placeholder="Thỉnh vấn học giả tri thức (ví dụ: 'Quy định mở tài khoản ngân hàng tiếp nhận tiền công đức...')"
                         value={inputQuery}
@@ -1269,8 +1210,8 @@ export default function App() {
                           }
                         }}
                       />
-                      <button 
-                        type="submit" 
+                      <button
+                        type="submit"
                         className="btn-send-heritage"
                         disabled={!inputQuery.trim() || isTyping}
                         title="Gửi câu hỏi"
@@ -1306,8 +1247,8 @@ export default function App() {
                 </span>
                 <h3 className="drawer-title-text">{drawerDoc.title}</h3>
               </div>
-              <button 
-                className="audio-btn" 
+              <button
+                className="audio-btn"
                 style={{ padding: '0.3rem 0.5rem' }}
                 onClick={() => setDrawerDoc(null)}
               >
@@ -1335,7 +1276,7 @@ export default function App() {
 
             <div className="drawer-foot-heritage">
               {drawerDoc.is_pdf && (
-                <button 
+                <button
                   className="btn-gold"
                   onClick={() => {
                     handleOpenPdf(drawerDoc.name);
@@ -1346,7 +1287,7 @@ export default function App() {
                   Mở Trình Đọc Cổ Thư PDF & Chat
                 </button>
               )}
-              <button 
+              <button
                 className="btn-outline-gold"
                 onClick={() => setDrawerDoc(null)}
               >

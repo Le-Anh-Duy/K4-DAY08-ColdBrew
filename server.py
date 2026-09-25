@@ -174,42 +174,72 @@ async def api_chat(request: Request):
     retrieval_source = "hybrid"
     answer = ""
 
-    # Call functions from src/ safely
+    # 1. Retrieve candidates using Task 9 hybrid pipeline
     try:
-        from src.task10_generation import generate_with_citation
-        result = generate_with_citation(query, top_k=top_k)
-        if isinstance(result, dict) and "answer" in result:
-            answer = result.get("answer", "")
-            sources = result.get("sources", [])
-            retrieval_source = result.get("retrieval_source", "hybrid")
-    except Exception:
+        from src.task9_retrieval_pipeline import retrieve
+        sources = retrieve(query, top_k=top_k)
+        retrieval_source = "hybrid"
+    except Exception as e_ret:
+        print(f"[api_chat] Hybrid retrieve error: {e_ret}")
         try:
-            from src.task9_retrieval_pipeline import retrieve
-            sources = retrieve(query, top_k=top_k)
-            retrieval_source = "hybrid"
+            from src.task6_lexical_search import lexical_search
+            sources = lexical_search(query, top_k=top_k)
+            retrieval_source = "bm25"
         except Exception:
             try:
-                from src.task6_lexical_search import lexical_search
-                sources = lexical_search(query, top_k=top_k)
-                retrieval_source = "bm25"
+                from src.task5_semantic_search import semantic_search
+                sources = semantic_search(query, top_k=top_k)
+                retrieval_source = "dense"
             except Exception:
-                try:
-                    from src.task5_semantic_search import semantic_search
-                    sources = semantic_search(query, top_k=top_k)
-                    retrieval_source = "dense"
-                except Exception:
-                    sources = []
+                sources = []
 
-    # Map sources and link to PDF where applicable
+    # 2. Try generation via Task 10 (generate_with_citation)
+    refusal_msg = "Tôi không thể xác minh thông tin này từ nguồn hiện có."
+    if sources:
+        try:
+            from src.task10_generation import generate_with_citation
+            res_gen = generate_with_citation(query, top_k=top_k)
+            if isinstance(res_gen, dict) and res_gen.get("sources") and res_gen.get("answer") != refusal_msg:
+                answer = res_gen["answer"]
+                sources = res_gen["sources"]
+                retrieval_source = res_gen.get("retrieval_source", retrieval_source)
+        except Exception as e_gen:
+            print(f"[api_chat] generate_with_citation notice: {e_gen}")
+
+    # 3. If answer still empty but we have context chunks, call Gemini directly with Task 10 call_llm
+    if not answer and sources:
+        try:
+            from src.task10_generation import call_llm, format_context, reorder_for_llm
+            prompt_context = format_context(reorder_for_llm(sources))
+            llm_prompt = f"""Bạn là Trợ lý AI Khảo cứu Văn hiến và Pháp luật Di sản Việt Nam.
+Hãy trả lời câu hỏi dưới đây một cách đầy đủ, chính xác, trang trọng và bám sát vào các tài liệu được cung cấp.
+Sau các luận điểm hoặc nội dung quan trọng, hãy kèm trích dẫn văn bản tương ứng.
+
+Ngữ cảnh tài liệu:
+{prompt_context}
+
+Câu hỏi: {query}
+"""
+            answer = call_llm("Bạn là chuyên gia về Di sản Văn hóa Việt Nam và Pháp luật.", llm_prompt)
+        except Exception as e_llm:
+            print(f"[api_chat] LLM direct call notice: {e_llm}")
+
+    # 4. Map sources and link to PDF/DOCX where applicable
     mapped_sources = []
+    legal_files = list(LANDING_LEGAL_DIR.glob("*.*")) if LANDING_LEGAL_DIR.exists() else []
     for s in sources:
         meta = s.get("metadata", {})
         source_name = meta.get("source", "")
-        pdf_name = None
-        for p in LANDING_LEGAL_DIR.glob("*.pdf"):
+        doc_name = None
+        for p in legal_files:
+            if p.suffix.lower() not in {".pdf", ".docx", ".doc"}:
+                continue
             if p.stem in source_name or source_name in p.name:
-                pdf_name = p.name
+                doc_name = p.name
                 break
+
+        is_pdf = bool(doc_name and doc_name.lower().endswith(".pdf"))
+        is_docx = bool(doc_name and doc_name.lower().endswith(".docx"))
 
         mapped_sources.append({
             "id": s.get("id"),
@@ -221,12 +251,13 @@ async def api_chat(request: Request):
             "doc_type": meta.get("doc_type", "unknown"),
             "url": meta.get("url"),
             "chunk_index": meta.get("chunk_index"),
-            "pdf_name": pdf_name,
-            "pdf_url": f"/api/pdf/{urllib.parse.quote(pdf_name)}" if pdf_name else None,
+            "pdf_name": doc_name,
+            "is_pdf": is_pdf,
+            "is_docx": is_docx,
+            "pdf_url": f"/api/pdf/{urllib.parse.quote(doc_name)}" if doc_name else None,
         })
 
-    # Grounded synthesis if answer was not produced by LLM
-    
+    # 5. Final fallback if LLM was unavailable
     if not answer and mapped_sources:
         top_refs = [
             f"- **[{s['title']}]**: {s['content'][:260].strip()}..."
