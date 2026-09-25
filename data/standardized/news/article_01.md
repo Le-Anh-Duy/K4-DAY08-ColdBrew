@@ -1,0 +1,156 @@
+# Hội Gióng ở đền Phù Đổng và đền Sóc
+
+**Source:** https://dsvh.gov.vn/hoi-giong-o-den-phu-dong-va-den-soc-486
+
+**Crawled:** 2026-09-25T11:01:22.959273
+
+---
+
+Ngày 25 tháng 9 năm 2026
+
+* Trang chủ
+* Giới thiệu
+  + Thông tin chung
+  + Cơ cấu tổ chức
+  + Các tổ chức tư vấn liên quan
+* Tin tức - sự kiện
+* THÔNG TIN DI SẢN VĂN HÓA 
+  + Di tích 
+    - Di sản văn hóa và thiên nhiên thế giới
+    - Di tích quốc gia đặc biệt
+    - Danh mục Di tích quốc gia
+  + Di sản văn hóa phi vật thể
+    - Di sản văn hóa phi vật thể đại diện của nhân loại
+    - Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp
+    - Danh mục Di sản văn hóa phi vật thể quốc gia
+    - Danh sách Nghệ nhân
+      * Nghệ nhân nhân dân
+      * Nghệ nhân ưu tú
+  + Bảo vật quốc gia
+    - Di vật, Cổ vật
+    - Bảo vật quốc gia
+  + Bảo tàng
+    - Bảo tàng quốc gia
+    - Bảo tàng chuyên ngành thuộc bộ, ngành, tổ chức chính trị - xã hội trung ương
+    - Bảo tàng chuyên ngành thuộc các đơn vị trực thuộc bộ, ngành, tổ chức chính trị - xã hội trung ương
+    - Bảo tàng cấp tỉnh
+    - Bảo tàng ngoài công lập
+  + Di sản tư liệu
+* TRAO ĐỔI, HỢP TÁC, QUẢNG BÁ DI SẢN VĂN HÓA
+
+Văn bản pháp luật
+
+* Văn bản pháp luật VIệt Nam
+* Văn bản pháp luật quốc tế
+* Tra cứu văn bản
+
+Ấn phẩm tài liệu
+
+* Tài liệu tham khảo
+* Sách xuất bản
+* Thư mục tài liệu
+
+Liên kết website
+
+-- Liên kết website --
+Khu di tích quốc gia đặc biệt Cổ Loa 
+Bộ Văn hóa, Thể thao và Du lịch
+Bảo tàng Lịch sử quốc gia
+Bảo tàng Hồ Chí Minh
+Bảo tàng Mỹ thuật Việt Nam
+Khu di tích Chủ tịch Hồ Chí Minh tại Phủ Chủ tịch
+Bảo tàng dân tộc học Việt Nam
+Trung tâm bảo tồn di tích Cố đô Huế
+Ban Quản lý Vịnh Hạ Long
+Bảo tàng Thành phố Hồ Chí Minh
+Bảo tàng tỉnh Thái Nguyên
+Trung tâm Quản lý di tích và bảo tàng tỉnh Quảng Trị
+Hoàng thành Thăng Long
+
+![Hướng tới Ngày Chuyển đổi số quốc gia 10/10/2023](/ckfinder/userfiles/files/Design%202.png)
+
+![Tạp chí Di sản văn hóa](/ckfinder/userfiles/files/12.jpg)
+
+Previous
+
+
+Next
+
+DI sản văn hóa phi vật thể đại diện của nhân loại
+
+# Hội Gióng ở đền Phù Đổng và đền Sóc
+
+Hội Gióng ở đền Phù Đổng và đền Sóc gắn với truyền thuyết về một cậu bé được mẹ sinh ra một cách kỳ lạ ở làng Phù Đổng. Khôi ngô, tuấn tú nhưng lên 3 mà vẫn chưa biết nói, biết cười, suốt ngày cậu chỉ nằm trong thúng treo trên gióng tre, vì thế được đặt tên là Gióng. Vậy mà khi nghe thấy lời kêu gọi của nhà Vua tìm người tài giỏi đánh giặc ngoại xâm, Gióng bỗng lớn nhanh như thổi, rồi xung phong ra trận cứu nước, cứu dân. Sau khi dẹp tan quân giặc, ngài về núi Sóc rồi cưỡi ngựa bay lên trời.
+
+Từ đó, ngài Gióng được thiêng hóa thành một vị Thánh bất tử bảo hộ mùa màng, hòa bình cho đất nước, thịnh vượng cho muôn dân. Để tưởng nhớ công ơn của ngài, người dân lập đền, thờ phụng và mở hội hằng năm với tên gọi là Hội Gióng ở đền Phù Đổng và đền Sóc. Đó là một trong những lễ hội lớn nhất vùng châu thổ Bắc Bộ, tổ chức theo một nghi thức được quy định chặt chẽ, chuẩn bị hết sức công phu, với sự tham gia đông đảo của dân làng quanh khu vực hai đền. Hội Gióng ở đền Phù Đổng, xã Phù Đổng, huyện Gia Lâm - nơi sinh Thánh Gióng diễn ra từ ngày 7 đến ngày 9 tháng 4 Âm lịch, và Hội Gióng ở đền Sóc ở xã Phù Linh, huyện Sóc Sơn (nay thuộc Hà Nội) - nơi Thánh hóa diễn ra từ ngày 6 đến ngày 8 tháng giêng.   
+Để tổ chức Hội Gióng ở đền Phù Đổng, những gia đình có vinh dự được chọn người đóng những vai quan trọng như các vai Ông Hiệu (Hiệu cờ, Hiệu trống, Hiệu chiêng, Hiệu Trung quân, Hiệu Tiểu cổ), vai cô Tướng hay các phường Áo đen, phường Áo đỏ ..., tùy theo vai vế, khả năng kinh tế mà chuẩn bị những điều kiện vật chất và người được chọn vai sinh hoạt kiêng cữ từ hàng tháng trước ngày Lễ hội. Vào chính hội, trước tiên dân làng tổ chức các nghi thức tế Thánh, sau đó là lễ rước nước lau rửa tự khí từ giếng đền Mẫu (đền Hạ) với ý nguyện được mưa thuận, gió hòa, lễ rước cờ “lệnh” từ đền Mẫu lên đền Thượng, tiếp đến là lễ khám đường, lễ duyệt tướng … Ngày chính hội mùng 9 tháng 4, Hội Gióng diễn ra trang trọng, linh thiêng và náo nhiệt nhất là hai trận đánh. Trận thứ nhất: đánh cờ ở Đống Đàm (khu đất ven hồ sen đầu làng Đổng Viên, cách đền Thượng chừng 2 km) và trận thứ hai: đánh cờ ở Soi Bia. Chiến trường là 03 chiếc chiếu, mỗi chiếu có 01 chiếc bát to tượng trưng cho núi đồi, úp trên 01 tờ giấy trắng tượng trưng cho mây trời. Vây quanh là đại quân của Gióng và phía bên kia là đại quân của 28 nữ tướng giặc (biểu tượng cho yếu tố âm). Sau nghi lễ tế Thánh, ông Hiệu cờ lần lượt tiến vào từng chiếc chiếu, nhảy qua các quả đồi (bát úp) và thực hiện các động tác “đánh cờ”. Tiếng hò reo lúc lúc lại dội lên trong tiếng chiêng, tiếng trống, thể hiện sự quyết liệt của trận đánh. Điệu múa cờ của ông Hiệu phải thật chính xác, khéo léo để tránh điều tối kỵ là lá cờ bị cuốn vào cán, bởi theo niềm tin của cư dân nơi đây thì đó là điềm rủi. Kết thúc mỗi màn múa cờ là kết thúc một trận đánh, ông Hiệu cờ vừa bước ra khỏi chiếu là chiếc chiếu được tung lên, dân chúng ào vào cướp lấy những mảnh chiếu mà họ tin tưởng là sẽ đem đến cho gia đình họ điều may mắn trong suốt cả năm. Cuối cùng là lễ rước cờ báo tin thắng trận với trời đất và lễ khao quân trong rộn rã tiếng cười, lời ca, điệu múa của phường Ải Lao, chiếu chèo và các trò chơi dân gian. Tướng, quân bên giặc cũng được tha bổng và cho tham dự lễ mừng chiến thắng. Cách hành xử này thể hiện truyền thống hiếu nghĩa đối với tổ tiên, những vị anh hùng dân tộc và tinh thần khoan dung, nhân đạo của dân tộc Việt Nam.   
+Hội Gióng ở đền Sóc diễn ra trong 03 ngày từ mùng 6 đến mùng 8 tháng giêng hằng năm. Việc chuẩn bị vật tế lễ cũng hết sức công phu, nhất là việc đan voi (theo truyền thuyết thì đoàn quân tham gia đánh giặc cùng Thánh Gióng có cả đàn voi chở lương thực đi theo) và làm giò hoa tre (tượng trưng cho gậy tre của Thánh Gióng sau khi đánh giặc), nên phải tiến hành từ nhiều tuần lễ trước Lễ hội. Từ xa xưa, việc rước đã được phân công cụ thể cho từng thôn chuyên trách và đi theo theo thứ tự: Trước hết là thôn Vệ Linh rước giò hoa tre, tiếp theo là các thôn Dược Thượng rước voi, Đan Tảo rước trầu cau, Đức Hậu rước ngà voi, Yên Sào rước cỏ voi (thân cây chuối), Yên Tàng rước tướng và mấy năm gần đây có thêm thôn Xuân Dục rước "Cầu Húc" (quả cầu tượng trưng cho mặt trời theo tín ngưỡng thờ thần mặt trời có từ xa xưa của cư dân nơi đây). Sau phần nghi thức tắm tượng Thánh Gióng và cung tiến lễ vật trang trọng, linh thiêng, là hai hoạt động gây náo động nhất của Lễ hội Gióng ở đền Sóc. Đó là tục "cướp hoa tre" cầu may và tục chém "tướng" (giặc) được diễn xướng một cách tượng trưng bằng hiệu lệnh múa cờ.   
+Là một hội trận được trình diễn bằng một hệ thống biểu tượng độc đáo, mang đậm bản sắc văn hóa Việt, được cộng đồng bảo tồn nguyên giá trị cho tới ngày nay, Hội Gióng ở đền Phù Đổng và đền Sóc đã được UNESCO công nhận là Di sản văn hóa phi vật thể đại diện của nhân loại vào tháng 11 năm 2010.
+
+Văn bản pháp luật
+
+* Văn bản pháp luật VIệt Nam
+* Văn bản pháp luật quốc tế
+* Tra cứu văn bản
+
+Ấn phẩm tài liệu
+
+* Tài liệu tham khảo
+* Sách xuất bản
+* Thư mục tài liệu
+
+* Ảnh
+* Video
+
+[![
+
+](/ckfinder/userfiles/files/%E1%BA%A3nh%20c%C3%B4ng%20%C6%B0%E1%BB%9Bc%202003.jpg)](/FileVideo/TRAILER LỄ HỘI ĐỀN HÙNG final sua17-4.mp4)
+Xem tất cả
+
+Thông báo mới
+
+Rà soát toàn diện văn bản quy phạm pháp luật: Gỡ 'điểm nghẽn', khơi th... ![icon-new](/Content/iconnew.png)
+
+Bồi dưỡng, tập huấn nâng cao nhận thức và kiến thức chuyên môn nghiệp ... ![icon-new](/Content/iconnew.png)
+
+Trang Thông tin điện tử đang trong quá trình nâng cấp. Tổ chức, cá nhâ... ![icon-new](/Content/iconnew.png)
+
+![Thủ tục hành chính](/ckfinder/userfiles/images/BANNER/thu%20tuc%20hanh%20chinh.png)
+
+![QL Di sản VH phi vật thể](/ckfinder/userfiles/images/BANNER/ht%20thong%20tin%20ql%20dsvh%20phi%20vat%20the.png)
+
+![Liên kết CSDL](/ckfinder/userfiles/images/BANNER/1234.jpg)
+
+![Quản lý bảo tàng](/ckfinder/userfiles/images/BANNER/he%20thong%20thong%20tin%20ql%20b%E1%BA%A3o%20t%C3%A0ng.png)
+
+![Hành trình văn hóa](/ckfinder/userfiles/images/BANNER/hanh%20tr%C3%ACnh%20vh.png)
+
+![Danh mục tổ chức, cá nhân](/ckfinder/userfiles/images/BANNER/LogoDanhmucchungchihanhnghe(1).png)
+
+![Tài liệu phòng chống rủi ro](/ckfinder/userfiles/images/BANNER/Logotailieuphongchongruiro(1).jpg)
+
+Liên kết website
+
+-- Liên kết website --
+Khu di tích quốc gia đặc biệt Cổ Loa 
+Bộ Văn hóa, Thể thao và Du lịch
+Bảo tàng Lịch sử quốc gia
+Bảo tàng Hồ Chí Minh
+Bảo tàng Mỹ thuật Việt Nam
+Khu di tích Chủ tịch Hồ Chí Minh tại Phủ Chủ tịch
+Bảo tàng dân tộc học Việt Nam
+Trung tâm bảo tồn di tích Cố đô Huế
+Ban Quản lý Vịnh Hạ Long
+Bảo tàng Thành phố Hồ Chí Minh
+Bảo tàng tỉnh Thái Nguyên
+Trung tâm Quản lý di tích và bảo tàng tỉnh Quảng Trị
+Hoàng thành Thăng Long
+
+![Hướng tới Ngày Chuyển đổi số quốc gia 10/10/2023](/ckfinder/userfiles/files/Design%202.png)
+
+![Tạp chí Di sản văn hóa](/ckfinder/userfiles/files/12.jpg)
+
+Previous
+
+
+Next

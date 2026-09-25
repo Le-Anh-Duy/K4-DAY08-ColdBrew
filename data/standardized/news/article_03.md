@@ -1,0 +1,80 @@
+# Festival of Bà Chúa Xứ Goddess at Sam Mountain - UNESCO Intangible Cultural Heritage
+
+**Source:** https://ich.unesco.org/en/RL/festival-of-ba-chua-xu-goddess-at-sam-mountain-01999
+
+**Crawled:** 2026-09-25T11:01:31.781713
+
+---
+
+Viet Nam
+
+Your browser is not supported by this application. Please use recent versions of browsers such as Google Chrome, Firefox, Edge or Safari to access 'Dive' interfaces.
+
+Inscribed in 2024 (19.COM) on the Representative List of the Intangible Cultural Heritage of Humanity
+
+![](https://img.youtube.com/vi/d9Es3BYHHkQ/0.jpg)
+
+*play\_arrow*
+
+**© Châu Đốc People's Committee, Viet Nam, 2022**
+
+The festival of Bà Chúa Xứ Goddess at Sam Mountain takes place from the 22nd to the 27th day of the fourth lunar month. Observed by the Kinh, Khmer, Cham and Hoa communities in Châu Đốc city, it entails performing religious ceremonies and music and dance to express gratitude to the Mother Earth goddess, who is believed to grant protection and promote prosperity, health and peace. Some key components of the festival include a palanquin procession, a bathing ceremony to change the clothes and jewelry of the statue of the goddess, and the preparation and presentation of offerings. A management board is nominated to coordinate the festivities, and each community contributes to a key component of the event. This collaborative approach underscores the cultural integration and harmony of different communities that share a geographic location and similar beliefs. The rituals and customs of the festival are transmitted within families and communities through hands-on practice and participation in the festival. A source of cultural exchange and social cohesion, the festival of Bà Chúa Xứ Goddess at Sam Mountain is also an opportunity to transmit common values, celebrate the role of women in society, and commemorate the contributions of ancestors to the nation’s history.
+
+![](https://ich.unesco.org/img/photo/thumb/16997-SML.webp)![](/img/photo/thumb/16997-HUG.jpg?t=1783000021)
+:   © Châu Đốc People’s Committee, Viet Nam, 2021
+
+![](https://ich.unesco.org/img/photo/thumb/16998-SML.webp)![](/img/photo/thumb/16998-HUG.jpg?t=1783000021)
+:   © Châu Đốc People’s Committee, Viet Nam, 2021
+
+![](https://ich.unesco.org/img/photo/thumb/16999-SML.webp)![](/img/photo/thumb/16999-HUG.jpg?t=1783000021)
+:   © Châu Đốc People’s Committee, Viet Nam, 2021
+
+![](https://ich.unesco.org/img/photo/thumb/17000-SML.webp)![](/img/photo/thumb/17000-HUG.jpg?t=1783000021)
+:   © Châu Đốc People’s Committee, Viet Nam, 2021
+
+![](https://ich.unesco.org/img/photo/thumb/17001-SML.webp)![](/img/photo/thumb/17001-HUG.jpg?t=1783000022)
+:   © Châu Đốc People’s Committee, Viet Nam, 2021
+
+![](https://ich.unesco.org/img/photo/thumb/17002-SML.webp)![](/img/photo/thumb/17002-HUG.jpg?t=1783000022)
+:   © Châu Đốc People’s Committee, Viet Nam, 2021
+
+![](https://ich.unesco.org/img/photo/thumb/17003-SML.webp)![](/img/photo/thumb/17003-HUG.jpg?t=1783000022)
+:   © Châu Đốc People’s Committee, Viet Nam, 2021
+
+![](https://ich.unesco.org/img/photo/thumb/17004-SML.webp)![](/img/photo/thumb/17004-HUG.jpg?t=1783000022)
+:   © Châu Đốc People’s Committee, Viet Nam, 2021
+
+![](https://ich.unesco.org/img/photo/thumb/17005-SML.webp)![](/img/photo/thumb/17005-HUG.jpg?t=1783000022)
+:   © Châu Đốc People’s Committee, Viet Nam, 2021
+
+![](https://ich.unesco.org/img/photo/thumb/17006-SML.webp)![](/img/photo/thumb/17006-HUG.jpg?t=1783000023)
+:   © Châu Đốc People’s Committee, Viet Nam, 2021
+
+1. Dance (272)
+2. Festivals (242)
+3. Legendary creatures (21)
+4. Multiethnic societies (27)
+5. Offering (60)
+6. Percussion instruments (159)
+7. Pilgrimages (23)
+8. Procession (114)
+9. Prosperity ritual (49)
+10. Ritual purification (35)
+
+### Sustainable Development Goals
+
+1. SDG 4: Quality Education (493)
+2. SDG 5: Gender Equality (371)
+3. SDG 12: Responsible Consumption and Production (225)
+4. SDG 16: Peace, Justice and Strong Institutions (665)
+
+### Biomes
+
+1. Agro-ecosystems (456)
+2. Inland wetlands (65)
+3. Mountains (181)
+
+### Domains of the Convention
+
+1. Knowledge and practices concerning nature and the universe (308)
+2. Social practices, rituals and festive events (584)
