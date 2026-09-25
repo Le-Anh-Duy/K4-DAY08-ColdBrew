@@ -5,15 +5,23 @@ Dùng cùng corpus chunks với Task 5. BM25 phù hợp với từ khóa chính 
 liệu và tên riêng. Output phải theo SearchResult và sort score giảm dần.
 """
 
+import re
+import unicodedata
+
 
 CORPUS: list[dict] = []
+
+
+def tokenize(text: str) -> list[str]:
+    """Tách âm tiết, bỏ dấu câu; NFC để PDF (thường NFD) khớp với query gõ tay."""
+    return re.findall(r"\w+", unicodedata.normalize("NFC", text).lower())
 
 
 def build_bm25_index(corpus: list[dict]):
     """Tạo BM25 index từ cùng corpus chunks của Task 4."""
     from rank_bm25 import BM25Okapi
 
-    tokenized = [item["content"].lower().split() for item in corpus]
+    tokenized = [tokenize(item["content"]) for item in corpus]
     return BM25Okapi(tokenized)
 
 
@@ -39,7 +47,7 @@ def lexical_search(query: str, top_k: int = 10) -> list[dict]:
             )
         )
 
-    query_tokens = query.lower().split()
+    query_tokens = tokenize(query)
     if not CORPUS or not query_tokens:
         return []
 
@@ -60,7 +68,7 @@ def lexical_search(query: str, top_k: int = 10) -> list[dict]:
             continue
         # BM25Okapi có thể trả 0 cho term xuất hiện trong đúng nửa corpus nhỏ.
         # Vẫn giữ document khớp từ khoá, nhưng bỏ document hoàn toàn không khớp.
-        if query_terms.isdisjoint(item["content"].lower().split()):
+        if query_terms.isdisjoint(tokenize(item["content"])):
             continue
         results.append({
             "id": item["id"],
